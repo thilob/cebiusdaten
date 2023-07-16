@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>datenDialog</class>
+ <widget class="QDialog" name="datenDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="starten">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>440</y>
+     <width>89</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>starten</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="abbrechen">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>440</y>
+     <width>89</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>abbrechen</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="truncateGebref">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>371</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gebref-Tabellen leeren</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="truncateKreis">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>50</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kreistabelle leeren</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="importGebref">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>100</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gebref-Tabellen neu einlesen</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="importKreis">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Kreistabelle neu einlesen</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="exportCebius">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>180</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cebiusdateien ausgeben</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>abbrechen</sender>
+   <signal>clicked()</signal>
+   <receiver>datenDialog</receiver>
+   <slot>abbrechen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>484</x>
+     <y>453</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>starten</sender>
+   <signal>clicked()</signal>
+   <receiver>datenDialog</receiver>
+   <slot>weiter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>584</x>
+     <y>453</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>abbrechen()</slot>
+  <slot>weiter()</slot>
+ </slots>
+</ui>

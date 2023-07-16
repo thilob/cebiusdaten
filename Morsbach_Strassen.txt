@@ -1,0 +1,293 @@
+05;3;74;028;9239;0;Adolf-Kolping-Straﬂe
+05;3;74;028;9512;0;Alte Burgstraﬂe
+05;3;74;028;9548;0;Alte Hofstraﬂe
+05;3;74;028;9295;0;Alter Kirchweg
+05;3;74;028;9588;0;Alzener Landstraﬂe
+05;3;74;028;9240;0;Alzener Weg
+05;3;74;028;9304;0;Amberg
+05;3;74;028;9243;0;Am Brunnen
+05;3;74;028;9244;0;Am B¸chel
+05;3;74;028;9245;0;Am Dreieck
+05;3;74;028;9438;0;Am Eichholz
+05;3;74;028;9246;0;Am Eichhˆlzchen
+05;3;74;028;9549;0;Am Gr¸nen Hang
+05;3;74;028;9250;0;Am Hang
+05;3;74;028;9493;0;Am Harich
+05;3;74;028;9297;0;Am Kempenhof
+05;3;74;028;9580;0;Am Kindergarten
+05;3;74;028;9352;0;Am Kreuz
+05;3;74;028;9248;0;Am M¸hlengraben
+05;3;74;028;9619;0;Am Prinzen Heinrich
+05;3;74;028;9374;0;Am Rinnchen
+05;3;74;028;9241;0;Amselweg
+05;3;74;028;9499;0;Am Steimelberg
+05;3;74;028;9482;0;Am Stein
+05;3;74;028;9509;0;Am Straﬂenfeld
+05;3;74;028;9540;0;Am S¸dhang
+05;3;74;028;9623;0;Am Taubenfeld
+05;3;74;028;9483;0;Am Tuttel
+05;3;74;028;9533;0;Am Waldrand
+05;3;74;028;9560;0;An der Kr‰henhardt
+05;3;74;028;9249;0;An der Seelhardt
+05;3;74;028;9375;0;Asbacher Weg
+05;3;74;028;9627;0;Auf dem alten Garten
+05;3;74;028;9587;0;Auf dem Alzerberg
+05;3;74;028;9498;0;Auf dem Bitzchen
+05;3;74;028;9516;0;Auf dem Dempel
+05;3;74;028;9306;0;Auf dem H‰hnchen
+05;3;74;028;9517;0;Auf dem Hˆfchen
+05;3;74;028;9353;0;Auf dem Kamp
+05;3;74;028;9307;0;Auf dem Kohlknippen
+05;3;74;028;9546;0;Auf dem Kˆppchen
+05;3;74;028;9376;0;Auf dem Pol
+05;3;74;028;9298;0;Auf dem Rosenk‰mpchen
+05;3;74;028;9502;0;Auf den Steinen
+05;3;74;028;9252;0;Auf der Au
+05;3;74;028;9550;0;Auf der Ecke
+05;3;74;028;9618;0;Auf der Eichenhˆhe
+05;3;74;028;9611;0;Auf der Flˆte
+05;3;74;028;9254;0;Auf der H¸tte
+05;3;74;028;9514;0;Auf der Insel
+05;3;74;028;9253;0;Auf der Kohlhardt
+05;3;74;028;9547;0;Auf der Stippe
+05;3;74;028;9256;0;Bachstraﬂe
+05;3;74;028;9255;0;Bahnhofstraﬂe
+05;3;74;028;9590;0;Berghof
+05;3;74;028;9377;0;Bergstraﬂe
+05;3;74;028;9317;0;Birken
+05;3;74;028;9503;0;Birkener Straﬂe
+05;3;74;028;9518;0;Birkenweg
+05;3;74;028;9319;0;Birzel
+05;3;74;028;9321;0;Bitze
+05;3;74;028;9506;0;Blumenstraﬂe
+05;3;74;028;9484;0;Bl¸tenweg
+05;3;74;028;9323;0;Bˆcklingen
+05;3;74;028;9466;0;Bornerweg
+05;3;74;028;9325;0;Breitgen
+05;3;74;028;9485;0;Breitgenweg
+05;3;74;028;9571;0;Bruchhausener Straﬂe
+05;3;74;028;9257;0;Br¸ckenstraﬂe
+05;3;74;028;9592;0;Brunnenhof
+05;3;74;028;9486;0;Brunnenweg
+05;3;74;028;9439;0;Buchenstraﬂe
+05;3;74;028;9327;0;Burg Volperhausen
+05;3;74;028;9247;0;Dechant-Strack-Straﬂe
+05;3;74;028;9460;0;Dellenkampstraﬂe
+05;3;74;028;9354;0;Denkmalweg
+05;3;74;028;9355;0;Dorfstraﬂe
+05;3;74;028;9296;0;Ehrenstraﬂe
+05;3;74;028;9565;0;Eichenhof
+05;3;74;028;9292;0;Eichenstraﬂe
+05;3;74;028;9308;0;Eichhardsdelle
+05;3;74;028;9378;0;Eipel
+05;3;74;028;9487;0;Eisenstraﬂe
+05;3;74;028;9561;0;Eisenstraﬂe
+05;3;74;028;9467;0;Ellinger Straﬂe
+05;3;74;028;9258;0;Ellinger Weg
+05;3;74;028;9595;0;Engelshof
+05;3;74;028;9379;0;Erdinger Straﬂe
+05;3;74;028;9564;0;Eugenienthaler Straﬂe
+05;3;74;028;9259;0;Feldweg
+05;3;74;028;9260;0;Felsenweg
+05;3;74;028;9261;0;Fichtenweg
+05;3;74;028;9335;0;Flockenberg
+05;3;74;028;9262;0;Flurstraﬂe
+05;3;74;028;9337;0;Frankenthal
+05;3;74;028;9380;0;Friedhofsweg
+05;3;74;028;9440;0;Gartenstraﬂe
+05;3;74;028;9356;0;G‰ﬂchen
+05;3;74;028;9629;0;Gewerbepark Stippe
+05;3;74;028;9264;0;Goethestraﬂe
+05;3;74;028;9524;0;Grube Sonne
+05;3;74;028;9534;0;Hahner Berg
+05;3;74;028;9535;0;Hahner Knippchen
+05;3;74;028;9265;0;Hahner Straﬂe
+05;3;74;028;9343;0;Halle
+05;3;74;028;9263;0;Hardtweg
+05;3;74;028;9357;0;Hauptstraﬂe
+05;3;74;028;9566;0;Heckenweg
+05;3;74;028;9345;0;Heide
+05;3;74;028;9309;0;Heidebacher Weg
+05;3;74;028;9594;0;Heidehof
+05;3;74;028;9555;0;Heiderberg
+05;3;74;028;9266;0;Heinrich-Halberstadt-Weg
+05;3;74;028;9347;0;Hellerseifen
+05;3;74;028;9267;0;Hemmerholzer Weg
+05;3;74;028;9349;0;Herbertshagen
+05;3;74;028;9520;0;Herbertshagener Straﬂe
+05;3;74;028;9609;0;Hinter der Kirchstraﬂe
+05;3;74;028;9461;0;Hochstraﬂe
+05;3;74;028;9584;0;Hof Eichenkamp
+05;3;74;028;9351;0;Hˆferhof
+05;3;74;028;9607;0;Hof Sonneck
+05;3;74;028;9268;0;Hohe Br¸cke
+05;3;74;028;9289;0;Hˆhenweg
+05;3;74;028;9381;0;Hohler Berg
+05;3;74;028;9500;0;Hohlweg
+05;3;74;028;9477;0;Holpener Kirchweg
+05;3;74;028;9441;0;Holpener Straﬂe
+05;3;74;028;9608;0;Holunderweg
+05;3;74;028;9310;0;Im alten Ort
+05;3;74;028;9515;0;Im Buchenfeld
+05;3;74;028;9536;0;Im Dorfbusch
+05;3;74;028;9614;0;Im Eichengrund
+05;3;74;028;9537;0;Im Hahn
+05;3;74;028;9581;0;Im Hainsfeld
+05;3;74;028;9462;0;Im Hof
+05;3;74;028;9269;0;Im Karschiefen
+05;3;74;028;9270;0;Im Kattelberg
+05;3;74;028;9541;0;Im Rottfeld
+05;3;74;028;9625;0;Im Schˆnblick
+05;3;74;028;9463;0;Im Sehlberg
+05;3;74;028;9617;0;Im Siefen
+05;3;74;028;9468;0;Im Stillen Winkel
+05;3;74;028;9586;0;Im Wiesengrund
+05;3;74;028;9613;0;In den Eichen
+05;3;74;028;9612;0;In den Kirchenh‰hnen
+05;3;74;028;9542;0;In den Kreuzg‰rten
+05;3;74;028;9358;0;In der Au
+05;3;74;028;9521;0;In der Delle
+05;3;74;028;9359;0;In der Lambach
+05;3;74;028;9551;0;In der Mackenbach
+05;3;74;028;9382;0;In der Rosten
+05;3;74;028;9510;0;In der Silberhellen
+05;3;74;028;9621;0;In der Steinbreche
+05;3;74;028;9360;0;In der Tente
+05;3;74;028;9582;0;Industriestraﬂe
+05;3;74;028;9271;0;Josef-Moritz-Gasse
+05;3;74;028;9522;0;Kapellenweg
+05;3;74;028;9554;0;Kastanienweg
+05;3;74;028;9606;0;Katzenbacher Weg
+05;3;74;028;9538;0;Kiefernweg
+05;3;74;028;9543;0;Kiesweg
+05;3;74;028;9602;0;Kirchenhof
+05;3;74;028;9272;0;Kirchstraﬂe
+05;3;74;028;9361;0;Kirchweg
+05;3;74;028;9511;0;Kohlberger Straﬂe
+05;3;74;028;9368;0;Kˆmpel
+05;3;74;028;9371;0;Korseifen
+05;3;74;028;9494;0;Korseifener Straﬂe
+05;3;74;028;9489;0;Kreuzstraﬂe
+05;3;74;028;9273;0;Krottorfer Straﬂe
+05;3;74;028;9603;0;Krottorfer Straﬂe
+05;3;74;028;9300;0;Lauberbachweg
+05;3;74;028;9274;0;Lerchenstraﬂe
+05;3;74;028;9373;0;Ley
+05;3;74;028;9469;0;Lichtenberger Straﬂe
+05;3;74;028;9390;0;L¸tzelseifen
+05;3;74;028;9589;0;Mathildenhof
+05;3;74;028;9275;0;Meisenweg
+05;3;74;028;9490;0;Mittelweg
+05;3;74;028;9383;0;Morsbacher Straﬂe
+05;3;74;028;9276;0;Mozartstraﬂe
+05;3;74;028;9362;0;M¸hlenweg
+05;3;74;028;9552;0;M¸llerweg
+05;3;74;028;9311;0;Napoleonstraﬂe
+05;3;74;028;9392;0;Neuhˆfchen
+05;3;74;028;9394;0;Niederasbach
+05;3;74;028;9396;0;Niederdorf
+05;3;74;028;9400;0;Niederzielenbach
+05;3;74;028;9384;0;N¸rsche
+05;3;74;028;9401;0;Oberasbach
+05;3;74;028;9504;0;Ober dem Stocksiefen
+05;3;74;028;9277;0;Obere Kirchstraﬂe
+05;3;74;028;9408;0;Oberwarnsbach
+05;3;74;028;9410;0;Oberzielenbach
+05;3;74;028;9570;0;÷lm¸hle
+05;3;74;028;9576;0;Ortseifener Straﬂe
+05;3;74;028;9615;0;Ortseifener Straﬂe
+05;3;74;028;9574;0;Paul-Klose-Straﬂe
+05;3;74;028;9591;0;Pfr.-Pflugfelder-Weg
+05;3;74;028;9478;0;Quellenweg
+05;3;74;028;9470;0;Querstraﬂe
+05;3;74;028;9414;0;Reinshagen
+05;3;74;028;9363;0;Reinshagener Weg
+05;3;74;028;9278;0;Rheinischer Hof
+05;3;74;028;9507;0;Ringstraﬂe
+05;3;74;028;9418;0;Ritterseifen
+05;3;74;028;9312;0;Ritterseifener Weg
+05;3;74;028;9420;0;Rolshagen
+05;3;74;028;9544;0;Rolshagener Weg
+05;3;74;028;9423;0;Rom
+05;3;74;028;9464;0;Rˆmerstraﬂe
+05;3;74;028;9422;0;Rosengarten
+05;3;74;028;9573;0;Rosenweg
+05;3;74;028;9426;0;Rossenbach
+05;3;74;028;9279;0;Schillerweg
+05;3;74;028;9434;0;Schlechtingen
+05;3;74;028;9578;0;Schlechtinger Berg
+05;3;74;028;9491;0;Schnˆrringer Weg
+05;3;74;028;9572;0;Schulweg
+05;3;74;028;9575;0;Schwalbenweg
+05;3;74;028;9428;0;Seifen
+05;3;74;028;9280;0;Seifener Weg
+05;3;74;028;9385;0;Sieben Eichen
+05;3;74;028;9301;0;Siedenberger Straﬂe
+05;3;74;028;9452;0;Siedenberger Straﬂe
+05;3;74;028;9501;0;Siedenberger Straﬂe
+05;3;74;028;9365;0;Siegener Straﬂe
+05;3;74;028;9432;0;Solseifen
+05;3;74;028;9579;0;Sonnenberg
+05;3;74;028;9562;0;Sonnenhang
+05;3;74;028;9593;0;Sonnenhof
+05;3;74;028;9471;0;Sonnenstraﬂe
+05;3;74;028;9436;0;Springe
+05;3;74;028;9281;0;Starenweg
+05;3;74;028;9242;0;Steiler Weg
+05;3;74;028;9446;0;Stentenbach
+05;3;74;028;9583;0;Stentenbacher Weg
+05;3;74;028;9302;0;Stockshˆher Weg
+05;3;74;028;9450;0;Straﬂerhof
+05;3;74;028;9313;0;S¸dstraﬂe
+05;3;74;028;9465;0;Talstraﬂe
+05;3;74;028;9282;0;Talweg
+05;3;74;028;9386;0;Torweg
+05;3;74;028;9585;0;Turmhof
+05;3;74;028;9472;0;Turmstraﬂe
+05;3;74;028;9453;0;‹berasbach
+05;3;74;028;9539;0;Wacholderschleife
+05;3;74;028;9284;0;Waldbrˆler Straﬂe
+05;3;74;028;9563;0;Waldbrˆler Straﬂe
+05;3;74;028;9508;0;W‰ldchenstraﬂe
+05;3;74;028;9532;0;Waldweg
+05;3;74;028;9479;0;Wallerhausener Straﬂe
+05;3;74;028;9285;0;Warnsbachtal
+05;3;74;028;9290;0;Weidenstraﬂe
+05;3;74;028;9622;0;Weiﬂdornweg
+05;3;74;028;9526;0;Weiﬂenberg
+05;3;74;028;9495;0;Wendershagener Straﬂe
+05;3;74;028;9442;0;Wiesenstraﬂe
+05;3;74;028;9480;0;Wissener Straﬂe
+05;3;74;028;9556;0;Wissener Straﬂe
+05;3;74;028;9557;0;Wissener Straﬂe
+05;3;74;028;9559;0;Wissener Straﬂe
+05;3;74;028;9626;0;Wisseraue
+05;3;74;028;9474;0;Wittershagen
+05;3;74;028;9476;0;Zinshardt
+05;3;74;028;9443;0;Zinshardter Straﬂe
+05;3;74;028;9387;0;Zu den G‰rten
+05;3;74;028;9496;0;Zu den Teichen
+05;3;74;028;9567;0;Zum alten Berg
+05;3;74;028;9283;0;Zum Aussichtsturm
+05;3;74;028;9527;0;Zum Born
+05;3;74;028;9577;0;Zum Forsthaus
+05;3;74;028;9286;0;Zum Goldenen Acker
+05;3;74;028;9605;0;Zum Gr¸nen Siefen
+05;3;74;028;9481;0;Zum Hemmberg
+05;3;74;028;9528;0;Zum Herrenbusch
+05;3;74;028;9616;0;Zum Heuenfeld
+05;3;74;028;9299;0;Zum Rauhen Hahn
+05;3;74;028;9492;0;Zum Steimel
+05;3;74;028;9545;0;Zum Steinbruch
+05;3;74;028;9630;0;Zum Systembau
+05;3;74;028;9505;0;Zum W‰ldchen
+05;3;74;028;9444;0;Zum Wiesenfeld
+05;3;74;028;9523;0;Zum Wisserbach
+05;3;74;028;9287;0;Zur Burg
+05;3;74;028;9569;0;Zur Hardt
+05;3;74;028;9388;0;Zur Hofwiese
+05;3;74;028;9288;0;Zur Hoorwiss
+05;3;74;028;9553;0;Zur Kapelle
+05;3;74;028;9529;0;Zur Linde
+05;3;74;028;9568;0;Zur Schˆnen Aussicht
+05;3;74;028;9497;0;Zur Sonnenburg
