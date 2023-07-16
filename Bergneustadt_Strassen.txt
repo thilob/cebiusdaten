@@ -1,275 +1,5024 @@
-05;3;74;004;5293;0;Ackerstraße
-05;3;74;004;5258;0;Aehlenbergstraße
-05;3;74;004;5001;0;Ahornweg
-05;3;74;004;5002;0;Alte Halde
-05;3;74;004;5003;0;Altenastraße
-05;3;74;004;5122;0;Altenothe
-05;3;74;004;5189;0;Altenother Weg
-05;3;74;004;5224;0;Alte Straße
-05;3;74;004;5004;0;Am alten Friedhof
-05;3;74;004;5136;0;Am Büchelchen
-05;3;74;004;5203;0;Am Dümpel
-05;3;74;004;5005;0;Am Freien Stuhl
-05;3;74;004;5232;0;Am Fuchsberg
-05;3;74;004;5013;0;Am Grafweg
-05;3;74;004;5225;0;Am Hang
-05;3;74;004;5226;0;Am Heidchen
-05;3;74;004;5275;0;Am Heinzelmännchen
-05;3;74;004;5190;0;Am Heshahn
-05;3;74;004;5231;0;Am Höfchen
-05;3;74;004;5227;0;Am Holzweg
-05;3;74;004;5317;0;Amickeweg
-05;3;74;004;5006;0;Am Klitgen
-05;3;74;004;5228;0;Am Laubberg
-05;3;74;004;5180;0;Am Leiweg
-05;3;74;004;5295;0;Am Müllersberg
-05;3;74;004;5260;0;Am Ohl
-05;3;74;004;5007;0;Am Räschen
-05;3;74;004;5229;0;Am Schlöten
-05;3;74;004;5124;0;Am Schürenfeld
-05;3;74;004;5129;0;Am Silberhalter
-05;3;74;004;5008;0;Am Stadtwald
-05;3;74;004;5285;0;Am Steimel
-05;3;74;004;5009;0;Am Stentenberg
-05;3;74;004;5204;0;Am Stockhahn
-05;3;74;004;5010;0;Am Wäcker
-05;3;74;004;5137;0;An der Belmicke
-05;3;74;004;5138;0;An der Burg
-05;3;74;004;5205;0;An der Dörspe
-05;3;74;004;5303;0;An der Eie
-05;3;74;004;5139;0;Annastraße
-05;3;74;004;5011;0;Asternweg
-05;3;74;004;5127;0;Auf dem Dümpel
-05;3;74;004;5012;0;Auf dem Kamp
-05;3;74;004;5206;0;Auf dem Nochen
-05;3;74;004;5230;0;Auf dem Rosten
-05;3;74;004;5284;0;Auf dem Stein
-05;3;74;004;5014;0;Auf der Hardt
-05;3;74;004;5233;0;Bahnhofstraße
-05;3;74;004;5015;0;Bahnstraße
-05;3;74;004;5016;0;Baldenberger Weg
-05;3;74;004;5256;0;Baldenbergstraße
-05;3;74;004;5207;0;Belmicker Weg
-05;3;74;004;5017;0;Bergstraße
-05;3;74;004;5018;0;Birkenstraße
-05;3;74;004;5019;0;Blumenweg
-05;3;74;004;5147;0;Bösinghausen
-05;3;74;004;5191;0;Breitegarten
-05;3;74;004;5020;0;Breiter Weg
-05;3;74;004;5152;0;Breite Straße
-05;3;74;004;5153;0;Breslauer Straße
-05;3;74;004;5140;0;Brüchener Weg
-05;3;74;004;5234;0;Bruchhausener Straße
-05;3;74;004;5021;0;Bruchstraße
-05;3;74;004;5022;0;Brückenstraße
-05;3;74;004;5154;0;Brunnenstraße
-05;3;74;004;5023;0;Buchenstraße
-05;3;74;004;5024;0;Burgstraße
-05;3;74;004;5025;0;Burstenstraße
-05;3;74;004;5026;0;Burstenweg
-05;3;74;004;5027;0;Buschweg
-05;3;74;004;5263;0;Butterwiese
-05;3;74;004;5155;0;Danziger Straße
-05;3;74;004;5130;0;Denklinger Straße
-05;3;74;004;5131;0;Derschlager Straße
-05;3;74;004;5028;0;Dietrich-Bonhoeffer-Weg
-05;3;74;004;5181;0;Dorfstraße
-05;3;74;004;5029;0;Dörspestraße
-05;3;74;004;5030;0;Drostenweg
-05;3;74;004;5031;0;Druchtemicke
-05;3;74;004;5172;0;Eckenhagener Straße
-05;3;74;004;5235;0;Eichendorffstraße
-05;3;74;004;5032;0;Eichenstraße
-05;3;74;004;5033;0;Eifeler Straße
-05;3;74;004;5034;0;Enneststraße
-05;3;74;004;5192;0;Entgarten
-05;3;74;004;5036;0;Erlenweg
-05;3;74;004;5173;0;Ersbacher Weg
-05;3;74;004;5035;0;Eschenstraße
-05;3;74;004;5038;0;Feldstraße
-05;3;74;004;5039;0;Fichtenstraße
-05;3;74;004;5040;0;Fliederstraße
-05;3;74;004;5193;0;Flurstraße
-05;3;74;004;5149;0;Freischlade
-05;3;74;004;5041;0;Friedhofstraße
-05;3;74;004;5042;0;Friedrich-Ebert-Straße
-05;3;74;004;5282;0;Fritz-Rau-Straße
-05;3;74;004;5286;0;Frümbergstraße
-05;3;74;004;5043;0;Gartenstraße
-05;3;74;004;5044;0;Gasstraße
-05;3;74;004;5045;0;Geesthölzchen
-05;3;74;004;5150;0;Geschleide
-05;3;74;004;5046;0;Gimbornstraße
-05;3;74;004;5047;0;Glockenbergstraße
-05;3;74;004;5048;0;Goethestraße
-05;3;74;004;5049;0;Hackenberger Weg
-05;3;74;004;5176;0;Hackewiese
-05;3;74;004;5174;0;Hanenstraße
-05;3;74;004;5208;0;Hannemicker Weg
-05;3;74;004;5156;0;Hardtstraße
-05;3;74;004;5236;0;Hartemicker Weg
-05;3;74;004;5050;0;Hauptstraße
-05;3;74;004;5057;0;Heckenweg
-05;3;74;004;5132;0;Heerstraße
-05;3;74;004;5237;0;Heideweg
-05;3;74;004;5238;0;Heisterbacher Weg
-05;3;74;004;5051;0;Henneweide
-05;3;74;004;5194;0;Hepperblick
-05;3;74;004;5239;0;Hermicker Weg
-05;3;74;004;5052;0;Herweg
-05;3;74;004;5266;0;Hilgesbicke
-05;3;74;004;5053;0;Hirschweg
-05;3;74;004;5133;0;Höchstenstraße
-05;3;74;004;5170;0;Hoeh
-05;3;74;004;5157;0;Hofstraße
-05;3;74;004;5177;0;Hofwiese
-05;3;74;004;5054;0;Höhenweg
-05;3;74;004;5055;0;Hohler Weg
-05;3;74;004;5158;0;Hohle Straße
-05;3;74;004;5056;0;Hunschlade
-05;3;74;004;5242;0;Ibitschenstraße
-05;3;74;004;5267;0;Im Dickfeld
-05;3;74;004;5279;0;Im Eichenfeld
-05;3;74;004;5296;0;Im Espenhagen
-05;3;74;004;5125;0;Im Kohlhagen
-05;3;74;004;5058;0;Immickestraße
-05;3;74;004;5059;0;Im Stadtgraben
-05;3;74;004;5062;0;Im Strick
-05;3;74;004;5240;0;In der Bockemühle
-05;3;74;004;5241;0;In der Delle
-05;3;74;004;5261;0;In der Fuhr
-05;3;74;004;5060;0;In der Leie
-05;3;74;004;5061;0;Industriestraße
-05;3;74;004;5063;0;Jahnstraße
-05;3;74;004;5064;0;Johann-Budde-Straße
-05;3;74;004;5300;0;Johann-Hackenberg-Straße
-05;3;74;004;5294;0;Josef-von-Jechner-Straße
-05;3;74;004;5065;0;Kampgarten
-05;3;74;004;5066;0;Kampstraße
-05;3;74;004;5195;0;Kapellenstraße
-05;3;74;004;5067;0;Karlstraße
-05;3;74;004;5071;0;Kastanienweg
-05;3;74;004;5141;0;Kaufmannsgasse
-05;3;74;004;5196;0;Kellerseifen
-05;3;74;004;5068;0;Kirchstraße
-05;3;74;004;5069;0;Klevestraße
-05;3;74;004;5209;0;Klosterweg
-05;3;74;004;5070;0;Kölner Straße
-05;3;74;004;5159;0;Königsberger Straße
-05;3;74;004;5243;0;Kortemicker Straße
-05;3;74;004;5210;0;Kreuzstraße
-05;3;74;004;5074;0;Langenlöhstraße
-05;3;74;004;5073;0;Längestenstraße
-05;3;74;004;5077;0;Leopold-Krawinkel-Straße
-05;3;74;004;5211;0;Lieberhausener Straße
-05;3;74;004;5160;0;Liegnitzer Straße
-05;3;74;004;5075;0;Lilienstraße
-05;3;74;004;5076;0;Lindenstraße
-05;3;74;004;5304;0;Lingesten
-05;3;74;004;5161;0;Löhstraße
-05;3;74;004;5212;0;Lützenbergstraße
-05;3;74;004;5078;0;Markstraße
-05;3;74;004;5244;0;Martin-Luther-Straße
-05;3;74;004;5245;0;Meerschlader Weg
-05;3;74;004;5079;0;Mühlenstraße
-05;3;74;004;5197;0;Mühlhofer Weg
-05;3;74;004;5081;0;Nelkenstraße
-05;3;74;004;5213;0;Neue Siedlung
-05;3;74;004;5142;0;Neue Straße
-05;3;74;004;5278;0;Niederrengse
-05;3;74;004;5082;0;Nistenbergstraße
-05;3;74;004;5083;0;Nordstraße
-05;3;74;004;5178;0;Oberhof
-05;3;74;004;5214;0;Olper Straße
-05;3;74;004;5246;0;Olper Straße
-05;3;74;004;5084;0;Oststraße
-05;3;74;004;5085;0;Othestraße
-05;3;74;004;5215;0;Paulstraße
-05;3;74;004;5143;0;Peter-Butz-Straße
-05;3;74;004;5144;0;Petersbergstraße
-05;3;74;004;5283;0;Pieper-Keller-Straße
-05;3;74;004;5220;0;Pustenbach
-05;3;74;004;5086;0;Quellenweg
-05;3;74;004;5087;0;Ravensbergstraße
-05;3;74;004;5091;0;Rehwinkel
-05;3;74;004;5162;0;Rengsestraße
-05;3;74;004;5276;0;Renneweg
-05;3;74;004;5088;0;Rerkausenstraße
-05;3;74;004;5089;0;Richtstraße
-05;3;74;004;5090;0;Rosenstraße
-05;3;74;004;5221;0;Rosenthal
-05;3;74;004;5222;0;Rosenthalseifen
-05;3;74;004;5182;0;Rudolf-Harbig-Straße
-05;3;74;004;5092;0;Saltemertstraße
-05;3;74;004;5104;0;Scheurenwiese
-05;3;74;004;5094;0;Schillerstraße
-05;3;74;004;5274;0;Schmittenloch
-05;3;74;004;5163;0;Schöne Aussicht
-05;3;74;004;5134;0;Schulstraße
-05;3;74;004;5247;0;Schürmannstraße
-05;3;74;004;5096;0;Schwarzenbergstraße
-05;3;74;004;5183;0;Seutenstraße
-05;3;74;004;5198;0;Siedlungsstraße
-05;3;74;004;5097;0;Silbergstraße
-05;3;74;004;5199;0;Sohler Weg
-05;3;74;004;5164;0;Sonnenkamp
-05;3;74;004;5248;0;Sonnenweg
-05;3;74;004;5292;0;Spreckenweg
-05;3;74;004;5098;0;Stadionstraße
-05;3;74;004;5099;0;Steilweg
-05;3;74;004;5249;0;Steimelstraße
-05;3;74;004;5100;0;Steinstraße
-05;3;74;004;5101;0;Stentenbergsiepen
-05;3;74;004;5102;0;Stentenbergstraße
-05;3;74;004;5165;0;Stettiner Straße
-05;3;74;004;5257;0;Südring
-05;3;74;004;5103;0;Südstraße
-05;3;74;004;5126;0;Sülemicker Feld
-05;3;74;004;5250;0;Sülemicker Straße
-05;3;74;004;5185;0;Talsperrenstraße
-05;3;74;004;5105;0;Talstraße
-05;3;74;004;5166;0;Teichstraße
-05;3;74;004;5264;0;Töschenwiese
-05;3;74;004;5106;0;Tulpenweg
-05;3;74;004;5107;0;Turnerstraße
-05;3;74;004;5272;0;Unter dem Löh
-05;3;74;004;5108;0;Veilchenstraße
-05;3;74;004;5273;0;Vor der Alten Höh
-05;3;74;004;5251;0;Vor der Platte
-05;3;74;004;5109;0;Vossbicke
-05;3;74;004;5186;0;Waldstraße
-05;3;74;004;5110;0;Wallstraße
-05;3;74;004;5111;0;Wasserstraße
-05;3;74;004;5112;0;Weidenweg
-05;3;74;004;5145;0;Wendeweg
-05;3;74;004;5113;0;Weststraße
-05;3;74;004;5259;0;Wiedenbruchstraße
-05;3;74;004;5301;0;Wiedenester Blick
-05;3;74;004;5114;0;Wiedeneststraße
-05;3;74;004;5115;0;Wiesenstraße
-05;3;74;004;5252;0;Wilhelm-Schriever-Straße
-05;3;74;004;5116;0;Wilhelmstraße
-05;3;74;004;5200;0;Wolfschlader Weg
-05;3;74;004;5255;0;Wörde
-05;3;74;004;5253;0;Zum Bauckmert
-05;3;74;004;5167;0;Zum Beul
-05;3;74;004;5117;0;Zum Bornacker
-05;3;74;004;5217;0;Zum Bürgen
-05;3;74;004;5118;0;Zum Dreiort
-05;3;74;004;5119;0;Zum Grünen Siepen
-05;3;74;004;5218;0;Zum Hornbruch
-05;3;74;004;5287;0;Zum Hornbruch
-05;3;74;004;5254;0;Zum Jettholz
-05;3;74;004;5168;0;Zum Knollen
-05;3;74;004;5120;0;Zum Krähenacker
-05;3;74;004;5219;0;Zum Lichtenbruch
-05;3;74;004;5316;0;Zum Mietpark
-05;3;74;004;5297;0;Zum Rathaus
-05;3;74;004;5299;0;Zum Steinbruch
-05;3;74;004;5280;0;Zum Wiebusch
-05;3;74;004;5281;0;Zur alten Wiese
-05;3;74;004;5121;0;Zur Bretschlade
-05;3;74;004;5265;0;Zur Drift
-05;3;74;004;5187;0;Zur Nordhelle
-05;3;74;004;5169;0;Zur Steinebreche
-05;3;74;004;5146;0;Zwerstaller Weg
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05293;0;Ackerstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05258;0;Aehlenbergstraße
+05;3;74;004;05001;0;Ahornweg
+05;3;74;004;05001;0;Ahornweg
+05;3;74;004;05001;0;Ahornweg
+05;3;74;004;05002;0;Alte Halde
+05;3;74;004;05002;0;Alte Halde
+05;3;74;004;05002;0;Alte Halde
+05;3;74;004;05002;0;Alte Halde
+05;3;74;004;05002;0;Alte Halde
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05224;0;Alte Straße
+05;3;74;004;05003;0;Altenastraße
+05;3;74;004;05003;0;Altenastraße
+05;3;74;004;05003;0;Altenastraße
+05;3;74;004;05003;0;Altenastraße
+05;3;74;004;05003;0;Altenastraße
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05122;0;Altenothe
+05;3;74;004;05189;0;Altenother Weg
+05;3;74;004;05189;0;Altenother Weg
+05;3;74;004;05189;0;Altenother Weg
+05;3;74;004;05189;0;Altenother Weg
+05;3;74;004;05189;0;Altenother Weg
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05136;0;Am Büchelchen
+05;3;74;004;05203;0;Am Dümpel
+05;3;74;004;05203;0;Am Dümpel
+05;3;74;004;05203;0;Am Dümpel
+05;3;74;004;05203;0;Am Dümpel
+05;3;74;004;05203;0;Am Dümpel
+05;3;74;004;05005;0;Am Freien Stuhl
+05;3;74;004;05005;0;Am Freien Stuhl
+05;3;74;004;05005;0;Am Freien Stuhl
+05;3;74;004;05005;0;Am Freien Stuhl
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05232;0;Am Fuchsberg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05013;0;Am Grafweg
+05;3;74;004;05225;0;Am Hang
+05;3;74;004;05225;0;Am Hang
+05;3;74;004;05225;0;Am Hang
+05;3;74;004;05225;0;Am Hang
+05;3;74;004;05225;0;Am Hang
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05226;0;Am Heidchen
+05;3;74;004;05275;0;Am Heinzelmännchen
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05190;0;Am Heshahn
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05227;0;Am Holzweg
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05231;0;Am Höfchen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05006;0;Am Klitgen
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05228;0;Am Laubberg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05180;0;Am Leiweg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05295;0;Am Müllersberg
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05260;0;Am Ohl
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05007;0;Am Räschen
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05229;0;Am Schlöten
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05124;0;Am Schürenfeld
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05129;0;Am Silberhalter
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05008;0;Am Stadtwald
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05285;0;Am Steimel
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05009;0;Am Stentenberg
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05204;0;Am Stockhahn
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05010;0;Am Wäcker
+05;3;74;004;05004;0;Am alten Friedhof
+05;3;74;004;05004;0;Am alten Friedhof
+05;3;74;004;05004;0;Am alten Friedhof
+05;3;74;004;05137;0;An der Belmicke
+05;3;74;004;05137;0;An der Belmicke
+05;3;74;004;05137;0;An der Belmicke
+05;3;74;004;05137;0;An der Belmicke
+05;3;74;004;05137;0;An der Belmicke
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05138;0;An der Burg
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05205;0;An der Dörspe
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05139;0;Annastraße
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05011;0;Asternweg
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05127;0;Auf dem Dümpel
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05012;0;Auf dem Kamp
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05230;0;Auf dem Rosten
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05284;0;Auf dem Stein
+05;3;74;004;05014;0;Auf der Hardt
+05;3;74;004;05014;0;Auf der Hardt
+05;3;74;004;05014;0;Auf der Hardt
+05;3;74;004;05014;0;Auf der Hardt
+05;3;74;004;05014;0;Auf der Hardt
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05233;0;Bahnhofstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05015;0;Bahnstraße
+05;3;74;004;05016;0;Baldenberger Weg
+05;3;74;004;05016;0;Baldenberger Weg
+05;3;74;004;05016;0;Baldenberger Weg
+05;3;74;004;05016;0;Baldenberger Weg
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05256;0;Baldenbergstraße
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05207;0;Belmicker Weg
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05017;0;Bergstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05018;0;Birkenstraße
+05;3;74;004;05019;0;Blumenweg
+05;3;74;004;05019;0;Blumenweg
+05;3;74;004;05019;0;Blumenweg
+05;3;74;004;05019;0;Blumenweg
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05152;0;Breite Straße
+05;3;74;004;05191;0;Breitegarten
+05;3;74;004;05191;0;Breitegarten
+05;3;74;004;05191;0;Breitegarten
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05020;0;Breiter Weg
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05153;0;Breslauer Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05234;0;Bruchhausener Straße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05021;0;Bruchstraße
+05;3;74;004;05154;0;Brunnenstraße
+05;3;74;004;05154;0;Brunnenstraße
+05;3;74;004;05154;0;Brunnenstraße
+05;3;74;004;05140;0;Brüchener Weg
+05;3;74;004;05140;0;Brüchener Weg
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05022;0;Brückenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05023;0;Buchenstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05024;0;Burgstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05025;0;Burstenstraße
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05026;0;Burstenweg
+05;3;74;004;05027;0;Buschweg
+05;3;74;004;05027;0;Buschweg
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05263;0;Butterwiese
+05;3;74;004;05147;0;Bösinghausen
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05155;0;Danziger Straße
+05;3;74;004;05130;0;Denklinger Straße
+05;3;74;004;05130;0;Denklinger Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05131;0;Derschlager Straße
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05028;0;Dietrich-Bonhoeffer-Weg
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05181;0;Dorfstraße
+05;3;74;004;05030;0;Drostenweg
+05;3;74;004;05030;0;Drostenweg
+05;3;74;004;05030;0;Drostenweg
+05;3;74;004;05030;0;Drostenweg
+05;3;74;004;05030;0;Drostenweg
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05031;0;Druchtemicke
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05029;0;Dörspestraße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05172;0;Eckenhagener Straße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05235;0;Eichendorffstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05032;0;Eichenstraße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05033;0;Eifeler Straße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05034;0;Enneststraße
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05192;0;Entgarten
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05036;0;Erlenweg
+05;3;74;004;05173;0;Ersbacher Weg
+05;3;74;004;05173;0;Ersbacher Weg
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05035;0;Eschenstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05038;0;Feldstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05039;0;Fichtenstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05040;0;Fliederstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05193;0;Flurstraße
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05149;0;Freischlade
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05041;0;Friedhofstraße
+05;3;74;004;05042;0;Friedrich-Ebert-Straße
+05;3;74;004;05042;0;Friedrich-Ebert-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05282;0;Fritz-Rau-Straße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05286;0;Frümbergstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05043;0;Gartenstraße
+05;3;74;004;05044;0;Gasstraße
+05;3;74;004;05044;0;Gasstraße
+05;3;74;004;05044;0;Gasstraße
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05045;0;Geesthölzchen
+05;3;74;004;05150;0;Geschleide
+05;3;74;004;05150;0;Geschleide
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05046;0;Gimbornstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05047;0;Glockenbergstraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05048;0;Goethestraße
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05049;0;Hackenberger Weg
+05;3;74;004;05176;0;Hackewiese
+05;3;74;004;05176;0;Hackewiese
+05;3;74;004;05176;0;Hackewiese
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05174;0;Hanenstraße
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05208;0;Hannemicker Weg
+05;3;74;004;05156;0;Hardtstraße
+05;3;74;004;05156;0;Hardtstraße
+05;3;74;004;05156;0;Hardtstraße
+05;3;74;004;05156;0;Hardtstraße
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05236;0;Hartemicker Weg
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05050;0;Hauptstraße
+05;3;74;004;05057;0;Heckenweg
+05;3;74;004;05057;0;Heckenweg
+05;3;74;004;05057;0;Heckenweg
+05;3;74;004;05057;0;Heckenweg
+05;3;74;004;05132;0;Heerstraße
+05;3;74;004;05132;0;Heerstraße
+05;3;74;004;05132;0;Heerstraße
+05;3;74;004;05237;0;Heideweg
+05;3;74;004;05237;0;Heideweg
+05;3;74;004;05237;0;Heideweg
+05;3;74;004;05237;0;Heideweg
+05;3;74;004;05237;0;Heideweg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05238;0;Heisterbacher Weg
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05051;0;Henneweide
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05194;0;Hepperblick
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05239;0;Hermicker Weg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05052;0;Herweg
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05266;0;Hilgesbicke
+05;3;74;004;05053;0;Hirschweg
+05;3;74;004;05053;0;Hirschweg
+05;3;74;004;05170;0;Hoeh
+05;3;74;004;05170;0;Hoeh
+05;3;74;004;05170;0;Hoeh
+05;3;74;004;05170;0;Hoeh
+05;3;74;004;05170;0;Hoeh
+05;3;74;004;05157;0;Hofstraße
+05;3;74;004;05157;0;Hofstraße
+05;3;74;004;05157;0;Hofstraße
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05177;0;Hofwiese
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05158;0;Hohle Straße
+05;3;74;004;05055;0;Hohler Weg
+05;3;74;004;05055;0;Hohler Weg
+05;3;74;004;05055;0;Hohler Weg
+05;3;74;004;05055;0;Hohler Weg
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05056;0;Hunschlade
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05133;0;Höchstenstraße
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05054;0;Höhenweg
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05242;0;Ibitschenstraße
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05267;0;Im Dickfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05279;0;Im Eichenfeld
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05296;0;Im Espenhagen
+05;3;74;004;05125;0;Im Kohlhagen
+05;3;74;004;05125;0;Im Kohlhagen
+05;3;74;004;05125;0;Im Kohlhagen
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05059;0;Im Stadtgraben
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05062;0;Im Strick
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05058;0;Immickestraße
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05240;0;In der Bockemühle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05241;0;In der Delle
+05;3;74;004;05060;0;In der Leie
+05;3;74;004;05060;0;In der Leie
+05;3;74;004;05060;0;In der Leie
+05;3;74;004;05060;0;In der Leie
+05;3;74;004;05060;0;In der Leie
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05061;0;Industriestraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05063;0;Jahnstraße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05064;0;Johann-Budde-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05300;0;Johann-Hackenberg-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05294;0;Josef-von-Jechner-Straße
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05065;0;Kampgarten
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05066;0;Kampstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05195;0;Kapellenstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05067;0;Karlstraße
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05071;0;Kastanienweg
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05141;0;Kaufmannsgasse
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05196;0;Kellerseifen
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05068;0;Kirchstraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05069;0;Klevestraße
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05209;0;Klosterweg
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05243;0;Kortemicker Straße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05210;0;Kreuzstraße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05070;0;Kölner Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05159;0;Königsberger Straße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05074;0;Langenlöhstraße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05077;0;Leopold-Krawinkel-Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05211;0;Lieberhausener Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05160;0;Liegnitzer Straße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05075;0;Lilienstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05076;0;Lindenstraße
+05;3;74;004;05304;0;Lingesten
+05;3;74;004;05304;0;Lingesten
+05;3;74;004;05304;0;Lingesten
+05;3;74;004;05304;0;Lingesten
+05;3;74;004;05304;0;Lingesten
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05073;0;Längestenstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05161;0;Löhstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05212;0;Lützenbergstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05078;0;Markstraße
+05;3;74;004;05244;0;Martin-Luther-Straße
+05;3;74;004;05244;0;Martin-Luther-Straße
+05;3;74;004;05244;0;Martin-Luther-Straße
+05;3;74;004;05244;0;Martin-Luther-Straße
+05;3;74;004;05244;0;Martin-Luther-Straße
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05245;0;Meerschlader Weg
+05;3;74;004;05079;0;Mühlenstraße
+05;3;74;004;05079;0;Mühlenstraße
+05;3;74;004;05079;0;Mühlenstraße
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05197;0;Mühlhofer Weg
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05081;0;Nelkenstraße
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05213;0;Neue Siedlung
+05;3;74;004;05142;0;Neue Straße
+05;3;74;004;05142;0;Neue Straße
+05;3;74;004;05142;0;Neue Straße
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05278;0;Niederrengse
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05082;0;Nistenbergstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05083;0;Nordstraße
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05178;0;Oberhof
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05246;0;Olper Straße
+05;3;74;004;05214;0;Olper Straße
+05;3;74;004;05084;0;Oststraße
+05;3;74;004;05084;0;Oststraße
+05;3;74;004;05084;0;Oststraße
+05;3;74;004;05084;0;Oststraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05085;0;Othestraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05215;0;Paulstraße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05143;0;Peter-Butz-Straße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05144;0;Petersbergstraße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05283;0;Pieper-Keller-Straße
+05;3;74;004;05220;0;Pustenbach
+05;3;74;004;05220;0;Pustenbach
+05;3;74;004;05220;0;Pustenbach
+05;3;74;004;05220;0;Pustenbach
+05;3;74;004;05220;0;Pustenbach
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05086;0;Quellenweg
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05087;0;Ravensbergstraße
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05091;0;Rehwinkel
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05276;0;Renneweg
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05088;0;Rerkausenstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05089;0;Richtstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05090;0;Rosenstraße
+05;3;74;004;05221;0;Rosenthal
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05222;0;Rosenthalseifen
+05;3;74;004;05182;0;Rudolf-Harbig-Straße
+05;3;74;004;05182;0;Rudolf-Harbig-Straße
+05;3;74;004;05182;0;Rudolf-Harbig-Straße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05092;0;Saltemertstraße
+05;3;74;004;05104;0;Scheurenwiese
+05;3;74;004;05104;0;Scheurenwiese
+05;3;74;004;05104;0;Scheurenwiese
+05;3;74;004;05094;0;Schillerstraße
+05;3;74;004;05094;0;Schillerstraße
+05;3;74;004;05094;0;Schillerstraße
+05;3;74;004;05094;0;Schillerstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05134;0;Schulstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05096;0;Schwarzenbergstraße
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05163;0;Schöne Aussicht
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05247;0;Schürmannstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05183;0;Seutenstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05198;0;Siedlungsstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05097;0;Silbergstraße
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05199;0;Sohler Weg
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05164;0;Sonnenkamp
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05248;0;Sonnenweg
+05;3;74;004;05292;0;Spreckenweg
+05;3;74;004;05292;0;Spreckenweg
+05;3;74;004;05292;0;Spreckenweg
+05;3;74;004;05292;0;Spreckenweg
+05;3;74;004;05292;0;Spreckenweg
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05098;0;Stadionstraße
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05099;0;Steilweg
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05249;0;Steimelstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05100;0;Steinstraße
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05101;0;Stentenbergsiepen
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05102;0;Stentenbergstraße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05165;0;Stettiner Straße
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05257;0;Südring
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05103;0;Südstraße
+05;3;74;004;05126;0;Sülemicker Feld
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05250;0;Sülemicker Straße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05185;0;Talsperrenstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05105;0;Talstraße
+05;3;74;004;05166;0;Teichstraße
+05;3;74;004;05166;0;Teichstraße
+05;3;74;004;05166;0;Teichstraße
+05;3;74;004;05166;0;Teichstraße
+05;3;74;004;05166;0;Teichstraße
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05106;0;Tulpenweg
+05;3;74;004;05107;0;Turnerstraße
+05;3;74;004;05107;0;Turnerstraße
+05;3;74;004;05107;0;Turnerstraße
+05;3;74;004;05107;0;Turnerstraße
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05264;0;Töschenwiese
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05272;0;Unter dem Löh
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05108;0;Veilchenstraße
+05;3;74;004;05273;0;Vor der Alten Höh
+05;3;74;004;05273;0;Vor der Alten Höh
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05251;0;Vor der Platte
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05109;0;Vossbicke
+05;3;74;004;05186;0;Waldstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05110;0;Wallstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05111;0;Wasserstraße
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05112;0;Weidenweg
+05;3;74;004;05145;0;Wendeweg
+05;3;74;004;05145;0;Wendeweg
+05;3;74;004;05145;0;Wendeweg
+05;3;74;004;05145;0;Wendeweg
+05;3;74;004;05145;0;Wendeweg
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05113;0;Weststraße
+05;3;74;004;05259;0;Wiedenbruchstraße
+05;3;74;004;05259;0;Wiedenbruchstraße
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05301;0;Wiedenester Blick
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05114;0;Wiedeneststraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05115;0;Wiesenstraße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05252;0;Wilhelm-Schriever-Straße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05116;0;Wilhelmstraße
+05;3;74;004;05200;0;Wolfschlader Weg
+05;3;74;004;05200;0;Wolfschlader Weg
+05;3;74;004;05200;0;Wolfschlader Weg
+05;3;74;004;05200;0;Wolfschlader Weg
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05255;0;Wörde
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05253;0;Zum Bauckmert
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05167;0;Zum Beul
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05117;0;Zum Bornacker
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05217;0;Zum Bürgen
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05118;0;Zum Dreiort
+05;3;74;004;05119;0;Zum Grünen Siepen
+05;3;74;004;05119;0;Zum Grünen Siepen
+05;3;74;004;05119;0;Zum Grünen Siepen
+05;3;74;004;05119;0;Zum Grünen Siepen
+05;3;74;004;05119;0;Zum Grünen Siepen
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05287;0;Zum Hornbruch
+05;3;74;004;05218;0;Zum Hornbruch
+05;3;74;004;05254;0;Zum Jettholz
+05;3;74;004;05254;0;Zum Jettholz
+05;3;74;004;05254;0;Zum Jettholz
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05168;0;Zum Knollen
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05120;0;Zum Krähenacker
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05219;0;Zum Lichtenbruch
+05;3;74;004;05316;0;Zum Mietpark
+05;3;74;004;05316;0;Zum Mietpark
+05;3;74;004;05297;0;Zum Rathaus
+05;3;74;004;05297;0;Zum Rathaus
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05280;0;Zum Wiebusch
+05;3;74;004;05121;0;Zur Bretschlade
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05265;0;Zur Drift
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05187;0;Zur Nordhelle
+05;3;74;004;05169;0;Zur Steinebreche
+05;3;74;004;05169;0;Zur Steinebreche
+05;3;74;004;05169;0;Zur Steinebreche
+05;3;74;004;05169;0;Zur Steinebreche
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05281;0;Zur alten Wiese
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;05146;0;Zwerstaller Weg
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel
+05;3;74;004;99999;0;fiktiver Straßenschlüssel

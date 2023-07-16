@@ -1,0 +1,372 @@
+05;3;74;036;278;0;1.Uelfe
+05;3;74;036;279;0;2.Uelfe
+05;3;74;036;280;0;3.Uelfe
+05;3;74;036;281;0;4.Uelfe
+05;3;74;036;371;0;Albert-Einstein-Straße
+05;3;74;036;328;0;Albert-Osenberg-Straße
+05;3;74;036;1;0;Albertstraße
+05;3;74;036;2;0;Alte Landstraße
+05;3;74;036;3;0;Altendorf
+05;3;74;036;4;0;Altenhof
+05;3;74;036;350;0;Am Festplatz
+05;3;74;036;349;0;Am Gaswerk
+05;3;74;036;5;0;Am Graben
+05;3;74;036;6;0;Am Grimmelsberg
+05;3;74;036;7;0;Am Hölterhof
+05;3;74;036;8;0;Am Kattenbusch
+05;3;74;036;9;0;Am Kollenberg
+05;3;74;036;376;0;Am Kommunalfriedhof
+05;3;74;036;10;0;Am Krankenhaus
+05;3;74;036;11;0;Am Kreuz
+05;3;74;036;351;0;Am Kümpel
+05;3;74;036;12;0;Am Leimholer Berg
+05;3;74;036;13;0;Am Mühlenkämpchen
+05;3;74;036;14;0;Am Pferdefeld
+05;3;74;036;15;0;Amselweg
+05;3;74;036;352;0;Am Sportplatz
+05;3;74;036;335;0;Am Steingarten
+05;3;74;036;16;0;Am Telegraf
+05;3;74;036;17;0;Am Wallenberg
+05;3;74;036;18;0;Am Weißpfennig
+05;3;74;036;19;0;An der Eick
+05;3;74;036;336;0;An der Hoffnung
+05;3;74;036;20;0;An der Lohmühle
+05;3;74;036;26;0;An der Wildbahn
+05;3;74;036;21;0;Andreasstraße
+05;3;74;036;22;0;Auf der Brede
+05;3;74;036;23;0;Auf der Höh
+05;3;74;036;24;0;Auf'm Hagen
+05;3;74;036;25;0;Auf'm Winkel
+05;3;74;036;343;0;Bachstraße
+05;3;74;036;27;0;Bahnhof Bergerhof
+05;3;74;036;28;0;Bahnhof Dahlerau
+05;3;74;036;29;0;Bahnhof Dahlhausen
+05;3;74;036;30;0;Bahnhofstraße
+05;3;74;036;31;0;Bahnstraße
+05;3;74;036;32;0;Beck
+05;3;74;036;33;0;Berg
+05;3;74;036;34;0;Bergstraße
+05;3;74;036;35;0;Bernd-Rosemeyer-Straße
+05;3;74;036;36;0;Birken
+05;3;74;036;37;0;Birkenweg
+05;3;74;036;38;0;Bischof-Bornewasser-Straße
+05;3;74;036;39;0;Blumenstraße
+05;3;74;036;40;0;Böhlefeldshaus
+05;3;74;036;41;0;Borbeck
+05;3;74;036;42;0;Börkel
+05;3;74;036;43;0;Born
+05;3;74;036;44;0;Braake
+05;3;74;036;45;0;Brebach
+05;3;74;036;46;0;Bredderstraße
+05;3;74;036;47;0;Brückenstraße
+05;3;74;036;48;0;Brunsheide
+05;3;74;036;49;0;Brunshöh
+05;3;74;036;338;0;Buchenweg
+05;3;74;036;50;0;Burgstraße
+05;3;74;036;51;0;Buschsiepen
+05;3;74;036;52;0;Carl-Diem-Straße
+05;3;74;036;53;0;Dahler Straße
+05;3;74;036;54;0;Dahlhauser Straße
+05;3;74;036;55;0;Dahlienstraße
+05;3;74;036;56;0;Dannenbaum
+05;3;74;036;57;0;Danziger Straße
+05;3;74;036;58;0;Dehnerhofstraße
+05;3;74;036;59;0;Diepenbruch
+05;3;74;036;60;0;Dieplingsberg
+05;3;74;036;61;0;Dietrich-Bonhoeffer-Straße
+05;3;74;036;63;0;Drosselweg
+05;3;74;036;64;0;Dünnwald
+05;3;74;036;65;0;Eich
+05;3;74;036;355;0;Eichenweg
+05;3;74;036;66;0;Eistringhausen
+05;3;74;036;67;0;Elberfelder Straße
+05;3;74;036;68;0;Elbinger Straße
+05;3;74;036;69;0;Erlenbach
+05;3;74;036;357;0;Erlenbacher Straße
+05;3;74;036;70;0;Espert
+05;3;74;036;71;0;Espertstraße
+05;3;74;036;321;0;Färberstraße
+05;3;74;036;72;0;Feckinghausen
+05;3;74;036;358;0;Feilenhauerstraße
+05;3;74;036;73;0;Feldmannshaus
+05;3;74;036;74;0;Feldstraße
+05;3;74;036;368;0;Felix-Wankel-Straße
+05;3;74;036;75;0;Felsenbeck
+05;3;74;036;76;0;Fichtenweg
+05;3;74;036;77;0;Filde
+05;3;74;036;78;0;Filderheide
+05;3;74;036;79;0;Finkensiepen
+05;3;74;036;80;0;Finkenweg
+05;3;74;036;81;0;Flurstraße
+05;3;74;036;354;0;Fontanestraße
+05;3;74;036;344;0;Forellenweg
+05;3;74;036;82;0;Freiligrathstraße
+05;3;74;036;83;0;Freudenberg
+05;3;74;036;85;0;Friedrichstraße
+05;3;74;036;86;0;Friesenstraße
+05;3;74;036;359;0;Fritz-vom-Stein-Straße
+05;3;74;036;87;0;Froweinstraße
+05;3;74;036;88;0;Fuhr
+05;3;74;036;89;0;Funkenhausen
+05;3;74;036;90;0;Gartenstraße
+05;3;74;036;91;0;Geilensiepen
+05;3;74;036;100;0;Gewerbestraße
+05;3;74;036;92;0;Goethestraße
+05;3;74;036;93;0;Grabenstraße
+05;3;74;036;94;0;Grafweg
+05;3;74;036;95;0;Griesensiepen
+05;3;74;036;96;0;Grüne
+05;3;74;036;97;0;Grünentaler Straße
+05;3;74;036;99;0;Grunewald
+05;3;74;036;98;0;Grünstraße
+05;3;74;036;363;0;Haferstraße
+05;3;74;036;101;0;Hahnenberg
+05;3;74;036;353;0;Handballweg
+05;3;74;036;102;0;Harbeck
+05;3;74;036;103;0;Hardt
+05;3;74;036;104;0;Hardtbach
+05;3;74;036;105;0;Hardtstraße
+05;3;74;036;345;0;Hechtweg
+05;3;74;036;106;0;Heide
+05;3;74;036;107;0;Heidersteg
+05;3;74;036;108;0;Heidt
+05;3;74;036;333;0;Heimeker Weg
+05;3;74;036;375;0;Heinestraße
+05;3;74;036;399;0;Heinz-Rosendahl-Straße
+05;3;74;036;320;0;Heisenbergstraße
+05;3;74;036;109;0;Herbeck
+05;3;74;036;110;0;Herbecker Straße
+05;3;74;036;111;0;Herderstraße
+05;3;74;036;112;0;Herkingrade
+05;3;74;036;113;0;Hermann-Löns-Weg
+05;3;74;036;115;0;Hermannstraße
+05;3;74;036;116;0;Hinüber
+05;3;74;036;117;0;Hochsteinstraße
+05;3;74;036;118;0;Hohenfuhrstraße
+05;3;74;036;119;0;Hohenstraße
+05;3;74;036;120;0;Hohenzollernstraße
+05;3;74;036;121;0;Höhweg
+05;3;74;036;123;0;Hölterhofer Straße
+05;3;74;036;124;0;Höltersiepen
+05;3;74;036;125;0;Hönde
+05;3;74;036;126;0;Hönderbruch
+05;3;74;036;127;0;Honsberger Straße
+05;3;74;036;128;0;Hückeswagener Straße
+05;3;74;036;129;0;Hulverscheidt
+05;3;74;036;130;0;Hürxtal
+05;3;74;036;131;0;Im Busch
+05;3;74;036;132;0;Im Hagen
+05;3;74;036;133;0;Im Holte
+05;3;74;036;134;0;Im Kamp
+05;3;74;036;135;0;Im Klimop
+05;3;74;036;379;0;Im Loch
+05;3;74;036;136;0;Im Springel
+05;3;74;036;137;0;Im Walde
+05;3;74;036;138;0;Im Wiesengrund
+05;3;74;036;139;0;Im Wildental
+05;3;74;036;140;0;In den Höfen
+05;3;74;036;331;0;In der Heimeke
+05;3;74;036;141;0;Industriestraße
+05;3;74;036;142;0;Ispingrade
+05;3;74;036;143;0;Ispingrader Straße
+05;3;74;036;144;0;Jägershaus
+05;3;74;036;145;0;Jahnstraße
+05;3;74;036;146;0;Jakobsholt
+05;3;74;036;147;0;Jung-Stilling-Weg
+05;3;74;036;148;0;Justus-von-Liebig-Straße
+05;3;74;036;149;0;Kaffekanne
+05;3;74;036;150;0;Kaiserstraße
+05;3;74;036;324;0;Kammgarnweg
+05;3;74;036;151;0;Kantstraße
+05;3;74;036;152;0;Karl-Goerdeler-Straße
+05;3;74;036;360;0;Karl-Höltken-Weg
+05;3;74;036;153;0;Karlshöh
+05;3;74;036;346;0;Karpfenweg
+05;3;74;036;154;0;Karthausen
+05;3;74;036;373;0;Kästnerstraße
+05;3;74;036;369;0;Käthe-Paulus-Straße
+05;3;74;036;155;0;Kattenbusch
+05;3;74;036;157;0;Keilbecker Straße
+05;3;74;036;156;0;Kettlershaus
+05;3;74;036;356;0;Kiefernweg
+05;3;74;036;158;0;Kirchstraße
+05;3;74;036;159;0;Klaukenburg
+05;3;74;036;160;0;Kleinsiepen
+05;3;74;036;161;0;Knefelskamp
+05;3;74;036;162;0;Kohlstraße
+05;3;74;036;163;0;Kölner Straße
+05;3;74;036;164;0;Kolpingstraße
+05;3;74;036;165;0;Kottenstraße
+05;3;74;036;166;0;Köttershaus
+05;3;74;036;167;0;Kottmannshausen
+05;3;74;036;168;0;Krankenhausstraße
+05;3;74;036;169;0;Kräwinkel
+05;3;74;036;377;0;Kräwinkel I
+05;3;74;036;378;0;Kräwinkel II
+05;3;74;036;398;0;Kräwinkel III
+05;3;74;036;171;0;Krebsöge
+05;3;74;036;172;0;Krebsögersteg
+05;3;74;036;173;0;Kreuzstraße
+05;3;74;036;174;0;Kronenberg
+05;3;74;036;175;0;Kurze Straße
+05;3;74;036;176;0;Laakbaum
+05;3;74;036;177;0;Laake
+05;3;74;036;364;0;Laaker Felder
+05;3;74;036;178;0;Lambeck
+05;3;74;036;179;0;Lambecker Mühle
+05;3;74;036;180;0;Landwehr
+05;3;74;036;181;0;Langenkamp
+05;3;74;036;182;0;Leimhol
+05;3;74;036;183;0;Leimholer Mühle
+05;3;74;036;184;0;Leimholer Straße
+05;3;74;036;326;0;Lerchenweg
+05;3;74;036;185;0;Lessingstraße
+05;3;74;036;186;0;Leye
+05;3;74;036;187;0;Lichteneichen
+05;3;74;036;188;0;Linde
+05;3;74;036;189;0;Lindenstraße
+05;3;74;036;190;0;Lohengrinstraße
+05;3;74;036;191;0;Lorenzhaus
+05;3;74;036;193;0;Ludwig-Beck-Straße
+05;3;74;036;192;0;Lünsenburg
+05;3;74;036;365;0;Maisstraße
+05;3;74;036;194;0;Margaretenstraße
+05;3;74;036;340;0;Marie-Curie-Straße
+05;3;74;036;195;0;Markt
+05;3;74;036;341;0;Max-Planck-Straße
+05;3;74;036;196;0;Mermbach
+05;3;74;036;204;0;Mermbacher Straße
+05;3;74;036;197;0;Milspe
+05;3;74;036;198;0;Mittelstraße
+05;3;74;036;199;0;Möllersbaum
+05;3;74;036;200;0;Montanusplatz
+05;3;74;036;201;0;Mozartstraße
+05;3;74;036;202;0;Mühlenstraße
+05;3;74;036;203;0;Muskatorstraße
+05;3;74;036;205;0;Nadelsiepen
+05;3;74;036;380;0;Neißestraße
+05;3;74;036;207;0;Nelkenstraße
+05;3;74;036;210;0;Neue Landstraße
+05;3;74;036;208;0;Neuenhammer
+05;3;74;036;211;0;Neuenhaus
+05;3;74;036;209;0;Neuenhof
+05;3;74;036;212;0;Neuland
+05;3;74;036;213;0;Neustraße
+05;3;74;036;214;0;Nibelungenstraße
+05;3;74;036;215;0;Niederdahl
+05;3;74;036;216;0;Niedernfeld
+05;3;74;036;217;0;Niederwönkhausen
+05;3;74;036;218;0;Nordstraße
+05;3;74;036;219;0;Oberbuschsiepen
+05;3;74;036;220;0;Oberdahl
+05;3;74;036;221;0;Oberdahlhausen
+05;3;74;036;222;0;Obergraben
+05;3;74;036;223;0;Obergrunewald
+05;3;74;036;224;0;Oberkarthausen
+05;3;74;036;225;0;Oberm Kümpel
+05;3;74;036;226;0;Obernfeld
+05;3;74;036;227;0;Obernhof
+05;3;74;036;228;0;Oberönkfeld
+05;3;74;036;229;0;Oberschmittensiepen
+05;3;74;036;230;0;Oberste Mühle
+05;3;74;036;231;0;Oderstraße
+05;3;74;036;232;0;Oede Schlenke
+05;3;74;036;233;0;Oege
+05;3;74;036;234;0;Önkfeld
+05;3;74;036;235;0;Oststraße
+05;3;74;036;236;0;Otto-Hahn-Straße
+05;3;74;036;237;0;Pastoratshof
+05;3;74;036;325;0;Pastor-Wemmer-Weg
+05;3;74;036;319;0;Paul-Lincke-Weg
+05;3;74;036;361;0;Paul-Wellershaus-Weg
+05;3;74;036;238;0;Plumbeck
+05;3;74;036;239;0;Poststraße
+05;3;74;036;329;0;Quellenweg
+05;3;74;036;240;0;Raderberg
+05;3;74;036;241;0;Rädereichen
+05;3;74;036;242;0;Rader Straße
+05;3;74;036;339;0;Raiffeisenstraße
+05;3;74;036;243;0;Rechelsiepen
+05;3;74;036;244;0;Remlingrade
+05;3;74;036;245;0;Richard-Wagner-Straße
+05;3;74;036;246;0;Ritter-von-Halt-Straße
+05;3;74;036;330;0;Robert-Bosch-Straße
+05;3;74;036;247;0;Rochollsberg
+05;3;74;036;248;0;Rochollstraße
+05;3;74;036;366;0;Roggenstraße
+05;3;74;036;251;0;Röntgenstraße
+05;3;74;036;249;0;Rosenstraße
+05;3;74;036;342;0;Rudolf-Diesel-Straße
+05;3;74;036;250;0;Rudolf-Harbig-Straße
+05;3;74;036;334;0;Rudolfstraße
+05;3;74;036;252;0;Scheidt
+05;3;74;036;253;0;Schillerstraße
+05;3;74;036;254;0;Schlechtenbeck
+05;3;74;036;347;0;Schleienweg
+05;3;74;036;327;0;Schloßmacherstraße
+05;3;74;036;255;0;Schmittensiepen
+05;3;74;036;256;0;Schnellental
+05;3;74;036;257;0;Schröderweg
+05;3;74;036;271;0;Schubertstraße
+05;3;74;036;258;0;Schüttendeich
+05;3;74;036;259;0;Schützenstraße
+05;3;74;036;261;0;Siedlungsweg
+05;3;74;036;262;0;Siepen
+05;3;74;036;263;0;Siepenstraße
+05;3;74;036;264;0;Sieplenbusch
+05;3;74;036;265;0;Sondern
+05;3;74;036;266;0;Sportplatz Dahlhausen
+05;3;74;036;272;0;Stauffenbergstraße
+05;3;74;036;267;0;Stoote
+05;3;74;036;268;0;Stooter Mühle
+05;3;74;036;372;0;Stormstraße
+05;3;74;036;269;0;Studberg
+05;3;74;036;270;0;Südstraße
+05;3;74;036;318;0;Talsperrenweg
+05;3;74;036;273;0;Tanne
+05;3;74;036;274;0;Tannenbergweg
+05;3;74;036;275;0;Tannhäuserweg
+05;3;74;036;276;0;Telegrafenstraße
+05;3;74;036;277;0;Tiefestraße
+05;3;74;036;323;0;Tuchstraße
+05;3;74;036;282;0;Uelfebad
+05;3;74;036;283;0;Uelfestraße
+05;3;74;036;284;0;Uelfe-Wuppertal-Straße
+05;3;74;036;374;0;Uhlandstraße
+05;3;74;036;285;0;Umbeck
+05;3;74;036;286;0;Ümminghausen
+05;3;74;036;287;0;Untergraben
+05;3;74;036;288;0;Unterm Busch
+05;3;74;036;289;0;Unterste Mühle
+05;3;74;036;290;0;Vogelshaus
+05;3;74;036;291;0;Vogelsmühle
+05;3;74;036;292;0;Vor der Heide
+05;3;74;036;293;0;Vor der Mark
+05;3;74;036;294;0;Vorm Baum
+05;3;74;036;295;0;Vorm Holte
+05;3;74;036;296;0;Waar
+05;3;74;036;297;0;Waldstraße
+05;3;74;036;298;0;Walkmüllersiepen
+05;3;74;036;299;0;Wasserturmstraße
+05;3;74;036;322;0;Weberstraße
+05;3;74;036;300;0;Weidenweg
+05;3;74;036;367;0;Weizenstraße
+05;3;74;036;301;0;Wellershausen
+05;3;74;036;302;0;Wellringrade
+05;3;74;036;260;0;Werner-Seelenbinder-Straße
+05;3;74;036;303;0;Westfalenstraße
+05;3;74;036;304;0;Weststraße
+05;3;74;036;305;0;Weyer
+05;3;74;036;306;0;Wiebach
+05;3;74;036;307;0;Wiedenhofkamp
+05;3;74;036;308;0;Wiesenstraße
+05;3;74;036;309;0;Wilhelmstal
+05;3;74;036;310;0;Wilhelmstaler Straße
+05;3;74;036;311;0;Winklenburg
+05;3;74;036;312;0;Wintershaus
+05;3;74;036;313;0;Wönkhausen
+05;3;74;036;314;0;Wülfingstraße
+05;3;74;036;315;0;Wupperstraße
+05;3;74;036;316;0;Wuppertalstraße
+05;3;74;036;348;0;Zanderweg
+05;3;74;036;317;0;Zum Hofe

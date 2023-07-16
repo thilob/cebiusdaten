@@ -1,0 +1,549 @@
+05;3;74;048;14468;0;Adlerweg
+05;3;74;048;14252;0;Ahornweg
+05;3;74;048;14549;0;Albert-Einstein-Straße
+05;3;74;048;14212;0;Alferzhagener Straße
+05;3;74;048;14228;0;Alperbrück
+05;3;74;048;14322;0;Alpermühle
+05;3;74;048;14323;0;Alpestraße
+05;3;74;048;14503;0;Alpetalstraße
+05;3;74;048;14275;0;Alte Dorfstraße
+05;3;74;048;14213;0;Alte Hofstraße
+05;3;74;048;14170;0;Alte Kölner Straße
+05;3;74;048;14582;0;Alter Milchweg
+05;3;74;048;14325;0;Alter Mühlenweg
+05;3;74;048;14002;0;Alter Schulweg
+05;3;74;048;14171;0;Altes Land
+05;3;74;048;14324;0;Alte Straße
+05;3;74;048;14444;0;Alte Wiese
+05;3;74;048;14003;0;Altklef
+05;3;74;048;14004;0;Am alten Sportplatz
+05;3;74;048;14556;0;Am Anfang
+05;3;74;048;14253;0;Am Birkenhang
+05;3;74;048;14450;0;Am Birkeshaus
+05;3;74;048;14466;0;Am Birnbäumchen
+05;3;74;048;14492;0;Am Brandweiher
+05;3;74;048;14298;0;Am Brüchen
+05;3;74;048;14485;0;Am Bungert
+05;3;74;048;14276;0;Am Dreiort
+05;3;74;048;14373;0;Am Erlenhaan
+05;3;74;048;14374;0;Am Faulenberg
+05;3;74;048;14399;0;Am Frauenbusch
+05;3;74;048;14277;0;Am Galgenberg
+05;3;74;048;14005;0;Am Hang
+05;3;74;048;14603;0;Am Hans-Teich
+05;3;74;048;14172;0;Am Hardtskopf
+05;3;74;048;14472;0;Am Hofacker
+05;3;74;048;14278;0;Am Hohen Haus
+05;3;74;048;14173;0;Am Höher Berg
+05;3;74;048;14006;0;Am Hübender Berg
+05;3;74;048;14007;0;Am Hügel
+05;3;74;048;14602;0;Am Idelswäldchen
+05;3;74;048;14326;0;Am Kirchplatz
+05;3;74;048;14008;0;Am kleinen Hölzchen
+05;3;74;048;14375;0;Am Konradsberg
+05;3;74;048;14570;0;Am Krähenbusch
+05;3;74;048;14354;0;Am Lindenberg
+05;3;74;048;14617;0;Am Lindenberg
+05;3;74;048;14009;0;Am Lindenstock
+05;3;74;048;14513;0;Ammerweg
+05;3;74;048;14457;0;Am neuen Weg
+05;3;74;048;14551;0;Am Pferdefeld
+05;3;74;048;14537;0;Am Plutenhöffchen
+05;3;74;048;14010;0;Am Pützberg
+05;3;74;048;14519;0;Am Rastplatz
+05;3;74;048;14120;0;Am Rosenhang
+05;3;74;048;14011;0;Amselweg
+05;3;74;048;14548;0;Am Sengberg
+05;3;74;048;14406;0;Am Steeger Berg
+05;3;74;048;14236;0;Am Steinberg
+05;3;74;048;14012;0;Am Stichelberg
+05;3;74;048;14254;0;Am Tannenbusch
+05;3;74;048;14237;0;Am Verkehrskreuz
+05;3;74;048;14594;0;Am Vorbach
+05;3;74;048;14437;0;Am Wiesenhang
+05;3;74;048;14355;0;An der Bechhöhe
+05;3;74;048;14407;0;An der Bergkuhle
+05;3;74;048;14327;0;An der Höhe
+05;3;74;048;14122;0;An der Kirchhardt
+05;3;74;048;14013;0;An der Krähenhardt
+05;3;74;048;14123;0;An der Mühle
+05;3;74;048;14230;0;Angfurtener Straße
+05;3;74;048;14307;0;Atzenhagener Straße
+05;3;74;048;14124;0;Auf dem Anton
+05;3;74;048;14207;0;Auf dem Bräunfeld
+05;3;74;048;14272;0;Auf dem Bühl
+05;3;74;048;14445;0;Auf dem Buhlscheid
+05;3;74;048;14015;0;Auf dem Heidchen
+05;3;74;048;14125;0;Auf dem Höchsten
+05;3;74;048;14511;0;Auf dem Kampfeld
+05;3;74;048;14541;0;Auf dem Kötzen
+05;3;74;048;14174;0;Auf dem Landgraben
+05;3;74;048;14299;0;Auf den Eichen
+05;3;74;048;14238;0;Auf den Pühlen
+05;3;74;048;14016;0;Auf den Steinen
+05;3;74;048;14376;0;Auf der Bitze
+05;3;74;048;14499;0;Auf der Bliebach
+05;3;74;048;14438;0;Auf der Brache
+05;3;74;048;14356;0;Auf der Brache
+05;3;74;048;14017;0;Auf der Engelhardt
+05;3;74;048;14439;0;Auf der Ente
+05;3;74;048;14493;0;Auf der Hardt
+05;3;74;048;14214;0;Auf der Heide
+05;3;74;048;14328;0;Auf der Heilen
+05;3;74;048;14357;0;Auf der Jod
+05;3;74;048;14377;0;Auf der nassen Höhe
+05;3;74;048;14553;0;Auf der Steinbreche
+05;3;74;048;14500;0;Auf der Wäsche
+05;3;74;048;14378;0;Auf'm Kamp
+05;3;74;048;14018;0;Bachweg
+05;3;74;048;14433;0;Bahnhofsplatz
+05;3;74;048;14019;0;Bahnhofstraße
+05;3;74;048;14126;0;Bantenberger Straße
+05;3;74;048;14020;0;Baumweg
+05;3;74;048;14127;0;Bechstraße
+05;3;74;048;14408;0;Bergerhofer Straße
+05;3;74;048;14379;0;Bergstraße
+05;3;74;048;14583;0;Bergweg
+05;3;74;048;14021;0;Berta-Schulz-Straße
+05;3;74;048;14234;0;Bieberstein
+05;3;74;048;14451;0;Biebersteiner Straße
+05;3;74;048;14128;0;Bielsteiner Straße
+05;3;74;048;14255;0;Birkenhahnstraße
+05;3;74;048;14022;0;Birkenstraße
+05;3;74;048;14202;0;Bistritzer Gasse
+05;3;74;048;14023;0;Bitzenweg
+05;3;74;048;14024;0;Blumenfeldstraße
+05;3;74;048;14239;0;Bomiger Straße
+05;3;74;048;14329;0;Bonenkamp
+05;3;74;048;14380;0;Börnchenweg
+05;3;74;048;14559;0;Börnhausener Berg
+05;3;74;048;14560;0;Börnhausener Blick
+05;3;74;048;14561;0;Börnhausener Burg
+05;3;74;048;14562;0;Börnhausener Feld
+05;3;74;048;14563;0;Börnhausener Garten
+05;3;74;048;14564;0;Börnhausener Hof
+05;3;74;048;14565;0;Börnhausener Inken
+05;3;74;048;14566;0;Börnhausener Siefen
+05;3;74;048;14567;0;Börnhausener Straße
+05;3;74;048;14568;0;Börnhausener Tal
+05;3;74;048;14569;0;Börnhausener Wiese
+05;3;74;048;14257;0;Brächener Straße
+05;3;74;048;14256;0;Brächer Heide
+05;3;74;048;14240;0;Breidenbrucher Straße
+05;3;74;048;14215;0;Brelöher Weg
+05;3;74;048;14025;0;Bremig
+05;3;74;048;14621;0;Bremigswiese
+05;3;74;048;14129;0;Brindöpkestraße
+05;3;74;048;14512;0;Brinkengarten
+05;3;74;048;14026;0;Brucherfeldstraße
+05;3;74;048;14027;0;Brucher Straße
+05;3;74;048;14409;0;Brückenstraße
+05;3;74;048;14452;0;Brunnensiefen
+05;3;74;048;14175;0;Brunnenweg
+05;3;74;048;14514;0;Buchenkamp
+05;3;74;048;14028;0;Buchenstraße
+05;3;74;048;14425;0;Büddelhagen
+05;3;74;048;14130;0;Burgstraße
+05;3;74;048;14477;0;Burmichsfeld
+05;3;74;048;14176;0;Burzenland
+05;3;74;048;14258;0;Bussardweg
+05;3;74;048;14029;0;Büttinghausener Straße
+05;3;74;048;14593;0;Carl-Hans-Straße
+05;3;74;048;14547;0;Carl-Zeiss-Straße
+05;3;74;048;14116;0;Cosimastraße
+05;3;74;048;14507;0;Cyrusweg
+05;3;74;048;14114;0;Dahler Straße
+05;3;74;048;14030;0;Dahlienstraße
+05;3;74;048;14539;0;Damter Hofwiese
+05;3;74;048;14131;0;Damtestraße
+05;3;74;048;14241;0;Dellerweg
+05;3;74;048;14031;0;Denkmalweg
+05;3;74;048;14032;0;Derschlager Straße
+05;3;74;048;14410;0;Dörenstraße
+05;3;74;048;14330;0;Dorfplatz
+05;3;74;048;14381;0;Dorfstraße
+05;3;74;048;14034;0;Dornbuschstraße
+05;3;74;048;14033;0;Dörner Straße
+05;3;74;048;14177;0;Drabenderhöher Straße
+05;3;74;048;14382;0;Dreibholzer Straße
+05;3;74;048;14429;0;Dreibholzer Straße
+05;3;74;048;14282;0;Dreisbacher Höhe
+05;3;74;048;14279;0;Dreisbacher Straße
+05;3;74;048;14518;0;Dr.-Hoffmann-Platz
+05;3;74;048;14283;0;Drosselhardt
+05;3;74;048;14259;0;Drosselweg
+05;3;74;048;14133;0;Drustenweg
+05;3;74;048;14231;0;Dümpelstraße
+05;3;74;048;14035;0;Eckenhagener Straße
+05;3;74;048;14618;0;Eckenhagener Straße
+05;3;74;048;14260;0;Eichenweg
+05;3;74;048;14036;0;Eichhardtstraße
+05;3;74;048;14178;0;Eichhornweg
+05;3;74;048;14037;0;Elsterweg
+05;3;74;048;14134;0;Ennenbachstraße
+05;3;74;048;14038;0;Ennenfeldstraße
+05;3;74;048;14331;0;Enselskamp
+05;3;74;048;14515;0;Erlengarten
+05;3;74;048;14261;0;Erlenweg
+05;3;74;048;14039;0;Eschenbachstraße
+05;3;74;048;14309;0;Eschenweg
+05;3;74;048;14271;0;Eulenweg
+05;3;74;048;14284;0;Fahlenbruch
+05;3;74;048;14135;0;Falkenweg
+05;3;74;048;14285;0;Faulmert
+05;3;74;048;14383;0;Feldstraße
+05;3;74;048;14041;0;Fichtenweg
+05;3;74;048;14262;0;Finkenweg
+05;3;74;048;14042;0;Fliederweg
+05;3;74;048;14136;0;Florastraße
+05;3;74;048;14411;0;Forster Straße
+05;3;74;048;14044;0;Freiherr-vom-Stein-Straße
+05;3;74;048;14045;0;Friedhofstraße
+05;3;74;048;14242;0;Friedrich-Hebbel-Straße
+05;3;74;048;14435;0;Fritz-Kotz-Straße
+05;3;74;048;14545;0;Fritz-Rau-Straße
+05;3;74;048;14137;0;Fröbelstraße
+05;3;74;048;14486;0;Fuhrweg
+05;3;74;048;14046;0;Gartenstraße
+05;3;74;048;14291;0;Gassenhagen
+05;3;74;048;14478;0;Gerresheimer Straße
+05;3;74;048;14584;0;Gimmicker Weg
+05;3;74;048;14263;0;Ginsterweg
+05;3;74;048;14226;0;Grenzweg
+05;3;74;048;14458;0;Großfischbacher Straße
+05;3;74;048;14243;0;Grubenweg
+05;3;74;048;14047;0;Grüner Weg
+05;3;74;048;14138;0;Gustav-Adolf-Straße
+05;3;74;048;14048;0;Gustav-Friedrich-Siedlung
+05;3;74;048;14280;0;Gutsberg
+05;3;74;048;14179;0;Haferland
+05;3;74;048;14293;0;Hahn
+05;3;74;048;14359;0;Hahnstraße
+05;3;74;048;14332;0;Halstenbacher Straße
+05;3;74;048;14049;0;Hambuchstraße
+05;3;74;048;14139;0;Hammerstraße
+05;3;74;048;14140;0;Hangstraße
+05;3;74;048;14180;0;Harbachtal
+05;3;74;048;14412;0;Hardt
+05;3;74;048;14294;0;Hau
+05;3;74;048;14050;0;Hauptstraße
+05;3;74;048;14051;0;Heckelsiefener Straße
+05;3;74;048;14052;0;Heckenweg
+05;3;74;048;14504;0;Heidersiefen
+05;3;74;048;14141;0;Heideweg
+05;3;74;048;14384;0;Heinrich-Stender-Straße
+05;3;74;048;14142;0;Helmerhausener Straße
+05;3;74;048;14522;0;Hengstenberger Straße
+05;3;74;048;14585;0;Hennes Kamp
+05;3;74;048;14203;0;Hermannstädter Gasse
+05;3;74;048;14385;0;Hermannstraße
+05;3;74;048;14181;0;Herrenhofer Straße
+05;3;74;048;14523;0;Hessklöhweg
+05;3;74;048;14487;0;Hillerscheider Straße
+05;3;74;048;14510;0;Hindelanger Straße
+05;3;74;048;14143;0;Hindenburgstraße
+05;3;74;048;14479;0;Hirschbergstraße
+05;3;74;048;14360;0;Hochweg
+05;3;74;048;14494;0;Hofstraße
+05;3;74;048;14526;0;Höhebusch
+05;3;74;048;14244;0;Hohefahrtstraße
+05;3;74;048;14054;0;Hohe Fuhr
+05;3;74;048;14145;0;Hohe Hardt
+05;3;74;048;14144;0;Höhenweg
+05;3;74;048;14619;0;Höherdahlstraße
+05;3;74;048;14182;0;Höherdahlstraße
+05;3;74;048;14053;0;Höhlenstraße
+05;3;74;048;14505;0;Höllerten
+05;3;74;048;14055;0;Homburger Straße
+05;3;74;048;14386;0;Hömeler Weg
+05;3;74;048;14056;0;Horst-Köhler-Straße
+05;3;74;048;14146;0;Hubertusweg
+05;3;74;048;14315;0;Hückhausener Berg
+05;3;74;048;14431;0;Hückhausener Straße
+05;3;74;048;14413;0;Hückhausener Straße
+05;3;74;048;14058;0;Hüttenstraße
+05;3;74;048;14147;0;Im alten Garten
+05;3;74;048;14446;0;Im Auel
+05;3;74;048;14059;0;Im Baumhof
+05;3;74;048;14183;0;Im Biesengarten
+05;3;74;048;14387;0;Im Blauen Hof
+05;3;74;048;14333;0;Im Blumengarten
+05;3;74;048;14184;0;Im Blumenwinkel
+05;3;74;048;14388;0;Im Bühlsgarten
+05;3;74;048;14311;0;Im Burscheid
+05;3;74;048;14596;0;Im Dahler Feld
+05;3;74;048;14597;0;Im Dahler Garten
+05;3;74;048;14598;0;Im Dahler Oberhof
+05;3;74;048;14599;0;Im Dahler Siefen
+05;3;74;048;14389;0;Im Dielcheskamp
+05;3;74;048;14440;0;Im Eisernen Berg
+05;3;74;048;14390;0;Im Gähnfeld
+05;3;74;048;14148;0;Im Hänchen
+05;3;74;048;14441;0;Im Hausgarten
+05;3;74;048;14542;0;Im Heidsgarten
+05;3;74;048;14300;0;Im Hof
+05;3;74;048;14520;0;Im Hofwinkel
+05;3;74;048;14546;0;Im Hüdigsgarten
+05;3;74;048;14118;0;Im Kamp
+05;3;74;048;14112;0;Im Krahnoechel
+05;3;74;048;14414;0;Im Laiengärtchen
+05;3;74;048;14436;0;Im Marschgarten
+05;3;74;048;14524;0;Im Mauren Garten
+05;3;74;048;14316;0;Immen
+05;3;74;048;14264;0;Immerkopf
+05;3;74;048;14361;0;Im Mühlenfeld
+05;3;74;048;14415;0;Im Ohler Garten
+05;3;74;048;14216;0;Im Rodfeld
+05;3;74;048;14060;0;Im Scheidter Hof
+05;3;74;048;14149;0;Im Siefen
+05;3;74;048;14061;0;Im Sonnenwinkel
+05;3;74;048;14480;0;Im Sträßchen
+05;3;74;048;14391;0;Im Weierhof
+05;3;74;048;14062;0;Im Weiher
+05;3;74;048;14334;0;Im Wiedenhof
+05;3;74;048;14117;0;Im Wiehler Feld
+05;3;74;048;14063;0;Im Wiesengrund
+05;3;74;048;14301;0;Im Winkel
+05;3;74;048;14075;0;In den Brucherwiesen
+05;3;74;048;14416;0;In den Weiden
+05;3;74;048;14535;0;In den Wiesen
+05;3;74;048;14481;0;In der Aue
+05;3;74;048;14150;0;In der Hofwiese
+05;3;74;048;14151;0;In der Kämpe
+05;3;74;048;14152;0;In der Kehre
+05;3;74;048;14185;0;In der Landwehr
+05;3;74;048;14186;0;Industriegelände
+05;3;74;048;14115;0;Isoldestraße
+05;3;74;048;14302;0;Jägerstraße
+05;3;74;048;14187;0;Jägerweg
+05;3;74;048;14153;0;Jahnstraße
+05;3;74;048;14532;0;Jakob-Neuleben-Straße
+05;3;74;048;14586;0;Jennecker Straße
+05;3;74;048;14312;0;Kalkbergweg
+05;3;74;048;14469;0;Kalktal
+05;3;74;048;14217;0;Kämpchenweg
+05;3;74;048;14335;0;Kämperweg
+05;3;74;048;14065;0;Kampstraße
+05;3;74;048;14474;0;Katzensteig
+05;3;74;048;14218;0;Kaulenweg
+05;3;74;048;14154;0;Kehlinghausener Weg
+05;3;74;048;14265;0;Kiefernweg
+05;3;74;048;14155;0;Kirberg
+05;3;74;048;14336;0;Kirchweg
+05;3;74;048;14488;0;Kirschkamp
+05;3;74;048;14587;0;Kirschsiefen
+05;3;74;048;14208;0;Klausenburger Gasse
+05;3;74;048;14417;0;Kleebornen
+05;3;74;048;14318;0;Kleinfischbach
+05;3;74;048;14245;0;Knappenweg
+05;3;74;048;14473;0;Knippenweg
+05;3;74;048;14188;0;Kokeltal
+05;3;74;048;14066;0;Königssiefen
+05;3;74;048;14189;0;Koppelweg
+05;3;74;048;14337;0;Koppelweide
+05;3;74;048;14531;0;Kranichweg
+05;3;74;048;14219;0;Krawinkelstraße
+05;3;74;048;14509;0;Kriemhildstraße
+05;3;74;048;14204;0;Kronstädter Gasse
+05;3;74;048;14319;0;Kurtensiefen
+05;3;74;048;14067;0;Lerchenstraße
+05;3;74;048;14442;0;Lindenbergstraße
+05;3;74;048;14517;0;Lindenbergstraße
+05;3;74;048;14362;0;Lindener Straße
+05;3;74;048;14443;0;Lindener Straße
+05;3;74;048;14068;0;Lindenstraße
+05;3;74;048;14069;0;Lohengrinstraße
+05;3;74;048;14338;0;Margaretenanger
+05;3;74;048;14536;0;Margeritenweg
+05;3;74;048;14070;0;Marienberghausener Straße
+05;3;74;048;14190;0;Marienfelder Straße
+05;3;74;048;14339;0;Marienhagener Straße
+05;3;74;048;14508;0;Mauerwiese
+05;3;74;048;14550;0;Max-Planck-Straße
+05;3;74;048;14205;0;Mediascher Gasse
+05;3;74;048;14266;0;Meisenweg
+05;3;74;048;14482;0;Merkausener Straße
+05;3;74;048;14220;0;Merkausener Straße
+05;3;74;048;14287;0;Molbachweg
+05;3;74;048;14351;0;Monsau
+05;3;74;048;14496;0;Morkepützer Straße
+05;3;74;048;14501;0;Morkepützer Straße
+05;3;74;048;14072;0;Mozartweg
+05;3;74;048;14209;0;Mühlbacher Gasse
+05;3;74;048;14073;0;Mühlenauer Straße
+05;3;74;048;14363;0;Mühlener Straße
+05;3;74;048;14364;0;Mühlenfeldstraße
+05;3;74;048;14074;0;Mühlenstraße
+05;3;74;048;14502;0;Mühlhausener Straße
+05;3;74;048;14506;0;Neuenhausener Weg
+05;3;74;048;14447;0;Neuklefstraße
+05;3;74;048;14076;0;Neuwiehler Straße
+05;3;74;048;14432;0;Nibelungenstraße
+05;3;74;048;14369;0;Niederbellinghausen
+05;3;74;048;14370;0;Niederhof
+05;3;74;048;14191;0;Nösnerland
+05;3;74;048;14077;0;Nümbrechter Straße
+05;3;74;048;14078;0;Nürsche
+05;3;74;048;14392;0;Oberbantenberger Straße
+05;3;74;048;14400;0;Oberholzen
+05;3;74;048;14079;0;Oberwiehler Straße
+05;3;74;048;14080;0;Ohl
+05;3;74;048;14081;0;Ohler Berg
+05;3;74;048;14082;0;Ohlerhammer
+05;3;74;048;14288;0;Ortsstraße
+05;3;74;048;14192;0;Oskar-Hartmann-Straße
+05;3;74;048;14393;0;Oststraße
+05;3;74;048;14538;0;Otto-Dick-Straße
+05;3;74;048;14083;0;Parsifalstraße
+05;3;74;048;14340;0;Pergenrother Straße
+05;3;74;048;14084;0;Perker Straße
+05;3;74;048;14448;0;Peter-Steinmetzler-Straße
+05;3;74;048;14401;0;Pfaffenberg
+05;3;74;048;14193;0;Pfaffenscheider Weg
+05;3;74;048;14394;0;Pfenderstraße
+05;3;74;048;14085;0;Puhler Straße
+05;3;74;048;14595;0;Pützberger Höhe
+05;3;74;048;14453;0;Quellenweg
+05;3;74;048;14194;0;Reenerland
+05;3;74;048;14540;0;Rehwinkel
+05;3;74;048;14221;0;Remmelsohler Weg
+05;3;74;048;14454;0;Remperger Straße
+05;3;74;048;14157;0;Repschenrother Straße
+05;3;74;048;14210;0;Repser Gasse
+05;3;74;048;14418;0;Reuschenbach
+05;3;74;048;14086;0;Rheingoldstraße
+05;3;74;048;14087;0;Richard-Wagner-Straße
+05;3;74;048;14544;0;Ricker Wiese
+05;3;74;048;14419;0;Rinnchenweg
+05;3;74;048;14249;0;Robert-Bosch-Straße
+05;3;74;048;14529;0;Robert-Koch-Straße
+05;3;74;048;14303;0;Römerstraße
+05;3;74;048;14088;0;Rosenfeldstraße
+05;3;74;048;14089;0;Rosenweg
+05;3;74;048;14313;0;Rotdornstraße
+05;3;74;048;14267;0;Rotkehlchenweg
+05;3;74;048;14483;0;Rottlandshaan
+05;3;74;048;14248;0;Rudolf-Diesel-Straße
+05;3;74;048;14232;0;Sangerweg
+05;3;74;048;14206;0;Schäßburger Gasse
+05;3;74;048;14195;0;Scheidter Straße
+05;3;74;048;14222;0;Schladestraße
+05;3;74;048;14434;0;Schlanderser Straße
+05;3;74;048;14090;0;Schlenker Straße
+05;3;74;048;14196;0;Schmiedeweg
+05;3;74;048;14091;0;Schulstraße
+05;3;74;048;14467;0;Schwalbenweg
+05;3;74;048;14341;0;Seifen
+05;3;74;048;14092;0;Sengbergstraße
+05;3;74;048;14197;0;Siebenbürger Platz
+05;3;74;048;14093;0;Siefener Straße
+05;3;74;048;14575;0;Siefener Straße
+05;3;74;048;14113;0;Siegfriedstraße
+05;3;74;048;14543;0;Soelsiefener Berg
+05;3;74;048;14094;0;Soelsiefener Straße
+05;3;74;048;14343;0;Sonnenkamp
+05;3;74;048;14304;0;Sonnenweg
+05;3;74;048;14403;0;Steinacker
+05;3;74;048;14233;0;Steinhardtstraße
+05;3;74;048;14395;0;Steinweg
+05;3;74;048;14223;0;Stettiner Straße
+05;3;74;048;14342;0;Stiller Winkel
+05;3;74;048;14396;0;Stollenweg
+05;3;74;048;14475;0;Talblick
+05;3;74;048;14344;0;Talstraße
+05;3;74;048;14095;0;Tannhäuserstraße
+05;3;74;048;14096;0;Taubenweg
+05;3;74;048;14158;0;Thalhauser Weg
+05;3;74;048;14246;0;Theodor-Storm-Straße
+05;3;74;048;14489;0;Tringergarten
+05;3;74;048;14097;0;Tristanstraße
+05;3;74;048;14098;0;Tulpenweg
+05;3;74;048;14159;0;Uelpebergstraße
+05;3;74;048;14160;0;Uelpestraße
+05;3;74;048;14247;0;Uferstraße
+05;3;74;048;14099;0;Untere Dorfstraße
+05;3;74;048;14289;0;Unterhofstraße
+05;3;74;048;14455;0;Unterm Ziegenbusch
+05;3;74;048;14198;0;Unterwald
+05;3;74;048;14426;0;Verr
+05;3;74;048;14268;0;Vogelsangerweg
+05;3;74;048;14224;0;Vollmerhausener Weg
+05;3;74;048;14516;0;Vor den Birken
+05;3;74;048;14420;0;Vor der Ley
+05;3;74;048;14404;0;Wald
+05;3;74;048;14449;0;Waldmannsweg
+05;3;74;048;14100;0;Waldstraße
+05;3;74;048;14101;0;Warthstraße
+05;3;74;048;14620;0;Weidenbachstraße
+05;3;74;048;14102;0;Weidenbachstraße
+05;3;74;048;14103;0;Weidenkamp
+05;3;74;048;14104;0;Weidenweg
+05;3;74;048;14397;0;Weierhofweg
+05;3;74;048;14430;0;Weierhofweg
+05;3;74;048;14421;0;Weiershagener Straße
+05;3;74;048;14533;0;Weiher-Passage
+05;3;74;048;14530;0;Weiherplatz
+05;3;74;048;14345;0;Weiherstraße
+05;3;74;048;14199;0;Weinland
+05;3;74;048;14476;0;Wellersiefen
+05;3;74;048;14314;0;Wennweg
+05;3;74;048;14527;0;Werner-von-Siemens-Straße
+05;3;74;048;14525;0;Wiehlblick
+05;3;74;048;14424;0;Wiehlsiefen
+05;3;74;048;14422;0;Wiehlsiefener Straße
+05;3;74;048;14105;0;Wiesenstraße
+05;3;74;048;14305;0;Wildparkstraße
+05;3;74;048;14106;0;Wilhelm-Grümer-Weg
+05;3;74;048;14107;0;Wilhelm-Idel-Straße
+05;3;74;048;14306;0;Wilhelmstraße
+05;3;74;048;14290;0;Wolfsgarten
+05;3;74;048;14108;0;Wülfringhausener Straße
+05;3;74;048;14109;0;Zaun
+05;3;74;048;14200;0;Zeitstraße
+05;3;74;048;14427;0;Zeitstraße
+05;3;74;048;14110;0;Zirrer Straße
+05;3;74;048;14459;0;Zum alten Hof
+05;3;74;048;14162;0;Zum alten Weiher
+05;3;74;048;14521;0;Zum Bergerholz
+05;3;74;048;14040;0;Zum Bismarckturm
+05;3;74;048;14346;0;Zum Böckelte
+05;3;74;048;14456;0;Zum Buchholz
+05;3;74;048;14460;0;Zum Buchholzfeld
+05;3;74;048;14347;0;Zum Dorfbrunnen
+05;3;74;048;14461;0;Zum Dorfhaus
+05;3;74;048;14348;0;Zum Flurschütz
+05;3;74;048;14163;0;Zum Gerstenhahn
+05;3;74;048;14423;0;Zum Hawinkel
+05;3;74;048;14349;0;Zum Hegesiefen
+05;3;74;048;14270;0;Zum Hochbehälter
+05;3;74;048;14164;0;Zum Hochwald
+05;3;74;048;14462;0;Zum Hofgarten
+05;3;74;048;14528;0;Zum Jagdhaus
+05;3;74;048;14398;0;Zum Köppchen
+05;3;74;048;14470;0;Zum Kreuzweg
+05;3;74;048;14225;0;Zum Lievenhaan
+05;3;74;048;14557;0;Zum Loopetal
+05;3;74;048;14604;0;Zum Scherbusch
+05;3;74;048;14484;0;Zum Seifen
+05;3;74;048;14463;0;Zum Stollen
+05;3;74;048;14490;0;Zum Treppchen
+05;3;74;048;14588;0;Zum Weiher
+05;3;74;048;14464;0;Zur Bölze
+05;3;74;048;14497;0;Zur Bormig
+05;3;74;048;14589;0;Zur Bornspringe
+05;3;74;048;14534;0;Zur Dorfkrone
+05;3;74;048;14555;0;Zur Dornhecke
+05;3;74;048;14465;0;Zur Fichte
+05;3;74;048;14366;0;Zur Fichtenbank
+05;3;74;048;14165;0;Zur Fliehburg
+05;3;74;048;14590;0;Zur Heienharth
+05;3;74;048;14491;0;Zur Horst
+05;3;74;048;14558;0;Zur Kahlhambuche
+05;3;74;048;14495;0;Zur Kellerwiese
+05;3;74;048;14166;0;Zur Kohlstatt
+05;3;74;048;14201;0;Zur Königsbitze
+05;3;74;048;14591;0;Zur Linde
+05;3;74;048;14498;0;Zur Litzend
+05;3;74;048;14552;0;Zur Miebach
+05;3;74;048;14111;0;Zur Zäuner Hardt
+05;3;74;048;14168;0;Zur Zippegosse

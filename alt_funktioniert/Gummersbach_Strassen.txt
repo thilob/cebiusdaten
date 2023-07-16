@@ -1,0 +1,786 @@
+05;3;74;012;6473;0;Abbenohler Weg
+05;3;74;012;6993;0;Adolph-Kolping-Straße
+05;3;74;012;6294;0;Aehlenberger Weg
+05;3;74;012;6235;0;Aggerstraße
+05;3;74;012;6295;0;Aggertalstraße
+05;3;74;012;6521;0;Aggerweg
+05;3;74;012;6478;0;Ahestraße
+05;3;74;012;6458;0;Ahlefelder Straße
+05;3;74;012;6002;0;Ahornweg
+05;3;74;012;6921;0;Akazienweg
+05;3;74;012;6095;0;Albert-Schweitzer-Platz
+05;3;74;012;6836;0;Albert-Stiefelhagen-Weg
+05;3;74;012;6005;0;Albertstraße
+05;3;74;012;6905;0;Albrechtplatz
+05;3;74;012;6912;0;Alexander-Fleming-Straße
+05;3;74;012;6387;0;Allensteiner Straße
+05;3;74;012;6189;0;Alpestraße
+05;3;74;012;6319;0;Alte Burgstraße
+05;3;74;012;6815;0;Alte Landstraße
+05;3;74;012;6809;0;Alte Landstraße
+05;3;74;012;6614;0;Alte Mühlenstraße
+05;3;74;012;6003;0;Alte Rathausstraße
+05;3;74;012;6151;0;Alter Postweg
+05;3;74;012;6886;0;Alter Schulweg
+05;3;74;012;6428;0;Alter Weg
+05;3;74;012;6510;0;Alte Schule
+05;3;74;012;6236;0;Alte Straße
+05;3;74;012;6911;0;Alte Vosselstraße
+05;3;74;012;6906;0;Am alten Bahnhof
+05;3;74;012;6459;0;Am alten Feld
+05;3;74;012;6107;0;Am alten Steg
+05;3;74;012;6834;0;Am Anger
+05;3;74;012;6615;0;Am Bachersiefen
+05;3;74;012;6565;0;Am Bäckersberg
+05;3;74;012;6190;0;Am Bäuweg
+05;3;74;012;6099;0;Am Berghof
+05;3;74;012;6528;0;Am Brink
+05;3;74;012;6131;0;Am Brunsberg
+05;3;74;012;6976;0;Am Buchenhain
+05;3;74;012;6162;0;Am Buchhagen
+05;3;74;012;7022;0;Am Bühl
+05;3;74;012;6353;0;Am Denscheid
+05;3;74;012;6639;0;Am Eichholz
+05;3;74;012;6004;0;Am Einhorn
+05;3;74;012;6218;0;Am Epelberg
+05;3;74;012;6100;0;Am Fahrlöh
+05;3;74;012;6378;0;Am Funkenberg
+05;3;74;012;6790;0;Am Hallöh
+05;3;74;012;6101;0;Am Hammer
+05;3;74;012;6856;0;Am Hang
+05;3;74;012;6191;0;Am Heidnocken
+05;3;74;012;6438;0;Am Heiligenstock
+05;3;74;012;6006;0;Am Hepel
+05;3;74;012;6296;0;Am Herweg
+05;3;74;012;6341;0;Am Höchst
+05;3;74;012;6320;0;Am Hofacker
+05;3;74;012;6237;0;Am Homertsiefen
+05;3;74;012;6989;0;Am Hüttenberg
+05;3;74;012;6007;0;Am Kerberg
+05;3;74;012;6529;0;Am Kirchgarten
+05;3;74;012;6379;0;Am Kittelbusch
+05;3;74;012;6816;0;Am Knappen
+05;3;74;012;6008;0;Am Kohlberg
+05;3;74;012;7025;0;Am Kolmichsiefen
+05;3;74;012;6113;0;Am Krusenberg
+05;3;74;012;6102;0;Am Langenberg
+05;3;74;012;6306;0;Am Langenfeld
+05;3;74;012;6861;0;Am Lockfeld
+05;3;74;012;6348;0;Am Löh
+05;3;74;012;6995;0;Am Lohhagen
+05;3;74;012;6398;0;Am Markt
+05;3;74;012;6132;0;Ammerweg
+05;3;74;012;6305;0;Am Nordpol
+05;3;74;012;6106;0;Am Ohl
+05;3;74;012;6566;0;Am Ramskopf
+05;3;74;012;6219;0;Am Rennerpark
+05;3;74;012;6640;0;Am Rosberg
+05;3;74;012;6619;0;Am Rosenhügel
+05;3;74;012;6176;0;Am Rosenkamp
+05;3;74;012;6514;0;Am Sandberg
+05;3;74;012;6009;0;Am Sängerheim
+05;3;74;012;6810;0;Am Schmittenberg
+05;3;74;012;6551;0;Am Schütt
+05;3;74;012;6522;0;Am Schützenheim
+05;3;74;012;6133;0;Amselweg
+05;3;74;012;6541;0;Am Silbersee
+05;3;74;012;6103;0;Am Sonnenberg
+05;3;74;012;6330;0;Am Stahlberg
+05;3;74;012;6011;0;Am Steinberg
+05;3;74;012;6530;0;Am Steinbergshof
+05;3;74;012;6260;0;Am Steinweg
+05;3;74;012;6297;0;Am Stockweg
+05;3;74;012;6831;0;Am Strauch
+05;3;74;012;6786;0;Am Stutzemer
+05;3;74;012;6163;0;Am Vorbecken
+05;3;74;012;6214;0;Am Waldhang
+05;3;74;012;6012;0;Am Wehrenbeul
+05;3;74;012;6013;0;Am Wiedenhof
+05;3;74;012;6192;0;Am Wiesenhang
+05;3;74;012;6182;0;Am Windfuß
+05;3;74;012;6659;0;An den Brüchen
+05;3;74;012;6321;0;An den Eichen
+05;3;74;012;6193;0;An der Agger
+05;3;74;012;6832;0;An der Aussicht
+05;3;74;012;6014;0;An der Berstig
+05;3;74;012;6349;0;An der Burg
+05;3;74;012;6917;0;An der Burt
+05;3;74;012;6015;0;An der Höhe
+05;3;74;012;6238;0;An der Kehre
+05;3;74;012;6524;0;An der Leye
+05;3;74;012;6787;0;An der Mauerwiese
+05;3;74;012;6194;0;An der Mühlwiese
+05;3;74;012;6298;0;An der Nordhelle
+05;3;74;012;6183;0;An der Nörre
+05;3;74;012;6016;0;An der Schneppenhardt
+05;3;74;012;6017;0;An der Schüttenhöhe
+05;3;74;012;6043;0;An der Sporthalle
+05;3;74;012;6414;0;An der Wahr
+05;3;74;012;6389;0;An der Wende
+05;3;74;012;6534;0;Andienungsstraße
+05;3;74;012;6380;0;Andreasweg
+05;3;74;012;6788;0;Apfelbaum
+05;3;74;012;7034;0;Archimedesstraße
+05;3;74;012;6261;0;Arndtstraße
+05;3;74;012;6821;0;Auenweg
+05;3;74;012;6915;0;Auf dem Allöh
+05;3;74;012;6919;0;Auf dem Bühlerhahn
+05;3;74;012;6569;0;Auf dem Füllenkamp
+05;3;74;012;6377;0;Auf dem Höchsten
+05;3;74;012;6168;0;Auf dem Hohenstein
+05;3;74;012;6399;0;Auf dem Inken
+05;3;74;012;6299;0;Auf dem Kamp
+05;3;74;012;6479;0;Auf dem Leibel
+05;3;74;012;6616;0;Auf dem Schilde
+05;3;74;012;6617;0;Auf dem Tringelbusch
+05;3;74;012;6570;0;Auf dem Ufer
+05;3;74;012;6342;0;Auf den Bruchswiesen
+05;3;74;012;6817;0;Auf den Steinen
+05;3;74;012;6994;0;Auf der Breite
+05;3;74;012;6262;0;Auf der Brück
+05;3;74;012;6263;0;Auf der Ente
+05;3;74;012;6618;0;Auf der Gostert
+05;3;74;012;6833;0;Auf der Gummershardt
+05;3;74;012;6287;0;Auf der Hardt
+05;3;74;012;6164;0;Auf der Leie
+05;3;74;012;6018;0;Auf der Platte
+05;3;74;012;6415;0;Auf der Rosenthaler Höhe
+05;3;74;012;6990;0;Auf der Voßwiese
+05;3;74;012;6019;0;Augustastraße
+05;3;74;012;6020;0;Bachstraße
+05;3;74;012;6021;0;Bahnhofstraße
+05;3;74;012;6620;0;Bahnstraße
+05;3;74;012;6195;0;Baldenberger Weg
+05;3;74;012;6104;0;Beckestraße
+05;3;74;012;6022;0;Becketalstraße
+05;3;74;012;6594;0;Beethovenstraße
+05;3;74;012;6811;0;Berghausener Straße
+05;3;74;012;6365;0;Bergstraße
+05;3;74;012;6857;0;Bergwaldstraße
+05;3;74;012;6648;0;Berketstraße
+05;3;74;012;6024;0;Berliner Platz
+05;3;74;012;6265;0;Berlinstraße
+05;3;74;012;6568;0;Berlitzstraße
+05;3;74;012;6460;0;Bernberger Straße
+05;3;74;012;6907;0;Bertha-von-Suttner-Platz
+05;3;74;012;6908;0;Bertha-von-Suttner-Straße
+05;3;74;012;6239;0;Beseler Straße
+05;3;74;012;6311;0;Betriebsweg
+05;3;74;012;6401;0;Beulstraße
+05;3;74;012;6492;0;Beustenbachstraße
+05;3;74;012;6552;0;Bickenbachstraße
+05;3;74;012;6383;0;Bickenbachstraße
+05;3;74;012;6025;0;Birkenstraße
+05;3;74;012;6808;0;Birnbaum
+05;3;74;012;6891;0;Bismarckplatz
+05;3;74;012;6026;0;Bismarckstraße
+05;3;74;012;6196;0;Bleichweg
+05;3;74;012;6027;0;Blücherstraße
+05;3;74;012;6300;0;Bogengasse
+05;3;74;012;6197;0;Börnchenstraße
+05;3;74;012;6028;0;Bornerhof
+05;3;74;012;6149;0;Bracht
+05;3;74;012;6663;0;Brachweg
+05;3;74;012;6525;0;Branntenweg
+05;3;74;012;6894;0;Brantenhölzchen
+05;3;74;012;6350;0;Bredenbrucher Weg
+05;3;74;012;6105;0;Breite Straße
+05;3;74;012;6029;0;Breslauer Straße
+05;3;74;012;6160;0;Brink
+05;3;74;012;6030;0;Brückenstraße
+05;3;74;012;6496;0;Brückenweg
+05;3;74;012;6266;0;Brüder-Grimm-Straße
+05;3;74;012;6722;0;Brunnenweg
+05;3;74;012;6169;0;Brunohler Straße
+05;3;74;012;6031;0;Buchenweg
+05;3;74;012;6175;0;Bünghauser Straße
+05;3;74;012;6984;0;Bunsenstraße
+05;3;74;012;6433;0;Burbachstraße
+05;3;74;012;6255;0;Burgbergstraße
+05;3;74;012;6649;0;Burgstraße
+05;3;74;012;6331;0;Burgwiesenstraße
+05;3;74;012;6851;0;Cäciliastraße
+05;3;74;012;7036;0;Christian-Heyn-Straße
+05;3;74;012;6386;0;Cottbusstraße
+05;3;74;012;7026;0;Dachsweg
+05;3;74;012;6646;0;Damwiese
+05;3;74;012;6608;0;Dannenberger Straße
+05;3;74;012;6032;0;Danziger Straße
+05;3;74;012;6351;0;Deitenbacher Weg
+05;3;74;012;6033;0;Dellenfelder Straße
+05;3;74;012;6034;0;Denkmalweg
+05;3;74;012;6402;0;Derschlager Straße
+05;3;74;012;6823;0;Derstelstraße
+05;3;74;012;6246;0;Dieringhauser Straße
+05;3;74;012;6621;0;Dongenstraße
+05;3;74;012;6354;0;Dorfstraße
+05;3;74;012;6035;0;Dörnenstraße
+05;3;74;012;6198;0;Dörner Weg
+05;3;74;012;6792;0;Dr.Meyer-Jagenberg-Weg
+05;3;74;012;6134;0;Drosselweg
+05;3;74;012;6096;0;Dr.Ottmar-Kohler-Straße
+05;3;74;012;6835;0;Dr.Wiefel-Straße
+05;3;74;012;6114;0;Dümmlinghauser Straße
+05;3;74;012;6355;0;Dümmlinghauser Straße
+05;3;74;012;6199;0;Eckenhagener Straße
+05;3;74;012;6899;0;Eduard-Scheve-Straße
+05;3;74;012;6897;0;Eibenweg
+05;3;74;012;6267;0;Eichendorffstraße
+05;3;74;012;6531;0;Eichenhofstraße
+05;3;74;012;6174;0;Eichenkamp
+05;3;74;012;6461;0;Eichenweg
+05;3;74;012;6791;0;Eichholzweg
+05;3;74;012;6289;0;Eickenstraße
+05;3;74;012;6200;0;Eintrachtstraße
+05;3;74;012;6497;0;Eisenbahnstraße
+05;3;74;012;6909;0;Elsa-Brändström-Straße
+05;3;74;012;6036;0;Emilienstraße
+05;3;74;012;6037;0;Emmastraße
+05;3;74;012;6115;0;Enkerlöhstraße
+05;3;74;012;6201;0;Epelstraße
+05;3;74;012;6312;0;Erblandstraße
+05;3;74;012;6543;0;Erblandstraße
+05;3;74;012;6498;0;Erlenstraße
+05;3;74;012;6268;0;Ernst-Zimmermann-Straße
+05;3;74;012;6462;0;Eschenweg
+05;3;74;012;6793;0;Espenweg
+05;3;74;012;6622;0;Eulenhardtstraße
+05;3;74;012;6202;0;Eulenhofstraße
+05;3;74;012;6038;0;Fabrikstraße
+05;3;74;012;6499;0;Fährstraße
+05;3;74;012;6135;0;Falkenhöhe
+05;3;74;012;6136;0;Fasanenweg
+05;3;74;012;6039;0;Feldstraße
+05;3;74;012;6642;0;Feldweg
+05;3;74;012;6119;0;Fichtenstraße
+05;3;74;012;6137;0;Finkenweg
+05;3;74;012;6572;0;Fliederstraße
+05;3;74;012;6573;0;Florastraße
+05;3;74;012;6203;0;Flurstraße
+05;3;74;012;6040;0;Franz-Schubert-Straße
+05;3;74;012;7024;0;Fraunhoferstraße
+05;3;74;012;6804;0;Freiheitsstraße
+05;3;74;012;6789;0;Freiherr-vom-Stein-Straße
+05;3;74;012;6041;0;Friedensstraße
+05;3;74;012;6240;0;Friedhofstraße
+05;3;74;012;6803;0;Friedrich-Leitgen-Straße
+05;3;74;012;6470;0;Friedrichstaler Straße
+05;3;74;012;6042;0;Friedrichstraße
+05;3;74;012;6812;0;Fritz-Pregl-Straße
+05;3;74;012;7023;0;Fritz-Rau-Straße
+05;3;74;012;6081;0;Fröbelstraße
+05;3;74;012;6403;0;Frömmersbacher Straße
+05;3;74;012;6595;0;Furtwänglerstraße
+05;3;74;012;6900;0;Galileistraße
+05;3;74;012;6270;0;Ganghoferstraße
+05;3;74;012;6794;0;Gartenstraße
+05;3;74;012;6417;0;Gartenweg
+05;3;74;012;7038;0;Gebrüder-Ackermann-Straße
+05;3;74;012;6859;0;Gelpestraße
+05;3;74;012;6865;0;Gelpestraße
+05;3;74;012;6860;0;Gelpestraße
+05;3;74;012;6819;0;Gelpestraße
+05;3;74;012;6850;0;Gelpestraße
+05;3;74;012;6404;0;Genkelsperre
+05;3;74;012;6152;0;Genklerhardt
+05;3;74;012;6271;0;Gerhart-Hauptmann-Straße
+05;3;74;012;6044;0;Gimborner Straße
+05;3;74;012;6783;0;Ginsterweg
+05;3;74;012;6799;0;Glockenweg
+05;3;74;012;6045;0;Goebenstraße
+05;3;74;012;6284;0;Goethestraße
+05;3;74;012;6205;0;Grabenstraße
+05;3;74;012;7031;0;Graf-von-Löh-Straße
+05;3;74;012;6367;0;Grenzweg
+05;3;74;012;6138;0;Großenbernberger Straße
+05;3;74;012;6206;0;Großenohlstraße
+05;3;74;012;6046;0;Grotenbachstraße
+05;3;74;012;6643;0;Grube-Laura-Straße
+05;3;74;012;6650;0;Grubenstraße
+05;3;74;012;6328;0;Grünenthal
+05;3;74;012;6313;0;Grünstraße
+05;3;74;012;6332;0;Güberichweg
+05;3;74;012;6333;0;Gummarstraße
+05;3;74;012;6575;0;Gummerother Straße
+05;3;74;012;6463;0;Gummersbacher Straße
+05;3;74;012;6824;0;Gummershardter Weg
+05;3;74;012;6241;0;Gustav-Adolf-Straße
+05;3;74;012;6651;0;Gustavstraße
+05;3;74;012;6495;0;Gutenbergstraße
+05;3;74;012;6820;0;Hagen
+05;3;74;012;6301;0;Hagener Straße
+05;3;74;012;6207;0;Haidschlade
+05;3;74;012;6272;0;Halstenbachstraße
+05;3;74;012;6273;0;Hambaumsiedlung
+05;3;74;012;6515;0;Hammerstraße
+05;3;74;012;6264;0;Hammertaler Straße
+05;3;74;012;6108;0;Hammerwiese
+05;3;74;012;6432;0;Hangweg
+05;3;74;012;6047;0;Hans-Böckler-Straße
+05;3;74;012;6805;0;Hardenbergstraße
+05;3;74;012;6532;0;Hardtstraße
+05;3;74;012;6346;0;Hardtweg
+05;3;74;012;6343;0;Hardtwiesenstraße
+05;3;74;012;7027;0;Hasenweg
+05;3;74;012;6344;0;Hasselweg
+05;3;74;012;6795;0;Hauptstraße
+05;3;74;012;6480;0;Heckenweg
+05;3;74;012;6209;0;Heerstraße
+05;3;74;012;6571;0;Heideweg
+05;3;74;012;6652;0;Heiler Straße
+05;3;74;012;7037;0;Heiner-Brand-Platz
+05;3;74;012;6274;0;Heinrich-Heine-Straße
+05;3;74;012;6830;0;Heinrich-Krapoth-Straße
+05;3;74;012;6596;0;Heisenbergstraße
+05;3;74;012;6184;0;Helberger Straße
+05;3;74;012;6048;0;Helenenstraße
+05;3;74;012;6797;0;Helene-Ufer-Straße
+05;3;74;012;6653;0;Hellberg
+05;3;74;012;6873;0;Henri-Dunant-Straße
+05;3;74;012;7032;0;Henriette-Jügel-Straße
+05;3;74;012;6369;0;Hermann-Kind-Straße
+05;3;74;012;6366;0;Hermann-Löns-Straße
+05;3;74;012;6210;0;Hermann-Renner-Straße
+05;3;74;012;6049;0;Hermannsburgstraße
+05;3;74;012;6553;0;Herreshagener Straße
+05;3;74;012;6302;0;Hesselbacher Straße
+05;3;74;012;6986;0;Hildegard-von-Bingen-Weg
+05;3;74;012;6050;0;Hindenburgstraße
+05;3;74;012;6242;0;Hochstraße
+05;3;74;012;6358;0;Höfenstraße
+05;3;74;012;6635;0;Höfer-Ohl
+05;3;74;012;6316;0;Hofstraße
+05;3;74;012;6464;0;Hofwiesenstraße
+05;3;74;012;6465;0;Hohbeulstraße
+05;3;74;012;6796;0;Hohefuhrweg
+05;3;74;012;6500;0;Hohensteinstraße
+05;3;74;012;6381;0;Höhenweg
+05;3;74;012;6051;0;Hohe Straße
+05;3;74;012;6243;0;Hohler Straße
+05;3;74;012;6244;0;Homburger Straße
+05;3;74;012;6539;0;Hömelstraße
+05;3;74;012;6360;0;Hömelstraße
+05;3;74;012;6178;0;Hömelstraße
+05;3;74;012;6314;0;Hömelstraße
+05;3;74;012;6554;0;Hömerichstraße
+05;3;74;012;6384;0;Hömerichstraße
+05;3;74;012;6291;0;Homertskamp
+05;3;74;012;6416;0;Homertstraße
+05;3;74;012;6555;0;Hömicker Weg
+05;3;74;012;6837;0;Höveler Weg
+05;3;74;012;7067;0;Hubert-Sülzer-Straße
+05;3;74;012;6654;0;Hückeswagener Straße
+05;3;74;012;6556;0;Hülsenbuscher Straße
+05;3;74;012;6838;0;Hülsenweg
+05;3;74;012;6368;0;Hunstiger Straße
+05;3;74;012;6179;0;Hurststraße
+05;3;74;012;6052;0;Idastraße
+05;3;74;012;7028;0;Igelweg
+05;3;74;012;6259;0;Im Aggersiefen
+05;3;74;012;6053;0;Im Baumhof
+05;3;74;012;6153;0;Im Bergsiepen
+05;3;74;012;6166;0;Im Beul
+05;3;74;012;6334;0;Im Bonnen
+05;3;74;012;6644;0;Im Broich
+05;3;74;012;6165;0;Im Bruch
+05;3;74;012;6245;0;Im Eichenhof
+05;3;74;012;6412;0;Im Füllenhof
+05;3;74;012;6180;0;Im Grünen
+05;3;74;012;6609;0;Im Hahn
+05;3;74;012;6370;0;Im Halken
+05;3;74;012;6418;0;Im Heuhof
+05;3;74;012;6335;0;Im Hof
+05;3;74;012;6645;0;Im Hofgarten
+05;3;74;012;6371;0;Im Hofkamp
+05;3;74;012;6884;0;Im Höhgarten
+05;3;74;012;6116;0;Im Inken
+05;3;74;012;6557;0;Im Kamp
+05;3;74;012;6117;0;Im Kämpchen
+05;3;74;012;6429;0;Im Kirschenhof
+05;3;74;012;6624;0;Im Kloster
+05;3;74;012;6655;0;Im Leienkamp
+05;3;74;012;6610;0;Im Löe
+05;3;74;012;6778;0;Im Lütgental
+05;3;74;012;6204;0;Im Manshagen
+05;3;74;012;6419;0;Immertweg
+05;3;74;012;6279;0;Im Mühlengarten
+05;3;74;012;6864;0;Im Nöcher Hof
+05;3;74;012;6922;0;Im Nöckel
+05;3;74;012;6866;0;Im Peiseler Siepen
+05;3;74;012;6579;0;Im Rand
+05;3;74;012;6890;0;Im Rauhenbusch
+05;3;74;012;6501;0;Im Raukamp
+05;3;74;012;6111;0;Im Rehbockswinkel
+05;3;74;012;6489;0;Im Rodt
+05;3;74;012;6466;0;Im Schlenkerhof
+05;3;74;012;6981;0;Im Siefchen
+05;3;74;012;6054;0;Im Sohl
+05;3;74;012;6590;0;Im Tal
+05;3;74;012;6999;0;Im Vogelsang
+05;3;74;012;6211;0;Im Weidenbruch
+05;3;74;012;6276;0;Im Weiher
+05;3;74;012;6825;0;Im Winkel
+05;3;74;012;6336;0;Im Wolflöh
+05;3;74;012;6785;0;In den Buchen
+05;3;74;012;6388;0;In den Wiesen
+05;3;74;012;6559;0;In den Wiesen
+05;3;74;012;6055;0;In der Delle
+05;3;74;012;6840;0;In der Hülsbach
+05;3;74;012;6855;0;In der Hülsbach
+05;3;74;012;6992;0;In der Kalkschlade
+05;3;74;012;6516;0;In der Kampwiese
+05;3;74;012;6411;0;In der Lantemicke
+05;3;74;012;6303;0;In der Leimicke
+05;3;74;012;6056;0;In der Lochwiese
+05;3;74;012;6212;0;In der Mitte
+05;3;74;012;6213;0;In der Mühlhelle
+05;3;74;012;6405;0;In der Ratemicke
+05;3;74;012;6406;0;In der Schlaa
+05;3;74;012;6625;0;In der Schlade
+05;3;74;012;6118;0;In der Steinerwiese
+05;3;74;012;6889;0;In der Würdenwiese
+05;3;74;012;6057;0;Industriestraße
+05;3;74;012;6154;0;Inselweg
+05;3;74;012;6467;0;Islandstraße
+05;3;74;012;6373;0;Jägerstraße
+05;3;74;012;6304;0;Jahnstraße
+05;3;74;012;6502;0;Jasperweg
+05;3;74;012;6503;0;Junkerstraße
+05;3;74;012;6058;0;Kaiserstraße
+05;3;74;012;6449;0;Kalsbacher Weg
+05;3;74;012;6230;0;Kalteneich
+05;3;74;012;6895;0;Kalversiefen
+05;3;74;012;6059;0;Kampstraße
+05;3;74;012;6285;0;Kantstraße
+05;3;74;012;6626;0;Kapellenstraße
+05;3;74;012;6468;0;Karhellstraße
+05;3;74;012;6061;0;Karl-Eberhard-Straße
+05;3;74;012;6390;0;Karlsbader Straße
+05;3;74;012;6060;0;Karlstraße
+05;3;74;012;6121;0;Kastanienstraße
+05;3;74;012;6888;0;Käte-Strobel-Weg
+05;3;74;012;6903;0;Keplerweg
+05;3;74;012;6612;0;Kerbelweg
+05;3;74;012;6124;0;Kiefernweg
+05;3;74;012;6533;0;Kirchfeldstraße
+05;3;74;012;6062;0;Kirchfeldstraße
+05;3;74;012;6627;0;Kirchhellstraße
+05;3;74;012;6983;0;Kirchhoffstraße
+05;3;74;012;6420;0;Kirchplatz
+05;3;74;012;6862;0;Kirchstraße
+05;3;74;012;6215;0;Kirchweg
+05;3;74;012;6504;0;Kleffstraße
+05;3;74;012;6023;0;Kleine Bergstraße
+05;3;74;012;6139;0;Kleinenbernberger Straße
+05;3;74;012;6216;0;Klosterstraße
+05;3;74;012;6505;0;Kölner Straße
+05;3;74;012;6217;0;Kölner Straße
+05;3;74;012;6469;0;Kölner Straße
+05;3;74;012;6064;0;Königsberger Straße
+05;3;74;012;6278;0;Königstraße
+05;3;74;012;6581;0;Kopernikusstraße
+05;3;74;012;6506;0;Korlenbergstraße
+05;3;74;012;6065;0;Körnerstraße
+05;3;74;012;6813;0;Korweg
+05;3;74;012;6641;0;Kotthauser Straße
+05;3;74;012;6395;0;Koverstein
+05;3;74;012;6186;0;Koversteiner Weg
+05;3;74;012;6798;0;Kreuzstraße
+05;3;74;012;6457;0;Krummenohler Straße
+05;3;74;012;6247;0;Lachtstraße
+05;3;74;012;6629;0;Lachtstraße
+05;3;74;012;6582;0;Lambacher Weg
+05;3;74;012;6421;0;Lambertiweg
+05;3;74;012;6656;0;Landstraße
+05;3;74;012;6322;0;Langenbergstraße
+05;3;74;012;6323;0;Lantenbacher Straße
+05;3;74;012;6471;0;Lärchenweg
+05;3;74;012;6893;0;La Roche-sur-Yon-Straße
+05;3;74;012;6066;0;Lauenburger Straße
+05;3;74;012;6067;0;Lebrechtsruh
+05;3;74;012;6068;0;Lebrechtstraße
+05;3;74;012;6583;0;Leibnizstraße
+05;3;74;012;6248;0;Lichtstraße
+05;3;74;012;6426;0;Liefenroth
+05;3;74;012;6385;0;Liegnitzer Straße
+05;3;74;012;6337;0;Lindenau
+05;3;74;012;6120;0;Lindenstockstraße
+05;3;74;012;6220;0;Lindenstraße
+05;3;74;012;6818;0;Lindlarer Straße
+05;3;74;012;6221;0;Lingestenstraße
+05;3;74;012;6564;0;Lobscheider Straße
+05;3;74;012;6985;0;Lockenfeld
+05;3;74;012;6657;0;Löhestraße
+05;3;74;012;6222;0;Löwenberger Straße
+05;3;74;012;6069;0;Ludwigstraße
+05;3;74;012;6784;0;Ludwig-Winckel-Straße
+05;3;74;012;6070;0;Luisenstraße
+05;3;74;012;6187;0;Lüttemicker Weg
+05;3;74;012;6441;0;Luttersiefen
+05;3;74;012;6914;0;Madame-Curie-Straße
+05;3;74;012;6361;0;Maibuchenweg
+05;3;74;012;6257;0;Marie-Juchacz-Straße
+05;3;74;012;6800;0;Märkerstraße
+05;3;74;012;6071;0;Marktstraße
+05;3;74;012;7033;0;Martin-Siebert-Straße
+05;3;74;012;6249;0;Martinstraße
+05;3;74;012;6658;0;Mathildenstraße
+05;3;74;012;6507;0;Mauerweg
+05;3;74;012;6987;0;Max-Delbrück-Weg
+05;3;74;012;6584;0;Max-Planck-Straße
+05;3;74;012;6158;0;Meinerzhagener Straße
+05;3;74;012;6397;0;Meinerzhagener Straße
+05;3;74;012;6185;0;Meinerzhagener Straße
+05;3;74;012;6140;0;Meiseneck
+05;3;74;012;6250;0;Merhardtstraße
+05;3;74;012;6901;0;Merkurstraße
+05;3;74;012;6231;0;Mittelstebeckestraße
+05;3;74;012;6517;0;Mittelstraße
+05;3;74;012;6508;0;Mittelweg
+05;3;74;012;6072;0;Moltkestraße
+05;3;74;012;6630;0;Mörchenstraße
+05;3;74;012;6598;0;Mozartstraße
+05;3;74;012;6443;0;Mühle
+05;3;74;012;6472;0;Mühlenbergweg
+05;3;74;012;6518;0;Mühlenseßmarstraße
+05;3;74;012;6073;0;Mühlenstraße
+05;3;74;012;6356;0;Mühlenweg
+05;3;74;012;6660;0;Nächtenstraße
+05;3;74;012;6275;0;Neudieringhauser Straße
+05;3;74;012;6400;0;Neue Beckestraße
+05;3;74;012;6445;0;Neuenhaus
+05;3;74;012;6447;0;Neuenschmiede
+05;3;74;012;6155;0;Neuer Weg
+05;3;74;012;6839;0;Neusiedlerweg
+05;3;74;012;6109;0;Niedernhagener Straße
+05;3;74;012;6599;0;Nobelstraße
+05;3;74;012;6863;0;Nochener Straße
+05;3;74;012;6885;0;Nockenweg
+05;3;74;012;6841;0;Nordheller Weg
+05;3;74;012;6141;0;Nordring
+05;3;74;012;6074;0;Nordstraße
+05;3;74;012;6251;0;Obere Hardtstraße
+05;3;74;012;6842;0;Obergelpestraße
+05;3;74;012;6977;0;Oberlope
+05;3;74;012;6450;0;Obernhagener Straße
+05;3;74;012;6485;0;Oberrengseweg
+05;3;74;012;6600;0;Oberthstraße
+05;3;74;012;6434;0;Oberweg
+05;3;74;012;6123;0;Oelchenweg
+05;3;74;012;6170;0;Oetterstaler Straße
+05;3;74;012;6601;0;Offenbachstraße
+05;3;74;012;6631;0;Ohler Straße
+05;3;74;012;6223;0;Ohlstraße
+05;3;74;012;6375;0;Ohmiger Straße
+05;3;74;012;6487;0;Ohmiger Straße
+05;3;74;012;6364;0;Ohmigskamp
+05;3;74;012;6224;0;Olper Straße
+05;3;74;012;6288;0;Ortsstraße
+05;3;74;012;6997;0;Ösinghausener Straße
+05;3;74;012;6843;0;Osterhofstraße
+05;3;74;012;6661;0;Osternohstraße
+05;3;74;012;6372;0;Oststraße
+05;3;74;012;6844;0;Otto-Gebühr-Platz
+05;3;74;012;6577;0;Otto-Hahn-Straße
+05;3;74;012;6125;0;Pappelnstraße
+05;3;74;012;6988;0;Paracelsusstraße
+05;3;74;012;6075;0;Parkstraße
+05;3;74;012;6602;0;Pasteurstraße
+05;3;74;012;6780;0;Paul-Ehrlich-Straße
+05;3;74;012;6424;0;Pernzestraße
+05;3;74;012;6781;0;Peter-Heuser-Straße
+05;3;74;012;6782;0;Peter-König-Straße
+05;3;74;012;6490;0;Piener Weg
+05;3;74;012;6771;0;Poststraße
+05;3;74;012;6567;0;Prinzwiese
+05;3;74;012;6874;0;Prof.-Sauerbruch-Weg
+05;3;74;012;6292;0;Quellengrund
+05;3;74;012;6896;0;Quellenweg
+05;3;74;012;6225;0;Querstraße
+05;3;74;012;6892;0;Rathausplatz
+05;3;74;012;6494;0;Rebbelrother Straße
+05;3;74;012;6867;0;Recklinghausen
+05;3;74;012;6076;0;Reininghauser Straße
+05;3;74;012;6523;0;Remmelsohler Straße
+05;3;74;012;6252;0;Richard-Sondermann-Straße
+05;3;74;012;6978;0;Robert-Bosch-Straße
+05;3;74;012;6586;0;Robert-Koch-Straße
+05;3;74;012;6077;0;Robertstraße
+05;3;74;012;6868;0;Rodt
+05;3;74;012;6451;0;Rohlandweg
+05;3;74;012;6587;0;Röntgenstraße
+05;3;74;012;6078;0;Roonstraße
+05;3;74;012;6822;0;Rosenstraße
+05;3;74;012;6422;0;Rosenthaler Weg
+05;3;74;012;6171;0;Rosenweg
+05;3;74;012;6079;0;Rospestraße
+05;3;74;012;6535;0;Rospestraße
+05;3;74;012;6632;0;Rospetalstraße
+05;3;74;012;6509;0;Rundstraße
+05;3;74;012;6662;0;Sandweg
+05;3;74;012;6902;0;Saturnstraße
+05;3;74;012;6452;0;Schemmener Straße
+05;3;74;012;6280;0;Schillerstraße
+05;3;74;012;6711;0;Schlader Weg
+05;3;74;012;6772;0;Schlehenweg
+05;3;74;012;6338;0;Schmiedeweg
+05;3;74;012;6453;0;Schneppbicker Weg
+05;3;74;012;6544;0;Schneppsiefenstraße
+05;3;74;012;6540;0;Schneppsiefenstraße
+05;3;74;012;6423;0;Schnuter Weg
+05;3;74;012;6545;0;Schönenberger Straße
+05;3;74;012;6633;0;Schulbergstraße
+05;3;74;012;6281;0;Schulstraße
+05;3;74;012;6826;0;Schulweg
+05;3;74;012;6998;0;Schumannstraße
+05;3;74;012;6578;0;Schürweg
+05;3;74;012;6547;0;Schusterburg
+05;3;74;012;6080;0;Schützenstraße
+05;3;74;012;6126;0;Schützenweg
+05;3;74;012;6142;0;Schwalbenweg
+05;3;74;012;6845;0;Schwarzenberger Straße
+05;3;74;012;6806;0;S+C Wohnterrassen
+05;3;74;012;6082;0;Seßmarstraße
+05;3;74;012;6588;0;Siebenbürgenstraße
+05;3;74;012;6491;0;Siedlungsweg
+05;3;74;012;6208;0;Sienhardtstraße
+05;3;74;012;6474;0;Siepenstraße
+05;3;74;012;6083;0;Singerbrinkstraße
+05;3;74;012;6827;0;Sommerweg
+05;3;74;012;6549;0;Sonnenberg
+05;3;74;012;6324;0;Sonnenbergstraße
+05;3;74;012;6232;0;Sonneneck
+05;3;74;012;6481;0;Sonnenhelle
+05;3;74;012;6475;0;Sonnenstraße
+05;3;74;012;6408;0;Sonnenweg
+05;3;74;012;6308;0;Sperrmauer
+05;3;74;012;6437;0;Springer Weg
+05;3;74;012;6256;0;Stahlstraße
+05;3;74;012;6143;0;Stareneck
+05;3;74;012;6920;0;Stauweiher
+05;3;74;012;6536;0;Steinenbrückstraße
+05;3;74;012;7030;0;Steinmüllerallee
+05;3;74;012;6282;0;Steinstraße
+05;3;74;012;6409;0;Steinweg
+05;3;74;012;6283;0;Sternstraße
+05;3;74;012;6084;0;Stettiner Straße
+05;3;74;012;6526;0;Stockhardtweg
+05;3;74;012;6085;0;Stolpstraße
+05;3;74;012;6852;0;Stompenweg
+05;3;74;012;6561;0;Straße
+05;3;74;012;6603;0;Straußstraße
+05;3;74;012;6634;0;Strombachstraße
+05;3;74;012;6853;0;Strünkenweg
+05;3;74;012;6253;0;Stüfkenskamp
+05;3;74;012;6144;0;Südring
+05;3;74;012;6226;0;Südstraße
+05;3;74;012;6290;0;Sundhellener Weg
+05;3;74;012;6110;0;Talbeckestraße
+05;3;74;012;6482;0;Talblick
+05;3;74;012;6410;0;Talsperrenweg
+05;3;74;012;6086;0;Talstraße
+05;3;74;012;6898;0;Tannenfeldstraße
+05;3;74;012;6127;0;Tannenweg
+05;3;74;012;6145;0;Taubenweg
+05;3;74;012;6339;0;Teckenhahn
+05;3;74;012;6128;0;Teichstraße
+05;3;74;012;6801;0;Thaler Weg
+05;3;74;012;6858;0;Theis Straße
+05;3;74;012;6904;0;Theodor-Braeucker-Platz
+05;3;74;012;6476;0;Theodor-Heuss-Straße
+05;3;74;012;6828;0;Tiefentaler Weg
+05;3;74;012;6391;0;Tilsiter Straße
+05;3;74;012;6589;0;Tulpenstraße
+05;3;74;012;6227;0;Turmstraße
+05;3;74;012;6129;0;Über dem Hofe
+05;3;74;012;6228;0;Uferstraße
+05;3;74;012;6511;0;Uferweg
+05;3;74;012;6130;0;Ulmenweg
+05;3;74;012;6254;0;Ulrichstraße
+05;3;74;012;6325;0;Unnenbergstraße
+05;3;74;012;6591;0;Unterlope
+05;3;74;012;6869;0;Veste
+05;3;74;012;7035;0;Victoriahöhe
+05;3;74;012;6604;0;Virchowstraße
+05;3;74;012;6854;0;Vogteistraße
+05;3;74;012;6628;0;Vollmerhauser Straße
+05;3;74;012;6580;0;von-Behring-Straße
+05;3;74;012;6063;0;von-Steinen-Straße
+05;3;74;012;6156;0;Vor dem Blumberg
+05;3;74;012;6592;0;Vor dem Wald
+05;3;74;012;6326;0;Vor der Höhe
+05;3;74;012;6477;0;Vosselstraße
+05;3;74;012;6605;0;Wagnerstraße
+05;3;74;012;6088;0;Waldenburger Straße
+05;3;74;012;6870;0;Waldesruh
+05;3;74;012;6393;0;Waldheimstraße
+05;3;74;012;6087;0;Waldstraße
+05;3;74;012;6847;0;Waldweg
+05;3;74;012;6814;0;Wanderweg
+05;3;74;012;6089;0;Wasserfuhrstraße
+05;3;74;012;6317;0;Wasserwerkstraße
+05;3;74;012;6519;0;Weckenbergstraße
+05;3;74;012;6848;0;Wegescheidstraße
+05;3;74;012;6229;0;Wehrstraße
+05;3;74;012;6122;0;Weidenstraße
+05;3;74;012;6512;0;Weiherstraße
+05;3;74;012;6979;0;Werner-von-Siemens-Straße
+05;3;74;012;6846;0;Wervershoofer Straße
+05;3;74;012;6392;0;Weststraße
+05;3;74;012;6576;0;Weststraße
+05;3;74;012;6558;0;Westtangente
+05;3;74;012;6258;0;Westtangente
+05;3;74;012;6537;0;Westtangente
+05;3;74;012;6638;0;Westtangente
+05;3;74;012;6636;0;Westtangente
+05;3;74;012;6664;0;Westtangente
+05;3;74;012;6563;0;Wiesengrund
+05;3;74;012;6090;0;Wiesenstraße
+05;3;74;012;6097;0;Wilhelm-Breckow-Allee
+05;3;74;012;7068;0;Wilhelm-Heidbreder-Straße
+05;3;74;012;6910;0;Wilhelm-Hurtz-Straße
+05;3;74;012;6091;0;Wilhelmstraße
+05;3;74;012;6829;0;Windhagener Straße
+05;3;74;012;6092;0;Winterbeckestraße
+05;3;74;012;6666;0;Wörde
+05;3;74;012;6871;0;Würden
+05;3;74;012;6802;0;Würdener Weg
+05;3;74;012;6093;0;Yorckstraße
+05;3;74;012;6146;0;Zaunkönigsteg
+05;3;74;012;6991;0;Zedernweg
+05;3;74;012;6147;0;Zeisigpfad
+05;3;74;012;6094;0;Zeppelinstraße
+05;3;74;012;6157;0;Zinnenweg
+05;3;74;012;6374;0;Zu den Fischteichen
+05;3;74;012;6407;0;Zu den Gärten
+05;3;74;012;6454;0;Zum alten Hof
+05;3;74;012;6233;0;Zum Börnchen
+05;3;74;012;6430;0;Zum Burgberg
+05;3;74;012;6882;0;Zum Dellenfeld
+05;3;74;012;6439;0;Zum Eckkopf
+05;3;74;012;6593;0;Zum Hassel
+05;3;74;012;6980;0;Zum Herzsiefen
+05;3;74;012;6483;0;Zum Kabel
+05;3;74;012;6455;0;Zum Kellerhals
+05;3;74;012;6807;0;Zum Kranacker
+05;3;74;012;6916;0;Zum Mannsiefen
+05;3;74;012;6887;0;Zum Mühlenteich
+05;3;74;012;6431;0;Zum Niederfeld
+05;3;74;012;6177;0;Zum Nüchel
+05;3;74;012;6606;0;Zum Ötterstal
+05;3;74;012;6362;0;Zum Schießstand
+05;3;74;012;6269;0;Zum Schulzentrum
+05;3;74;012;6996;0;Zum Silbersiefen
+05;3;74;012;6310;0;Zum Sportplatz
+05;3;74;012;6173;0;Zum Sportplatz
+05;3;74;012;6982;0;Zum Stahlberg
+05;3;74;012;6436;0;Zum Steinacker
+05;3;74;012;6918;0;Zum Würmel
+05;3;74;012;6277;0;Zur Aggerhalle
+05;3;74;012;6376;0;Zur Dölpe
+05;3;74;012;7029;0;Zur Erzgrube
+05;3;74;012;6574;0;Zur Feste
+05;3;74;012;6849;0;Zur Gummershardt
+05;3;74;012;6611;0;Zur Linge
+05;3;74;012;6435;0;Zur Merhardt
+05;3;74;012;6759;0;Zur Mutzenwiese

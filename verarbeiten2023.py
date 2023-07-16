@@ -15,8 +15,66 @@ cur = conn.cursor()
 #cur.commit()
 print("Verbindung hergestellt")
 
-
 # Funktionen definieren
+
+def StrassentabelleAusgeben(Gemeindename):
+    
+    curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    SQL = "select * from gebref where gmd='{}'".format(Gemeindename)
+    print(SQL)
+    curgem.execute(SQL)
+    print("Nach Execute:  ")
+    row_count = 0
+    zeile1 = ""
+    for row in curgem:
+        row_count += 1
+        print(row_count)
+        zeile1 = row['landschl'] + ";" + row['regbezschl'] + ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
+
+    F2 = open(Gemeindename + "_Strassen.txt", "w", encoding="windows-1252", newline='\r\n')
+    curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    SQL2 = "select strschl, str from gebref where gmd='" + Gemeindename + "' order by str"
+    curstrasse.execute(SQL2)
+    # print(SQL2)
+    records = curstrasse.fetchall()
+    for strasse in records:
+        zeile = strasse["strschl"] + ";0;" + strasse["str"] + "\n"
+        zeile2 = str(zeile1) + str(zeile)
+        F2.write(zeile2)
+    F2.close()
+
+
+def Hausnummerntabelle(Gemeindename):
+    curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    SQL = "select * from gebref where gmd='{}'".format(Gemeindename)
+    print(SQL)
+    curgem.execute(SQL)
+    print("Nach Execute")
+    row_count = 0
+    zeile1 = ""
+    for row in curgem:
+        row_count += 1
+        print(row_count)
+        zeile1 = row['landschl'] + ";" + row['regbezschl'] + ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
+
+    F2 = open(Gemeindename + "_Hausnummern.txt", "w", encoding="windows-1252")
+    curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
+    SQL2 = "select strschl, hnr, adz, st_x(geom31466)::text as x, st_y(geom31466)::text as y  from " \
+           "gebref where gmd='" + Gemeindename + "' order by str,hnr"
+    curstrasse.execute(SQL2)
+    print(SQL2)
+    records = curstrasse.fetchall()
+    for strasse in records:
+        zeile = strasse["strschl"] + ";" + strasse["hnr"] + ";" + strasse["adz"] \
+                + ";001;" + strasse["x"] + ";" + strasse["y"] + ";A;00\n"
+        zeile2 = str(zeile1) + str(zeile)
+        print(zeile2)
+        F2.write(zeile2)
+    F2.close()
+
+
+
+
 
 def truncateGebref():
     cur.execute("truncate gebref_schluessel")
@@ -27,7 +85,7 @@ def truncateKreis():
     cur.execute("truncate gmadressen")
 
 
-def StrassentabelleAusgeben(Gemeindename):
+def StrassentabelleAusgebenAlt(Gemeindename):
     
     #
     #update gebref set geom31466=st_transform(geom25832,'EPSG:25832','EPSG:31466');
@@ -58,7 +116,7 @@ def StrassentabelleAusgeben(Gemeindename):
     F2.close()
 
 
-def Hausnummerntabelle(Gemeindename):
+def HausnummerntabelleAlt(Gemeindename):
     curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     SQL = "select * from gebref_schluessel where field_6='{}'".format(Gemeindename)
     print(SQL)
@@ -157,6 +215,12 @@ def gebaeudereferenzen_einlesen():
              i = 0
              print("\r" + m[1])
         i += 1
+
+    print ('Geom31466 erstellen')
+    SQL='update gebref set geom31466=st_transform(geom25832,31466)'
+    cur.execute(SQL)
+    conn.commit()
+    
     # print("\rBaue Straßennamen zusammen")
     # SQL = """update gebref set adresse = strassenname || ' ' || hnr || coalesce(zusatz,'')"""
     # cur.execute(SQL)
