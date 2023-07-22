@@ -259,7 +259,7 @@ class DatenDialog(QtWidgets.QMainWindow):
 
     def weiter(self):
         ausfuehren(self.ui.truncateGebref.isChecked(),self.ui.truncateKreis.isChecked(),self.ui.importGebref.isChecked(),self.ui.importKreis.isChecked(),self.ui.exportCebius.isChecked())
-        sys.exit(app.exec_())
+        sys.exit()
 
 
 def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius):
@@ -301,8 +301,8 @@ def main():
     app = QtWidgets.QApplication([])
     application = DatenDialog()
     application.show()
-    sys.exit(app.exec())
-
+    #sys.exit(app.exec())
+    app.exec()
 
 if __name__ == "__main__":
     main()
