@@ -1,6 +1,7 @@
 import re
 import sys
 import slugify
+
 import psycopg2 as psycopg2
 import psycopg2.extras
 from PyQt5 import QtWidgets
@@ -30,9 +31,10 @@ def StrassentabelleAusgeben(Kreis,Gemeindename):
         print(row_count)
         zeile1 = row['landschl'] + ";" + row['regbezschl'] + ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
 
-    F2 = open("./output/" + slugify(Kreis) + "_" + slugify(Gemeindename) + "_Strassen.txt", "w", encoding="windows-1252", newline='\r\n')
+    F2 = open("./output/" + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) + "_Strassen.txt", "w", encoding="windows-1252", newline='\r\n')
+    #F2 = open("./output/" + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) + "_Strassen.txt", "w")
     curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    SQL2 = "select strschl, str from gebref where gmd='" + Gemeindename + "' order by str"
+    SQL2 = "select distinct strschl, str from gebref where gmd='" + Gemeindename + "' order by str"
     curstrasse.execute(SQL2)
     # print(SQL2)
     records = curstrasse.fetchall()
@@ -56,7 +58,7 @@ def Hausnummerntabelle(Kreis,Gemeindename):
         print(row_count)
         zeile1 = row['landschl'] + ";" + row['regbezschl'] + ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
 
-    F2 = open("./output/"  + slugify(Kreis) + "_" + slugify(Gemeindename) + "_Hausnummern.txt", "w", encoding="windows-1252", newline='\r\n')
+    F2 = open("./output/"  + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) + "_Hausnummern.txt", "w", encoding="windows-1252", newline='\r\n')
     curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     SQL2 = "select strschl, hnr, adz, st_x(geom31466)::text as x, st_y(geom31466)::text as y  from " \
            "gebref where gmd='" + Gemeindename + "' order by str,hnr"
@@ -195,6 +197,7 @@ def gemeindeschluessel_einlesen():
 
 
 def gebaeudereferenzen_einlesen():
+    print ("Lese Gebäudereferenzen ein. Dies kann etwas dauern ......")
     # Aktuelle Gebäudereferenzen des Landes einlesen
     F = open("gebref.txt", "r", encoding="utf-8")
     i = -1
@@ -207,13 +210,14 @@ def gebaeudereferenzen_einlesen():
         SQL = """INSERT INTO public.gebref(nba, oid, qua, landschl, land, regbezschl, regbez, kreisschl, kreis, gmdschl, gmd, ottschl, ott, strschl, str, hnr, adz, zone, ostwert, nordwert, datum, geom25832)
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)"""
         data = (m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10], m[11], m[12], m[13], m[14],m[15],m[16],m[17],m[18],m[19],m[20],punkt) 
-        if i >= 0:
-             cur.execute(SQL, data)
-        if i == 1000:
-             conn.commit()
-             i = 0
-             print("\r" + m[1])
-        i += 1
+        if m[3]=="05" and m[5]=='3' and m[7]=='74':
+            if i >= 0:
+                 cur.execute(SQL, data)
+            if i == 1000:
+                conn.commit()
+                i = 0
+                print("\r" + m[1])
+            i += 1
 
     print ('Geom31466 erstellen')
     SQL='update gebref set geom31466=st_transform(geom25832,31466)'
@@ -253,7 +257,7 @@ class DatenDialog(QtWidgets.QMainWindow):
 
     def abbrechen(self):
         print("abbrechen")
-        sys.exit(app.exec_())
+        sys.exit(sys.exec_prefix())
 
     def weiter(self):
         ausfuehren(self.ui.truncateGebref.isChecked(),self.ui.truncateKreis.isChecked(),self.ui.importGebref.isChecked(),self.ui.importKreis.isChecked(),self.ui.exportCebius.isChecked())
