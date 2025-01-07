@@ -9,6 +9,7 @@ import psycopg2.extras
 from PySide6 import QtWidgets
 from DatenDialog_ui import Ui_datenDialog
 
+
 # Datenbankverbindung herstellen und Bewegungsdatentabellen leeren
 print("Programm gestartet")
 conn = psycopg2.connect("dbname=cebiusdaten user=cebiusdaten password=cebiusdaten")
@@ -221,14 +222,14 @@ def gebaeudereferenzen_einlesen():
         SQL = """INSERT INTO public.gebref(nba, oid, qua, landschl, land, regbezschl, regbez, kreisschl, kreis, gmdschl, gmd, ottschl, ott, strschl, str, hnr, adz, zone, ostwert, nordwert, datum, geom25832)
                 VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)"""
         data = (m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10], m[11], m[12], m[13], m[14],m[15],m[16],m[17],m[18],m[19],m[20],punkt) 
-        if m[3]=="05" and m[5]=='3' and m[7]=='74':
-            if i >= 0:
-                 cur.execute(SQL, data)
-            if i == 1000:
-                conn.commit()
-                i = 0
-                print("\r" + m[1])
-            i += 1
+        #if m[3]=="05" and m[5]=='3' and m[7]=='74':
+        if i >= 0:
+            cur.execute(SQL, data)
+        if i == 1000:
+            conn.commit()
+            i = 0
+            print("\r" + m[1])
+        i += 1
 
     print ('Geom31466 erstellen')
     SQL='update gebref set geom31466=st_transform(geom25832,31466)'
@@ -268,11 +269,11 @@ class DatenDialog(QtWidgets.QMainWindow):
 
     def abbrechen(self):
         print("abbrechen")
-        sys.exit()
+        exit(1)
 
     def weiter(self):
         ausfuehren(self.ui.truncateGebref.isChecked(),self.ui.truncateKreis.isChecked(),self.ui.importGebref.isChecked(),self.ui.importKreis.isChecked(),self.ui.exportCebius.isChecked(),self.ui.CheckboxGebrefHolen.isChecked(),self.ui.UrlGebrefHolen.text())
-        sys.exit()
+        exit(0)
 
 
 def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius,gebrefHolen,gebrefUrl):
@@ -284,7 +285,6 @@ def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius,gebr
     if (importGebref):
         #gemeindeschluessel_einlesen()
         gebaeudereferenzen_einlesen()
-
 
     if (importKreis):
         kreisdaten_einlesen()
@@ -303,8 +303,6 @@ def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius,gebr
     for gemeinde in gemeinden:
         print (gemeinde[0], gemeinde[1])
 
-
-
     if (exportCebius):
         for gemeinde in gemeinden:
             print(gemeinde)
@@ -320,5 +318,7 @@ def main():
     application.show()
     app.exec()
 
+
 if __name__ == "__main__":
     main()
+
