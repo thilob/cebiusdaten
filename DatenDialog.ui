@@ -42,14 +42,17 @@
   <widget class="QCheckBox" name="truncateGebref">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>20</y>
+     <x>100</x>
+     <y>110</y>
      <width>371</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>Gebref-Tabellen leeren</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="truncateKreis">
@@ -58,8 +61,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>50</y>
+     <x>100</x>
+     <y>140</y>
      <width>261</width>
      <height>21</height>
     </rect>
@@ -71,14 +74,17 @@
   <widget class="QCheckBox" name="importGebref">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>100</y>
+     <x>100</x>
+     <y>190</y>
      <width>321</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>Gebref-Tabellen neu einlesen</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
    </property>
   </widget>
   <widget class="QCheckBox" name="importKreis">
@@ -87,8 +93,8 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>130</y>
+     <x>100</x>
+     <y>220</y>
      <width>201</width>
      <height>21</height>
     </rect>
@@ -100,14 +106,46 @@
   <widget class="QCheckBox" name="exportCebius">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>180</y>
+     <x>100</x>
+     <y>270</y>
      <width>281</width>
      <height>21</height>
     </rect>
    </property>
    <property name="text">
     <string>Cebiusdateien ausgeben</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CheckboxGebrefHolen">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>381</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gebäudereferenzdatei neu laden</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="UrlGebrefHolen">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>621</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip</string>
    </property>
   </widget>
  </widget>

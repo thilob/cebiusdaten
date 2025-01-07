@@ -15,8 +15,8 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QCheckBox, QDialog, QPushButton,
-    QSizePolicy, QWidget)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QDialog, QLineEdit,
+    QPushButton, QSizePolicy, QWidget)
 
 class Ui_datenDialog(object):
     def setupUi(self, datenDialog):
@@ -31,21 +31,31 @@ class Ui_datenDialog(object):
         self.abbrechen.setGeometry(QRect(440, 440, 89, 28))
         self.truncateGebref = QCheckBox(datenDialog)
         self.truncateGebref.setObjectName(u"truncateGebref")
-        self.truncateGebref.setGeometry(QRect(50, 20, 371, 21))
+        self.truncateGebref.setGeometry(QRect(100, 110, 371, 21))
+        self.truncateGebref.setChecked(True)
         self.truncateKreis = QCheckBox(datenDialog)
         self.truncateKreis.setObjectName(u"truncateKreis")
         self.truncateKreis.setEnabled(False)
-        self.truncateKreis.setGeometry(QRect(50, 50, 261, 21))
+        self.truncateKreis.setGeometry(QRect(100, 140, 261, 21))
         self.importGebref = QCheckBox(datenDialog)
         self.importGebref.setObjectName(u"importGebref")
-        self.importGebref.setGeometry(QRect(50, 100, 321, 21))
+        self.importGebref.setGeometry(QRect(100, 190, 321, 21))
+        self.importGebref.setChecked(True)
         self.importKreis = QCheckBox(datenDialog)
         self.importKreis.setObjectName(u"importKreis")
         self.importKreis.setEnabled(False)
-        self.importKreis.setGeometry(QRect(50, 130, 201, 21))
+        self.importKreis.setGeometry(QRect(100, 220, 201, 21))
         self.exportCebius = QCheckBox(datenDialog)
         self.exportCebius.setObjectName(u"exportCebius")
-        self.exportCebius.setGeometry(QRect(50, 180, 281, 21))
+        self.exportCebius.setGeometry(QRect(100, 270, 281, 21))
+        self.exportCebius.setChecked(True)
+        self.CheckboxGebrefHolen = QCheckBox(datenDialog)
+        self.CheckboxGebrefHolen.setObjectName(u"CheckboxGebrefHolen")
+        self.CheckboxGebrefHolen.setGeometry(QRect(100, 20, 381, 23))
+        self.CheckboxGebrefHolen.setChecked(True)
+        self.UrlGebrefHolen = QLineEdit(datenDialog)
+        self.UrlGebrefHolen.setObjectName(u"UrlGebrefHolen")
+        self.UrlGebrefHolen.setGeometry(QRect(10, 50, 621, 25))
 
         self.retranslateUi(datenDialog)
         self.abbrechen.clicked.connect(datenDialog.abbrechen)
@@ -63,5 +73,7 @@ class Ui_datenDialog(object):
         self.importGebref.setText(QCoreApplication.translate("datenDialog", u"Gebref-Tabellen neu einlesen", None))
         self.importKreis.setText(QCoreApplication.translate("datenDialog", u"Kreistabelle neu einlesen", None))
         self.exportCebius.setText(QCoreApplication.translate("datenDialog", u"Cebiusdateien ausgeben", None))
+        self.CheckboxGebrefHolen.setText(QCoreApplication.translate("datenDialog", u"Geb\u00e4udereferenzdatei neu laden", None))
+        self.UrlGebrefHolen.setText(QCoreApplication.translate("datenDialog", u"https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip", None))
     # retranslateUi
 

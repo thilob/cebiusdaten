@@ -1,10 +1,13 @@
 import re
 import sys
+import requests
 import slugify
 import psycopg2 
+import zipfile 
+import shutil
 import psycopg2.extras
-from PyQt6 import QtWidgets
-from DatenDialog import Ui_datenDialog
+from PySide6 import QtWidgets
+from DatenDialog_ui import Ui_datenDialog
 
 # Datenbankverbindung herstellen und Bewegungsdatentabellen leeren
 print("Programm gestartet")
@@ -15,6 +18,15 @@ cur = conn.cursor()
 print("Verbindung hergestellt")
 
 # Funktionen definieren
+
+def GebrefLadenUndEntpacken(url):
+    print ("Gebäudereferenzen werden heruntergeladen....")
+    r = requests.get(url, allow_redirects=True)
+    open('gebref.zip', 'wb').write(r.content)
+    print('Gebäudereferenzen werden entpackt...')
+    shutil.unpack_archive("gebref.zip")
+    print ("Gebäudereferenzen wurden entpackt")
+    
 
 def StrassentabelleAusgeben(Kreis,Gemeindename):
     
@@ -173,7 +185,7 @@ def kreisdaten_einlesen():
     conn.commit()
     SQL = "update gmadressen set geom31466=st_transform(geom25832,31466)"
     cur.execute(SQL)
-    SQL = "update gmadressen set nummernteil=substring(hsnr,'^[\d]*'), buchstaben=substring(hsnr,'[a-z]*$')"
+    SQL = "update gmadressen set nummernteil=substring(hsnr,'^[\\d]*'), buchstaben=substring(hsnr,'[a-z]*$')"
     cur.execute(SQL)
     conn.commit()
 
@@ -256,15 +268,19 @@ class DatenDialog(QtWidgets.QMainWindow):
 
     def abbrechen(self):
         print("abbrechen")
-        sys.exit(sys.exec_prefix())
+        sys.exit()
 
     def weiter(self):
-        ausfuehren(self.ui.truncateGebref.isChecked(),self.ui.truncateKreis.isChecked(),self.ui.importGebref.isChecked(),self.ui.importKreis.isChecked(),self.ui.exportCebius.isChecked())
+        ausfuehren(self.ui.truncateGebref.isChecked(),self.ui.truncateKreis.isChecked(),self.ui.importGebref.isChecked(),self.ui.importKreis.isChecked(),self.ui.exportCebius.isChecked(),self.ui.CheckboxGebrefHolen.isChecked(),self.ui.UrlGebrefHolen.text())
         sys.exit()
 
 
-def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius):
+def ausfuehren(truncGebref,truncKreis,importGebref,importKreis,exportCebius,gebrefHolen,gebrefUrl):
     print ("ausführen wurde aufgerufen!")
+    
+    if (gebrefHolen):
+        GebrefLadenUndEntpacken(gebrefUrl)
+
     if (importGebref):
         #gemeindeschluessel_einlesen()
         gebaeudereferenzen_einlesen()
@@ -302,7 +318,6 @@ def main():
     app = QtWidgets.QApplication([])
     application = DatenDialog()
     application.show()
-    #sys.exit(app.exec())
     app.exec()
 
 if __name__ == "__main__":
