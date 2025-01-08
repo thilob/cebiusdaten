@@ -62,6 +62,10 @@ class Ui_datenDialog(object):
         self.checkBoxNurOberbergLaden.setObjectName(u"checkBoxNurOberbergLaden")
         self.checkBoxNurOberbergLaden.setGeometry(QRect(80, 250, 331, 23))
         self.checkBoxNurOberbergLaden.setChecked(True)
+        self.checkBoxCleanOutput = QCheckBox(datenDialog)
+        self.checkBoxCleanOutput.setObjectName(u"checkBoxCleanOutput")
+        self.checkBoxCleanOutput.setGeometry(QRect(80, 320, 381, 23))
+        self.checkBoxCleanOutput.setChecked(True)
 
         self.retranslateUi(datenDialog)
         self.abbrechen.clicked.connect(datenDialog.abbrechen)
@@ -82,5 +86,6 @@ class Ui_datenDialog(object):
         self.label.setText(QCoreApplication.translate("datenDialog", u"Cebius-Hausnummernprozessor", None))
         self.label_2.setText(QCoreApplication.translate("datenDialog", u"Thilo Berger, 2025", None))
         self.checkBoxNurOberbergLaden.setText(QCoreApplication.translate("datenDialog", u"nur Dateien f\u00fcr den Oberbergischen Kreis laden", None))
+        self.checkBoxCleanOutput.setText(QCoreApplication.translate("datenDialog", u"vorhandene Dateien im output-Ordner l\u00f6schen", None))
     # retranslateUi
 

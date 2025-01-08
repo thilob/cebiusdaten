@@ -1,6 +1,8 @@
 """Importe
 """
 import re
+import os
+import glob
 import requests
 import slugify
 import psycopg2
@@ -62,7 +64,7 @@ def StrassentabelleAusgeben(Kreis, Gemeindename):
     F2.close()
 
 
-def Hausnummerntabelle(Kreis, Gemeindename):
+def HausnummerntabelleAusgeben(Kreis, Gemeindename):
     curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     SQL = "select * from gebref where gmd='{}'".format(Gemeindename)
     print(SQL)
@@ -171,8 +173,19 @@ class DatenDialog(QtWidgets.QMainWindow):
         exit(1)
 
     def weiter(self):
+        if (self.ui.checkBoxCleanOutput.isChecked()):
+            # Getting All Files List
+            fileList = glob.glob('output/*.txt', recursive=True)
+            # Remove all files one by one
+            for file in fileList:
+                try:
+                    os.remove(file)
+                except OSError:
+                    print("Error while deleting file")
+
         ausfuehren(self.ui.truncateGebref.isChecked(),  self.ui.importGebref.isChecked(
         ), self.ui.exportCebius.isChecked(), self.ui.CheckboxGebrefHolen.isChecked(), self.ui.UrlGebrefHolen.text(), self.ui.checkBoxNurOberbergLaden.isChecked())
+
         exit(0)
 
 
@@ -185,6 +198,12 @@ def ausfuehren(truncGebref,  importGebref,  exportCebius, gebrefHolen, gebrefUrl
     if (importGebref):
         # gemeindeschluessel_einlesen()
         gebaeudereferenzen_einlesen(checkBoxNurOberbergLaden)
+    
+    try:
+        os.remove("gebref.txt")
+        os.remove("gebref.zip")
+    except OSError:
+        print("Error while deleting file")
 
     # Gemeinden aus Datenbank auslesen
     SQL = "select distinct kreis, gmd from gebref order by kreis, gmd"
@@ -196,11 +215,11 @@ def ausfuehren(truncGebref,  importGebref,  exportCebius, gebrefHolen, gebrefUrl
     for gemeinde in gemeinden:
         print(gemeinde[0], gemeinde[1])
     if (exportCebius):
-#        GemeindenamenUndKennungenAusgeben()
+        #        GemeindenamenUndKennungenAusgeben()
         for gemeinde in gemeinden:
             print("Tabellen ausgeben für: " + str(gemeinde))
             StrassentabelleAusgeben(gemeinde[0], gemeinde[1])
-            Hausnummerntabelle(gemeinde[0], gemeinde[1])
+            HausnummerntabelleAusgeben(gemeinde[0], gemeinde[1])
     cur.close()
     conn.close()
     exit()

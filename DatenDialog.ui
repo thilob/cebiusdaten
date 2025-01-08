@@ -166,6 +166,22 @@
     <bool>true</bool>
    </property>
   </widget>
+  <widget class="QCheckBox" name="checkBoxCleanOutput">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>320</y>
+     <width>381</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>vorhandene Dateien im output-Ordner löschen</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections>
