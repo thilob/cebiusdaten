@@ -105,7 +105,7 @@ def truncateGebref():
 def gemeindeschluessel_einlesen():
     # Aktuelle Daten des Gemeindeschlüssels einlesen
     cur.execute("truncate gebref_schluessel")
-    F = open("gebref_schluessel.txt", "rb", encoding="utf-8")
+    F = open("gebref_schluessel.txt", "r", encoding="utf-8")
     for line in F:
         line = line.strip()
         while line.count(";") < 5:
@@ -122,7 +122,7 @@ def gemeindeschluessel_einlesen():
 def gebaeudereferenzen_einlesen(nurOberbergLaden):
     print("Lese Gebäudereferenzen ein. Dies kann etwas dauern ......")
     # Aktuelle Gebäudereferenzen des Landes einlesen
-    F = open("gebref.txt", "rb", encoding="utf-8")
+    F = open("gebref.txt", "r", encoding="utf-8")
     i = -1
     cur.execute("truncate gebref")
     for line in F:
