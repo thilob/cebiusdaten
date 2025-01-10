@@ -98,11 +98,10 @@ def HausnummerntabelleAusgeben(Kreis, Gemeindename):
 def truncateGebref():
     """Gebäudereferenztabellen leeren
     """
-    cur.execute("truncate gebref_schluessel")
     cur.execute("truncate gebref")
 
 
-def gemeindeschluessel_einlesen():
+""" def gemeindeschluessel_einlesen():
     # Aktuelle Daten des Gemeindeschlüssels einlesen
     cur.execute("truncate gebref_schluessel")
     F = open("gebref_schluessel.txt", "r", encoding="utf-8")
@@ -116,7 +115,7 @@ def gemeindeschluessel_einlesen():
         SQL = "insert into gebref_schluessel (field_1,field_2,field_3,field_4,field_5,field_6) values (%s,%s,%s,%s,%s,%s);"
         data = (m[0], m[1], m[2], m[3], m[4], m[5])
         cur.execute(SQL, data)
-    conn.commit()
+    conn.commit() """
 
 
 def gebaeudereferenzen_einlesen(nurOberbergLaden):
@@ -183,13 +182,13 @@ class DatenDialog(QtWidgets.QMainWindow):
                 except OSError:
                     print("Error while deleting file")
 
-        ausfuehren(self.ui.truncateGebref.isChecked(),  self.ui.importGebref.isChecked(
+        ausfuehren(self.ui.importGebref.isChecked(
         ), self.ui.exportCebius.isChecked(), self.ui.CheckboxGebrefHolen.isChecked(), self.ui.UrlGebrefHolen.text(), self.ui.checkBoxNurOberbergLaden.isChecked())
 
         exit(0)
 
 
-def ausfuehren(truncGebref,  importGebref,  exportCebius, gebrefHolen, gebrefUrl, checkBoxNurOberbergLaden):
+def ausfuehren(importGebref,  exportCebius, gebrefHolen, gebrefUrl, checkBoxNurOberbergLaden):
     print("ausführen wurde aufgerufen!")
 
     if (gebrefHolen):
@@ -198,7 +197,7 @@ def ausfuehren(truncGebref,  importGebref,  exportCebius, gebrefHolen, gebrefUrl
     if (importGebref):
         # gemeindeschluessel_einlesen()
         gebaeudereferenzen_einlesen(checkBoxNurOberbergLaden)
-    
+
     try:
         os.remove("gebref.txt")
         os.remove("gebref.zip")
