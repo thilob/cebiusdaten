@@ -187,12 +187,12 @@ class DatenDialog(QtWidgets.QMainWindow):
 
 
 def AktualitätenAusgeben():
-    SQL="select distinct landschl,regbezschl,kreisschl,gmdschl,gmd from gebref order by landschl, regbezschl, kreisschl,gmdschl"  
+    SQL="select distinct landschl,regbezschl,kreisschl,gmdschl,gmd, kreis from gebref order by landschl, regbezschl, kreisschl,gmdschl"  
     curgemeinde=conn.cursor()
     curgemeinde.execute(SQL)
     gemeinden=curgemeinde.fetchall()
     for gemeinde in gemeinden:
-        print (gemeinde[0] + ";" + gemeinde[1] + ";"  + gemeinde[2] + ";"  + gemeinde[3] + ";" + gemeinde[4] ,end=" ")
+        print (gemeinde[0] + ";" + gemeinde[1] + ";"  + gemeinde[2] + ";"  + gemeinde[3] + ";" + gemeinde[5] + ";"  + gemeinde[4],end=" ")
         print (" - ", end= " ")
         curmin=conn.cursor()
         minsql="select min(datum), max(datum) from gebref where landschl=%s and regbezschl=%s and kreisschl=%s and gmdschl=%s"   
