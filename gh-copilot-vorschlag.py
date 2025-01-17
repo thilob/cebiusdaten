@@ -13,11 +13,29 @@ from datetime import datetime, timedelta
 url = "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
 
 class GeoDataProcessor:
+    """
+    Eine Klasse zur Verarbeitung von Geodaten.
+
+    Attribute:
+        url (str): Die URL zum Herunterladen der Daten.
+        gdf (GeoDataFrame): Das GeoDataFrame, das die geladenen und verarbeiteten Daten enthält.
+    """
+
     def __init__(self, url):
+        """
+        Initialisiert die GeoDataProcessor-Klasse mit der angegebenen URL.
+
+        Args:
+            url (str): Die URL zum Herunterladen der Daten.
+        """
         self.url = url
         self.gdf = None
 
     def download_and_extract(self):
+        """
+        Lädt die Gebäudereferenzdaten herunter und extrahiert sie, wenn die Datei 'gebref.txt' nicht vorhanden ist
+        oder älter als 24 Stunden ist.
+        """
         download = False
         if not os.path.exists('gebref.txt'):
             download = True
@@ -40,6 +58,9 @@ class GeoDataProcessor:
             print("Die Datei 'gebref.txt' ist bereits vorhanden und aktuell. Es wird keine neue Datei heruntergeladen.")
 
     def load_data(self):
+        """
+        Lädt die Daten aus der Datei 'gebref.txt' und verarbeitet sie.
+        """
         chunks = []
         expected_columns = [
             "nba", "oid", "qua", "landschl", "land", "regbezschl", "regbez", "kreisschl", "kreis", "gmdschl",
@@ -65,21 +86,58 @@ class GeoDataProcessor:
         print(self.gdf)
 
     def group_and_sort(self, group_column):
+        """
+        Gruppiert und sortiert die Daten nach der angegebenen Spalte.
+
+        Args:
+            group_column (str): Die Spalte, nach der gruppiert und sortiert werden soll.
+
+        Returns:
+            list: Eine Liste der gruppierten und sortierten Werte.
+        """
         grouped = self.gdf[group_column].value_counts().sort_index()
         return grouped.index.tolist()
 
     def filter_and_sort_data(self, filter_column, filter_value, sort_columns):
+        """
+        Filtert und sortiert die Daten nach den angegebenen Spalten.
+
+        Args:
+            filter_column (str): Die Spalte, nach der gefiltert werden soll.
+            filter_value (str): Der Wert, nach dem gefiltert werden soll.
+            sort_columns (list): Die Spalten, nach denen sortiert werden soll.
+        """
         self.gdf = self.gdf[self.gdf[filter_column] == filter_value].sort_values(by=sort_columns)
 
     def save_data(self):
-        self.gdf.to_csv('output/gefiltert_sortiert.txt', index=False, sep='\t', encoding='utf-8')
-        print("Gefilterte und sortierte Daten wurden in 'output/gefiltert_sortiert.txt' gespeichert.")
+        """
+        Speichert die gefilterten und sortierten Daten in separaten Dateien für jeden Wert der Spalte 'gmd'.
+        """
+        unique_gmd_values = self.gdf['gmd'].unique()
+        for value in unique_gmd_values:
+            df_filtered = self.gdf[self.gdf['gmd'] == value]
+            filename = f"output/{value}.txt"
+            df_filtered.to_csv(filename, index=False, sep=';', encoding='utf-8')
+            print(f"Gefilterte und sortierte Daten für '{value}' wurden in '{filename}' gespeichert.")
 
     def clean_up(self):
+        """
+        Entfernt die heruntergeladene ZIP-Datei.
+        """
         if os.path.exists('gebref.zip'):
             os.remove('gebref.zip')
 
 def display_paginated_list(items, page_size=20):
+    """
+    Zeigt eine paginierte Liste von Elementen an und ermöglicht die Auswahl eines Elements.
+
+    Args:
+        items (list): Die Liste der anzuzeigenden Elemente.
+        page_size (int): Die Anzahl der Elemente pro Seite.
+
+    Returns:
+        str: Das ausgewählte Element oder None, wenn keine Auswahl getroffen wurde.
+    """
     console = Console()
     total_pages = (len(items) + page_size - 1) // page_size
     current_page = 0
@@ -118,10 +176,13 @@ def display_paginated_list(items, page_size=20):
             break
 
 def print_police_car():
+    """
+    Gibt eine ASCII-Grafik eines Polizeiautos mit Blaulicht aus.
+    """
     police_car = """
 \033[1;34m
-      _______
-  ___//  __|___
+       _______
+  ____//  __|___
  |___    ___   |
      |  |   |  |
      |__|___|__|
@@ -131,6 +192,9 @@ def print_police_car():
     print(police_car)
 
 def main():
+    """
+    Hauptfunktion des Programms. Führt den gesamten Prozess der Datenverarbeitung durch.
+    """
     processor = GeoDataProcessor(url)
     processor.download_and_extract()
     processor.load_data()
