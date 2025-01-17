@@ -6,6 +6,8 @@ import glob
 import requests
 import slugify
 import psycopg2
+import sqlite3
+import unicodedata
 import shutil
 import psycopg2.extras
 from PySide6 import QtWidgets
@@ -15,10 +17,27 @@ from DatenDialog_ui import Ui_datenDialog
 Der Cursor wird anschließend im weiteren Programm verwendet.
 """
 print("Programm gestartet")
+
+ # Verbindungsparameter
+dbname = "cebisdaten"
+user = "cebisdaten"
+password = "cebisdaten"
+host = "Localhost"
+port = "5432"
 conn = psycopg2.connect(
-    "dbname=cebiusdaten user=cebiusdaten password=cebiusdaten")
+    dbname=dbname,
+    user=user,
+    password=password,
+    host=host,
+    port=port,
+    options='-c client_encoding=WIN1252'
+)
+
 cur = conn.cursor()
 print("Verbindung hergestellt")
+
+
+
 
 
 def GebrefLadenUndEntpacken(url):
@@ -258,6 +277,8 @@ def ausfuehren(importGebref,  exportCebius, gebrefHolen, gebrefUrl, checkBoxNurO
 
 
 def main():
+    
+
     app = QtWidgets.QApplication([])
     application = DatenDialog()
     application.show()
@@ -266,8 +287,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# Merker erstellen:
-# select distinct landschl,regbezschl,kreisschl,gmdschl,gmd from gebref
-
