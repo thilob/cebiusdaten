@@ -1,0 +1,158 @@
+import os
+import shutil
+import requests
+import pandas as pd
+import geopandas as gpd
+from io import StringIO
+from rich.console import Console
+from rich.table import Table
+from rich.panel import Panel
+from tqdm import tqdm
+from datetime import datetime, timedelta
+
+url = "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
+
+class GeoDataProcessor:
+    def __init__(self, url):
+        self.url = url
+        self.gdf = None
+
+    def download_and_extract(self):
+        download = False
+        if not os.path.exists('gebref.txt'):
+            download = True
+        else:
+            file_mod_time = datetime.fromtimestamp(os.path.getmtime('gebref.txt'))
+            if datetime.now() - file_mod_time > timedelta(hours=24):
+                download = True
+
+        if download:
+            print("Gebäudereferenzen werden heruntergeladen....")
+            r = requests.get(self.url, allow_redirects=True)
+            with open('gebref.zip', 'wb') as f:
+                f.write(r.content)
+            print('Gebäudereferenzen werden entpackt...')
+            shutil.unpack_archive("gebref.zip")
+            print("Gebäudereferenzen wurden entpackt!")
+            if not os.path.exists('output'):
+                os.mkdir('output')
+        else:
+            print("Die Datei 'gebref.txt' ist bereits vorhanden und aktuell. Es wird keine neue Datei heruntergeladen.")
+
+    def load_data(self):
+        chunks = []
+        expected_columns = [
+            "nba", "oid", "qua", "landschl", "land", "regbezschl", "regbez", "kreisschl", "kreis", "gmdschl",
+            "gmd", "ottschl", "ott", "strschl", "str", "hnr", "adz", "zone", "ostwert", "nordwert", "datum"
+        ]
+        with open('gebref.txt', 'r', encoding='utf-8') as file:
+            total_lines = sum(1 for line in file)
+            file.seek(0)
+            for chunk in tqdm(pd.read_csv(file, header=None, sep=';', chunksize=10000, na_filter=False, on_bad_lines='skip', encoding='utf-8'), total=total_lines//10000, desc="Einlesen der Datei"):
+                if len(chunk.columns) != len(expected_columns):
+                    print(f"Fehlerhafte Zeile: {chunk}")
+                    raise ValueError("Fehlerhafte Zeile gefunden. Programm wird beendet.")
+                chunks.append(chunk)
+
+        df = pd.concat(chunks, ignore_index=True)
+        if len(df.columns) != len(expected_columns):
+            raise ValueError(f"Anzahl der Spalten stimmt nicht überein. Erwartet: {len(expected_columns)}, Gefunden: {len(df.columns)}")
+        df.columns = expected_columns
+        print("Spaltennamen:", df.columns)  # Ausgabe der Spaltennamen
+        self.gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df['ostwert'], df['nordwert']))
+        self.gdf = self.gdf.set_crs("EPSG:25832")  # Setzen des Koordinatensystems EPSG:25832
+        self.gdf = self.gdf.to_crs("EPSG:31466")  # Transformieren in das gewünschte Koordinatensystem EPSG:31466
+        print(self.gdf)
+
+    def group_and_sort(self, group_column):
+        grouped = self.gdf[group_column].value_counts().sort_index()
+        return grouped.index.tolist()
+
+    def filter_and_sort_data(self, filter_column, filter_value, sort_columns):
+        self.gdf = self.gdf[self.gdf[filter_column] == filter_value].sort_values(by=sort_columns)
+
+    def save_data(self):
+        self.gdf.to_csv('output/gefiltert_sortiert.txt', index=False, sep='\t', encoding='utf-8')
+        print("Gefilterte und sortierte Daten wurden in 'output/gefiltert_sortiert.txt' gespeichert.")
+
+    def clean_up(self):
+        if os.path.exists('gebref.zip'):
+            os.remove('gebref.zip')
+
+def display_paginated_list(items, page_size=20):
+    console = Console()
+    total_pages = (len(items) + page_size - 1) // page_size
+    current_page = 0
+
+    while True:
+        start_index = current_page * page_size
+        end_index = start_index + page_size
+        page_items = items[start_index:end_index]
+
+        table = Table(title=f"Seite {current_page + 1} von {total_pages}")
+        table.add_column("Nummer", justify="right", style="cyan", no_wrap=True)
+        table.add_column("Wert", style="magenta")
+
+        for i, item in enumerate(page_items, start=start_index + 1):
+            table.add_row(str(i), str(item))
+
+        console.print(table)
+
+        if current_page < total_pages - 1:
+            next_page = console.input("Drücken Sie Enter für die nächste Seite, geben Sie die Nummer zum Auswählen ein oder 'q' zum Beenden: ")
+            if next_page.lower() == 'q':
+                return None
+            elif next_page.isdigit() and int(next_page) in range(start_index + 1, end_index + 1):
+                return items[int(next_page) - 1]
+            else:
+                console.print(Panel("Ungültige Eingabe. Bitte versuchen Sie es erneut.", style="red"))
+            current_page += 1
+        else:
+            selection = console.input("Geben Sie die Nummer zum Auswählen ein oder 'q' zum Beenden: ")
+            if selection.lower() == 'q':
+                return None
+            elif selection.isdigit() and int(selection) in range(start_index + 1, end_index + 1):
+                return items[int(selection) - 1]
+            else:
+                console.print(Panel("Ungültige Eingabe. Bitte versuchen Sie es erneut.", style="red"))
+            break
+
+def print_police_car():
+    police_car = """
+\033[1;34m
+      _______
+  ___//  __|___
+ |___    ___   |
+     |  |   |  |
+     |__|___|__|
+    (o)     (o)
+\033[0m
+    """
+    print(police_car)
+
+def main():
+    processor = GeoDataProcessor(url)
+    processor.download_and_extract()
+    processor.load_data()
+    
+    # Gruppieren und sortieren
+    group_column = 'kreis'  # Gruppieren nach der Spalte 'kreis'
+    grouped_values = processor.group_and_sort(group_column)
+    
+    # Gruppierte und sortierte Werte seitenweise anzeigen und Auswahl treffen
+    filter_value = display_paginated_list(grouped_values)
+    if filter_value is None:
+        print("Keine Auswahl getroffen. Programm wird beendet.")
+        return
+    
+    # Filtern und sortieren
+    sort_columns = ['land', 'gmd']  # Beispielspalten zum Sortieren
+    processor.filter_and_sort_data(group_column, filter_value, sort_columns)
+    processor.save_data()
+    processor.clean_up()
+
+    # ASCII-Grafik eines Polizeiautos ausgeben
+    print_police_car()
+
+if __name__ == "__main__":
+    main()
