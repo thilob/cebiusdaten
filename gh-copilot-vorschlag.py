@@ -235,8 +235,12 @@ def save_gmd_str_values(kreis_value, gdf):
         print(f"Alle Werte aus 'str', die zu '{gmd_value}' gehören, wurden in '{filename}' gespeichert.")
         # Erstelle eine zweite Textdatei mit dem Namen aus 'gmd' + "Hausnummern"
         filename_hnr = f"output/{gmd_value}_Hausnummern.txt"
+# The code snippet you provided is writing the house numbers (`hnr`) along with the corresponding
+# geographical coordinates (latitude and longitude) of each row in the filtered GeoDataFrame
+# (`gmd_filtered_gdf`) to a text file.
         with open(filename_hnr, 'w', encoding='utf-8') as file:
             for _, row in gmd_filtered_gdf.iterrows():
+             #   print("Spaltennamen:", gmd_filtered_gdf.columns.tolist())
                 file.write(f"{row['hnr']};{row['geometry'].x};{row['geometry'].y}\n")
 
         print(f"Alle Hausnummern und Geokoordinaten, die zu '{gmd_value}' gehören, wurden in '{filename_hnr}' gespeichert.")
