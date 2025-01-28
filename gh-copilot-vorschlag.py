@@ -242,6 +242,8 @@ def save_gmd_str_values(kreis_value, gdf):
             for _, row in gmd_filtered_gdf.iterrows():
              #   print("Spaltennamen:", gmd_filtered_gdf.columns.tolist())
                 file.write(f"{row['hnr']};{row['geometry'].x};{row['geometry'].y}\n")
+# row['hnr'] = f"{int(row['hnr']):03d}"  # Formatieren der Hausnummern als 3-stellige Zahlen
+# row['hnr'] = f"{row['hnr']:>20}"  # Formatieren der Hausnummern als rechtsbündige Strings
 
         print(f"Alle Hausnummern und Geokoordinaten, die zu '{gmd_value}' gehören, wurden in '{filename_hnr}' gespeichert.")
 
