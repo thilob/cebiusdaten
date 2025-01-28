@@ -200,10 +200,14 @@ def GemeindelisteAusgeben(gdf):
         gdf (GeoDataFrame): Das GeoDataFrame, das die Daten enthält.
         filename (str): Der Name der Datei, in die die gruppierten und sortierten Daten gespeichert werden sollen.
     """
-    filename='output/__Gemeindeliste.csv'
+    filename='output/__Gemeindeliste.txt'
     grouped_sorted_df = gdf.groupby(['landschl', 'regbezschl', 'kreisschl', 'gmdschl', 'gmd']).size().reset_index(name='count')
     grouped_sorted_df = grouped_sorted_df.sort_values(by=['landschl', 'regbezschl', 'kreisschl', 'gmdschl', 'gmd'])
-    grouped_sorted_df.to_csv(filename, index=False, sep=';', encoding='utf-8')
+#    grouped_sorted_df.to_csv(filename, index=False, sep=';', encoding='utf-8')
+    with open(filename, 'w', encoding='utf-8') as file:
+        for _, zeile in grouped_sorted_df.iterrows():
+            file.write(f"{int(zeile['landschl']):02d};{zeile['regbezschl']};{zeile['kreisschl']};{int(zeile['gmdschl']):03d};-;{zeile['gmd']}\n")    
+            
     print(f"Gruppierte und sortierte Daten wurden in '{filename}' gespeichert.")
 
 def save_gmd_str_values(kreis_value, gdf):
