@@ -1,0 +1,397 @@
+landschl;land;regbezschl;regbez;kreisschl;kreis;gmdschl;gmd;count
+05;Nordrhein-Westfalen;1;Düsseldorf;11;Düsseldorf;000;Düsseldorf;83871
+05;Nordrhein-Westfalen;1;Düsseldorf;12;Duisburg;000;Duisburg;91231
+05;Nordrhein-Westfalen;1;Düsseldorf;13;Essen;000;Essen;99141
+05;Nordrhein-Westfalen;1;Düsseldorf;14;Krefeld;000;Krefeld;52206
+05;Nordrhein-Westfalen;1;Düsseldorf;16;Mönchengladbach;000;Mönchengladbach;64735
+05;Nordrhein-Westfalen;1;Düsseldorf;17;Mülheim an der Ruhr;000;Mülheim an der Ruhr;35119
+05;Nordrhein-Westfalen;1;Düsseldorf;19;Oberhausen;000;Oberhausen;41309
+05;Nordrhein-Westfalen;1;Düsseldorf;20;Remscheid;000;Remscheid;24464
+05;Nordrhein-Westfalen;1;Düsseldorf;22;Solingen;000;Solingen;37349
+05;Nordrhein-Westfalen;1;Düsseldorf;24;Wuppertal;000;Wuppertal;61373
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;004;Bedburg-Hau;4986
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;008;Emmerich am Rhein;10540
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;012;Geldern;12087
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;016;Goch;12856
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;020;Issum;4487
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;024;Kalkar;5543
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;028;Kerken;4722
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;032;Kevelaer;10254
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;036;Kleve;16063
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;040;Kranenburg;4214
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;044;Rees;7456
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;048;Rheurdt;2436
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;052;Straelen;5780
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;056;Uedem;2964
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;060;Wachtendonk;2903
+05;Nordrhein-Westfalen;1;Düsseldorf;54;Kleve;064;Weeze;4412
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;004;Erkrath;8777
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;008;Haan;7996
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;012;Heiligenhaus;6181
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;016;Hilden;11207
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;020;Langenfeld (Rhld.);15758
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;024;Mettmann;9452
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;026;Monheim am Rhein;8810
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;028;Ratingen;20945
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;032;Velbert;18130
+05;Nordrhein-Westfalen;1;Düsseldorf;58;Mettmann;036;Wülfrath;5315
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;004;Dormagen;16173
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;008;Grevenbroich;18664
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;012;Jüchen;8053
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;016;Kaarst;11709
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;020;Korschenbroich;11054
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;022;Meerbusch;15328
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;024;Neuss;33973
+05;Nordrhein-Westfalen;1;Düsseldorf;62;Rhein-Kreis Neuss;028;Rommerskirchen;4794
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;004;Brüggen;6021
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;008;Grefrath;5409
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;012;Kempen;10846
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;016;Nettetal;14080
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;020;Niederkrüchten;5857
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;024;Schwalmtal;6745
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;028;Tönisvorst;8938
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;032;Viersen;23444
+05;Nordrhein-Westfalen;1;Düsseldorf;66;Viersen;036;Willich;16256
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;004;Alpen;4409
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;008;Dinslaken;16352
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;012;Hamminkeln;9161
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;016;Hünxe;4479
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;020;Kamp-Lintfort;10337
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;024;Moers;26891
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;028;Neukirchen-Vluyn;8114
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;032;Rheinberg;9467
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;036;Schermbeck;4215
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;040;Sonsbeck;2865
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;044;Voerde (Niederrhein);9668
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;048;Wesel;17083
+05;Nordrhein-Westfalen;1;Düsseldorf;70;Wesel;052;Xanten;7874
+05;Nordrhein-Westfalen;3;Köln;14;Bonn;000;Bonn;63895
+05;Nordrhein-Westfalen;3;Köln;15;Köln;000;Köln;165568
+05;Nordrhein-Westfalen;3;Köln;16;Leverkusen;000;Leverkusen;34986
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;002;Aachen;45377
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;004;Alsdorf;13255
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;008;Baesweiler;7941
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;012;Eschweiler;15548
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;016;Herzogenrath;13520
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;020;Monschau;5156
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;024;Roetgen;3173
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;028;Simmerath;6062
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;032;Stolberg (Rhld.);15992
+05;Nordrhein-Westfalen;3;Köln;34;Städteregion Aachen;036;Würselen;9956
+05;Nordrhein-Westfalen;3;Köln;58;Düren;004;Aldenhoven;4315
+05;Nordrhein-Westfalen;3;Köln;58;Düren;008;Düren;23657
+05;Nordrhein-Westfalen;3;Köln;58;Düren;012;Heimbach;1978
+05;Nordrhein-Westfalen;3;Köln;58;Düren;016;Hürtgenwald;3453
+05;Nordrhein-Westfalen;3;Köln;58;Düren;020;Inden;2549
+05;Nordrhein-Westfalen;3;Köln;58;Düren;024;Jülich;10033
+05;Nordrhein-Westfalen;3;Köln;58;Düren;028;Kreuzau;6463
+05;Nordrhein-Westfalen;3;Köln;58;Düren;032;Langerwehe;5218
+05;Nordrhein-Westfalen;3;Köln;58;Düren;036;Linnich;4780
+05;Nordrhein-Westfalen;3;Köln;58;Düren;040;Merzenich;3419
+05;Nordrhein-Westfalen;3;Köln;58;Düren;044;Nideggen;4216
+05;Nordrhein-Westfalen;3;Köln;58;Düren;048;Niederzier;4872
+05;Nordrhein-Westfalen;3;Köln;58;Düren;052;Nörvenich;3863
+05;Nordrhein-Westfalen;3;Köln;58;Düren;056;Titz;3382
+05;Nordrhein-Westfalen;3;Köln;58;Düren;060;Vettweiß;3658
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;004;Bedburg;8248
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;008;Bergheim;17112
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;012;Brühl;11505
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;016;Elsdorf;7033
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;020;Erftstadt;16954
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;024;Frechen;13096
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;028;Hürth;14926
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;032;Kerpen;18643
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;036;Pulheim;17582
+05;Nordrhein-Westfalen;3;Köln;62;Rhein-Erft-Kreis;040;Wesseling;9584
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;004;Bad Münstereifel;7312
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;008;Blankenheim;3852
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;012;Dahlem;2248
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;016;Euskirchen;17338
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;020;Hellenthal;3755
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;024;Kall;4380
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;028;Mechernich;10116
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;032;Nettersheim;3343
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;036;Schleiden;4983
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;040;Weilerswist;5847
+05;Nordrhein-Westfalen;3;Köln;66;Euskirchen;044;Zülpich;7653
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;004;Erkelenz;16179
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;008;Gangelt;5126
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;012;Geilenkirchen;9954
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;016;Heinsberg (Rhld.);15181
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;020;Hückelhoven;13086
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;024;Selfkant;4629
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;028;Übach-Palenberg;7896
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;032;Waldfeucht;3751
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;036;Wassenberg;7177
+05;Nordrhein-Westfalen;3;Köln;70;Heinsberg;040;Wegberg;11118
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;004;Bergneustadt;5102
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;008;Engelskirchen;7089
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;012;Gummersbach;15137
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;016;Hückeswagen;4776
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;020;Lindlar;7405
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;024;Marienheide;4503
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;028;Morsbach;4128
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;032;Nümbrecht;6350
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;036;Radevormwald;5813
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;040;Reichshof;6934
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;044;Waldbröl;6510
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;048;Wiehl;8735
+05;Nordrhein-Westfalen;3;Köln;74;Oberbergischer Kreis;052;Wipperfürth;6622
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;004;Bergisch Gladbach;29070
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;008;Burscheid;5598
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;012;Kürten;6808
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;016;Leichlingen (Rhld.);8294
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;020;Odenthal;5318
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;024;Overath;8808
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;028;Rösrath;8969
+05;Nordrhein-Westfalen;3;Köln;78;Rheinisch-Bergischer Kreis;032;Wermelskirchen;10108
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;004;Alfter;7181
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;008;Bad Honnef;7860
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;012;Bornheim;14566
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;016;Eitorf;6669
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;020;Hennef (Sieg);15469
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;024;Königswinter;13728
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;028;Lohmar;10409
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;032;Meckenheim;7962
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;036;Much;5625
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;040;Neunkirchen-Seelscheid;7416
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;044;Niederkassel;12175
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;048;Rheinbach;8625
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;052;Ruppichteroth;3969
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;056;Sankt Augustin;15712
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;060;Siegburg;10156
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;064;Swisttal;6379
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;068;Troisdorf;19029
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;072;Wachtberg;6842
+05;Nordrhein-Westfalen;3;Köln;82;Rhein-Sieg-Kreis;076;Windeck;8203
+05;Nordrhein-Westfalen;5;Münster;12;Bottrop;000;Bottrop;26384
+05;Nordrhein-Westfalen;5;Münster;13;Gelsenkirchen;000;Gelsenkirchen;43237
+05;Nordrhein-Westfalen;5;Münster;15;Münster;000;Münster;66230
+05;Nordrhein-Westfalen;5;Münster;54;Borken;004;Ahaus;13304
+05;Nordrhein-Westfalen;5;Münster;54;Borken;008;Bocholt;23508
+05;Nordrhein-Westfalen;5;Münster;54;Borken;012;Borken;14265
+05;Nordrhein-Westfalen;5;Münster;54;Borken;016;Gescher;5057
+05;Nordrhein-Westfalen;5;Münster;54;Borken;020;Gronau (Westf.);16077
+05;Nordrhein-Westfalen;5;Münster;54;Borken;024;Heek;2943
+05;Nordrhein-Westfalen;5;Münster;54;Borken;028;Heiden;2898
+05;Nordrhein-Westfalen;5;Münster;54;Borken;032;Isselburg;3763
+05;Nordrhein-Westfalen;5;Münster;54;Borken;036;Legden;2407
+05;Nordrhein-Westfalen;5;Münster;54;Borken;040;Raesfeld;3582
+05;Nordrhein-Westfalen;5;Münster;54;Borken;044;Reken;4602
+05;Nordrhein-Westfalen;5;Münster;54;Borken;048;Rhede;6757
+05;Nordrhein-Westfalen;5;Münster;54;Borken;052;Schöppingen;2079
+05;Nordrhein-Westfalen;5;Münster;54;Borken;056;Stadtlohn;6780
+05;Nordrhein-Westfalen;5;Münster;54;Borken;060;Südlohn;3330
+05;Nordrhein-Westfalen;5;Münster;54;Borken;064;Velen;4103
+05;Nordrhein-Westfalen;5;Münster;54;Borken;068;Vreden;7447
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;004;Ascheberg;4955
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;008;Billerbeck;4121
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;012;Coesfeld;12258
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;016;Dülmen;14804
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;020;Havixbeck;3849
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;024;Lüdinghausen;7371
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;028;Nordkirchen;3473
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;032;Nottuln;6416
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;036;Olfen;4806
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;040;Rosendahl;3571
+05;Nordrhein-Westfalen;5;Münster;58;Coesfeld;044;Senden;6553
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;004;Castrop-Rauxel;19622
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;008;Datteln;8853
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;012;Dorsten;21303
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;014;Gladbeck;15748
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;016;Haltern am See;12169
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;020;Herten;14388
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;024;Marl;20884
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;028;Oer-Erkenschwick;6825
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;032;Recklinghausen;25905
+05;Nordrhein-Westfalen;5;Münster;62;Recklinghausen;036;Waltrop;7647
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;004;Altenberge;3393
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;008;Emsdetten;11472
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;012;Greven;11403
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;016;Hörstel;6974
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;020;Hopsten;2645
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;024;Horstmar;2251
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;028;Ibbenbüren;16973
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;032;Ladbergen;2159
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;036;Laer;2224
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;040;Lengerich;6497
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;044;Lienen;2713
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;048;Lotte;4084
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;052;Metelen;2220
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;056;Mettingen;3834
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;060;Neuenkirchen;4515
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;064;Nordwalde;3124
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;068;Ochtrup;6531
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;072;Recke;3716
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;076;Rheine;25019
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;080;Saerbeck;2423
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;084;Steinfurt;11469
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;088;Tecklenburg;3203
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;092;Westerkappeln;3493
+05;Nordrhein-Westfalen;5;Münster;66;Steinfurt;096;Wettringen;2737
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;004;Ahlen;14704
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;008;Beckum;10997
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;012;Beelen;1824
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;016;Drensteinfurt;5265
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;020;Ennigerloh;6408
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;024;Everswinkel;3208
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;028;Oelde;8382
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;032;Ostbevern;3470
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;036;Sassenberg;4515
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;040;Sendenhorst;4281
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;044;Telgte;6150
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;048;Wadersloh;3933
+05;Nordrhein-Westfalen;5;Münster;70;Warendorf;052;Warendorf;11789
+05;Nordrhein-Westfalen;7;Detmold;11;Bielefeld;000;Bielefeld;69930
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;004;Borgholzhausen;2706
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;008;Gütersloh;27080
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;012;Halle (Westf.);6281
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;016;Harsewinkel;7627
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;020;Herzebrock-Clarholz;4943
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;024;Langenberg;2767
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;028;Rheda-Wiedenbrück;13159
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;032;Rietberg;9406
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;036;Schloß Holte-Stukenbrock;8273
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;040;Steinhagen;6168
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;044;Verl;7460
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;048;Versmold;6159
+05;Nordrhein-Westfalen;7;Detmold;54;Gütersloh;052;Werther (Westf.);3280
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;004;Bünde;14233
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;008;Enger;6222
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;012;Herford;16794
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;016;Hiddenhausen;6378
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;020;Kirchlengern;5497
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;024;Löhne;12490
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;028;Rödinghausen;3248
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;032;Spenge;4584
+05;Nordrhein-Westfalen;7;Detmold;58;Herford;036;Vlotho;6082
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;004;Bad Driburg;6363
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;008;Beverungen;5247
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;012;Borgentreich;3882
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;016;Brakel;5899
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;020;Höxter;10344
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;024;Marienmünster;2240
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;028;Nieheim;2726
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;032;Steinheim;4752
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;036;Warburg;8325
+05;Nordrhein-Westfalen;7;Detmold;62;Höxter;040;Willebadessen;3362
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;004;Augustdorf;2777
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;008;Bad Salzuflen;15092
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;012;Barntrup;2933
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;016;Blomberg;5502
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;020;Detmold;20904
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;024;Dörentrup;2639
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;028;Extertal;4104
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;032;Horn-Bad Meinberg;5545
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;036;Kalletal;4614
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;040;Lage;10349
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;044;Lemgo;12205
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;048;Leopoldshöhe;5244
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;052;Lügde;3584
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;056;Oerlinghausen;5391
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;060;Schieder-Schwalenberg;2859
+05;Nordrhein-Westfalen;7;Detmold;66;Lippe;064;Schlangen;3142
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;004;Bad Oeynhausen;14885
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;008;Espelkamp;6688
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;012;Hille;5629
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;016;Hüllhorst;4294
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;020;Lübbecke;8248
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;024;Minden;23121
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;028;Petershagen;9136
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;032;Porta Westfalica;12085
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;036;Preußisch Oldendorf;4044
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;040;Rahden;4908
+05;Nordrhein-Westfalen;7;Detmold;70;Minden-Lübbecke;044;Stemwede;4489
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;004;Altenbeken;3331
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;008;Bad Lippspringe;4385
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;012;Borchen;4728
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;016;Büren;7689
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;020;Delbrück;9979
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;024;Hövelhof;4856
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;028;Lichtenau;4862
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;032;Paderborn;36518
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;036;Salzkotten;8567
+05;Nordrhein-Westfalen;7;Detmold;74;Paderborn;040;Bad Wünnenberg;5172
+05;Nordrhein-Westfalen;9;Arnsberg;11;Bochum;000;Bochum;64884
+05;Nordrhein-Westfalen;9;Arnsberg;13;Dortmund;000;Dortmund;106901
+05;Nordrhein-Westfalen;9;Arnsberg;14;Hagen;000;Hagen;34128
+05;Nordrhein-Westfalen;9;Arnsberg;15;Hamm;000;Hamm;43184
+05;Nordrhein-Westfalen;9;Arnsberg;16;Herne;000;Herne;26459
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;004;Breckerfeld;2910
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;008;Ennepetal;7827
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;012;Gevelsberg;6950
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;016;Hattingen;11817
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;020;Herdecke;5615
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;024;Schwelm;6157
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;028;Sprockhövel;7122
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;032;Wetter (Ruhr);7006
+05;Nordrhein-Westfalen;9;Arnsberg;54;Ennepe-Ruhr-Kreis;036;Witten;19631
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;004;Arnsberg;21676
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;008;Bestwig;3606
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;012;Brilon;9832
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;016;Eslohe (Sauerl.);3078
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;020;Hallenberg;2183
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;024;Marsberg;7819
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;028;Medebach;3717
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;032;Meschede;10284
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;036;Olsberg;5255
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;040;Schmallenberg;9159
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;044;Sundern (Sauerl.);9624
+05;Nordrhein-Westfalen;9;Arnsberg;58;Hochsauerlandkreis;048;Winterberg;5908
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;004;Altena;5538
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;008;Balve;3741
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;012;Halver;4447
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;016;Hemer;9382
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;020;Herscheid;2392
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;024;Iserlohn;21415
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;028;Kierspe;4565
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;032;Lüdenscheid;15277
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;036;Meinerzhagen;5716
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;040;Menden (Sauerl.);15279
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;044;Nachrodt-Wiblingwerde;1894
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;048;Neuenrade;3563
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;052;Plettenberg;6908
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;056;Schalksmühle;3143
+05;Nordrhein-Westfalen;9;Arnsberg;62;Märkischer Kreis;060;Werdohl;4311
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;004;Attendorn;7241
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;008;Drolshagen;3623
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;012;Finnentrop;5230
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;016;Kirchhundem;4221
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;020;Lennestadt;8004
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;024;Olpe;7015
+05;Nordrhein-Westfalen;9;Arnsberg;66;Olpe;028;Wenden;6433
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;004;Bad Berleburg;6258
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;008;Burbach;5021
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;012;Erndtebrück;2392
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;016;Freudenberg;6300
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;020;Hilchenbach;4875
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;024;Kreuztal;9251
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;028;Bad Laasphe;4879
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;032;Netphen;7853
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;036;Neunkirchen;4241
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;040;Siegen;27003
+05;Nordrhein-Westfalen;9;Arnsberg;70;Siegen-Wittgenstein;044;Wilnsdorf;6890
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;004;Anröchte;3570
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;008;Bad Sassendorf;3885
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;012;Ense;4041
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;016;Erwitte;5372
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;020;Geseke;6624
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;024;Lippetal;4084
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;028;Lippstadt;19212
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;032;Möhnesee;4262
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;036;Rüthen;4035
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;040;Soest;13910
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;044;Warstein;8968
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;048;Welver;4331
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;052;Werl;8700
+05;Nordrhein-Westfalen;9;Arnsberg;74;Soest;056;Wickede (Ruhr);3445
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;004;Bergkamen;12320
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;008;Bönen;5367
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;012;Fröndenberg/Ruhr;6253
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;016;Holzwickede;4585
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;020;Kamen;11204
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;024;Lünen;18944
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;028;Schwerte;11571
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;032;Selm;7858
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;036;Unna;15697
+05;Nordrhein-Westfalen;9;Arnsberg;78;Unna;040;Werne;8556
