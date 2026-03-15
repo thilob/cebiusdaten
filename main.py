@@ -271,10 +271,14 @@ class GeoDataProcessor:
                 ]
             )
 
-            # Erstellt eine Textdatei mit allen Straßen einer Gemeinde samt Schlüsselwerten
-            filename = (
-                "output/" + slugify(f"{kreis_value}_{gmd_value}") + "_strassen.txt"
+            # Bewahrt das bisherige Dateinamenschema mit Umlauten und Trenner-Unterstrich.
+            base_filename = (
+                f"{slugify(kreis_value, allow_unicode=True)}_"
+                f"{slugify(gmd_value, allow_unicode=True)}"
             )
+
+            # Erstellt eine Textdatei mit allen Straßen einer Gemeinde samt Schlüsselwerten
+            filename = "output/" + base_filename + "_strassen.txt"
             with open(filename, "w", encoding="utf-8") as file:
                 for _, zeile in gmd_filtered_gdf.iterrows():
                     file.write(
@@ -283,9 +287,7 @@ class GeoDataProcessor:
             print(f"Alle Straßen aus '{gmd_value}' wurden in '{filename}' gespeichert.")
 
             # Erstellt eine zweite Textdatei mit den Hausnummernkoordinaten aller Straßen einer Gemeinde
-            filename_hnr = (
-                "output/" + slugify(f"{kreis_value}_{gmd_value}") + "_hausnummern.txt"
-            )
+            filename_hnr = "output/" + base_filename + "_hausnummern.txt"
             gmd_filtered_gdf = filtered_gdf[filtered_gdf["gmd"] == gmd_value]
             gmd_filtered_gdf = (
                 gmd_filtered_gdf.groupby(
