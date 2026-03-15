@@ -1,5 +1,6 @@
 """Desktop-GUI fuer das Cebius-Hausnummerntool."""
 
+import argparse
 import os
 import shutil
 import sys
@@ -9,7 +10,7 @@ from pathlib import Path
 import geopandas as gpd
 import pandas as pd
 import requests
-from PySide6 import QtCore, QtWidgets
+from PySide6 import QtCore, QtGui, QtWidgets
 from slugify import slugify
 
 
@@ -451,41 +452,42 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setStyleSheet(
             """
             QWidget {
-                background: #f3efe5;
-                color: #1f2a24;
+                background: #eef2f5;
+                color: #162330;
                 font-family: "Noto Sans", "DejaVu Sans", sans-serif;
                 font-size: 14px;
             }
             QFrame#hero {
-                background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
-                    stop:0 #123524, stop:1 #2d5a3d);
+                background: #0d3b66;
                 border-radius: 22px;
             }
             QLabel#title {
-                color: #f8f1dd;
+                color: #ebff00;
+                background-color: #0d3b66;
                 font-size: 30px;
                 font-weight: 700;
             }
             QLabel#subtitle {
-                color: #d6e4d6;
+                color: #ebff00;
+                background-color: #0d3b66;
                 font-size: 15px;
             }
             QFrame#panel {
-                background: #fcfaf5;
-                border: 1px solid #d8cfbe;
+                background: #fbfcfd;
+                border: 1px solid #c8d4df;
                 border-radius: 18px;
             }
             QLabel#sectionTitle {
                 font-size: 18px;
                 font-weight: 700;
-                color: #294736;
+                color: #12385d;
             }
             QLabel#hint {
-                color: #546357;
+                color: #556879;
                 line-height: 1.4em;
             }
             QPushButton {
-                background: #1f5c3f;
+                background: #0d3b66;
                 color: white;
                 border: none;
                 border-radius: 12px;
@@ -493,35 +495,42 @@ class MainWindow(QtWidgets.QMainWindow):
                 font-weight: 700;
             }
             QPushButton:disabled {
-                background: #98a79d;
-                color: #e9ece9;
+                background: #9aabba;
+                color: #edf2f6;
             }
             QPushButton:hover:!disabled {
-                background: #26724f;
+                background: #135287;
             }
             QLineEdit, QListWidget, QPlainTextEdit {
-                background: #fffdf9;
-                border: 1px solid #d9d0c1;
+                background: #ffffff;
+                border: 1px solid #cdd9e3;
                 border-radius: 12px;
                 padding: 8px;
+            }
+            QLineEdit:focus, QListWidget:focus, QPlainTextEdit:focus {
+                border: 1px solid #b8922f;
             }
             QListWidget::item {
                 padding: 8px;
                 border-radius: 8px;
             }
+            QListWidget::item:hover {
+                background: #e7eef5;
+            }
             QListWidget::item:selected {
-                background: #d9ead7;
-                color: #173324;
+                background: #e0b454;
+                color: #142231;
             }
             QProgressBar {
-                background: #ebe4d7;
+                background: #dde5ec;
                 border: none;
                 border-radius: 8px;
                 text-align: center;
                 min-height: 16px;
+                color: #18324f;
             }
             QProgressBar::chunk {
-                background: #bc7a2c;
+                background: #d8a53b;
                 border-radius: 8px;
             }
             """
@@ -530,6 +539,8 @@ class MainWindow(QtWidgets.QMainWindow):
     def append_log(self, message):
         timestamp = datetime.now().strftime("%H:%M:%S")
         self.log_view.appendPlainText(f"[{timestamp}] {message}")
+        scrollbar = self.log_view.verticalScrollBar()
+        scrollbar.setValue(scrollbar.maximum())
 
     def set_busy(self, busy, label):
         self.prepare_button.setEnabled(not busy)
@@ -584,6 +595,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.output_dir = output_dir
         self.set_busy(False, "Export abgeschlossen.")
         self.append_log(f"Export abgeschlossen. Dateien liegen in {output_dir}.")
+        if not self.open_output_dir(output_dir):
+            self.append_log("Hinweis: Der Ausgabeordner konnte nicht automatisch geoeffnet werden.")
         QtWidgets.QMessageBox.information(
             self,
             "Export abgeschlossen",
@@ -595,6 +608,15 @@ class MainWindow(QtWidgets.QMainWindow):
         self.set_busy(False, "Fehler aufgetreten.")
         self.append_log(f"Fehler: {message}")
         QtWidgets.QMessageBox.critical(self, "Fehler", message)
+
+    def open_output_dir(self, output_dir):
+        url = QtCore.QUrl.fromLocalFile(output_dir)
+        if QtGui.QDesktopServices.openUrl(url):
+            return True
+        if sys.platform.startswith("win") and hasattr(os, "startfile"):
+            os.startfile(output_dir)
+            return True
+        return False
 
     def filter_kreise(self, text):
         current = self.selected_kreis
@@ -618,10 +640,20 @@ class MainWindow(QtWidgets.QMainWindow):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Cebius-Hausnummerntool")
+    parser.add_argument(
+        "--smoke-test",
+        action="store_true",
+        help="Startet die GUI kurz im Testmodus und beendet sie automatisch.",
+    )
+    args = parser.parse_args()
+
     app = QtWidgets.QApplication(sys.argv)
     app.setApplicationName("Cebius-Hausnummerntool")
     window = MainWindow()
     window.show()
+    if args.smoke_test:
+        QtCore.QTimer.singleShot(1200, app.quit)
     sys.exit(app.exec())
 
 

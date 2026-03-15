@@ -3,57 +3,99 @@
 Gebäudereferenzen können hier abgerufen werden:
 <https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/>
 
-## Dokumentierte Änderungen
+## Überblick
 
-Stand: 15.03.2026
+Die Anwendung laeuft als Desktop-GUI auf Basis von `PySide6` und verarbeitet die
+NRW-Gebaeudereferenzen dateibasiert ohne Datenbank.
 
-- Die Dateinamenerzeugung wurde auf `python-slugify` umgestellt.
-- Das bisherige Dateinamenschema bleibt erhalten: Kreis und Gemeinde werden mit Unterstrich getrennt, Umlaute bleiben in den Ausgabedateien erhalten.
-- Die alte, nicht mit Python 3 kompatible Abhängigkeit `slugify==0.0.1` wurde ersetzt.
-- `requirements.txt` wurde auf die direkt für das Projekt benötigten Pakete reduziert:
-  `geopandas`, `pandas`, `python-slugify`, `requests`, `rich`, `tqdm`.
-- Die lokale virtuelle Umgebung wurde bereinigt; nicht benötigte Alt- und Fremdpakete wurden entfernt.
-
-## PyInstaller (`--onedir`)
-
-Das Projekt ist für einen Build mit PyInstaller im Modus `--onedir` vorbereitet.
-
-## GUI
-
-Die Anwendung laeuft jetzt als Desktop-GUI auf Basis von `PySide6`.
-Alle Kernfunktionen der bisherigen Textoberflaeche sind weiterhin vorhanden:
+Die bisherigen Kernfunktionen der TUI bleiben erhalten:
 
 - Gebaeudereferenzen pruefen oder herunterladen
-- Komplettes Einlesen und Aufbereiten der Datendatei
-- Auswahl eines Landkreises
+- Landkreise aus der Quelldatei einlesen
+- Auswahl eines Landkreises in einer filterbaren, scrollbaren Liste
 - Export von `__Gemeindeliste.txt` sowie Strassen- und Hausnummerndateien
+- Automatisches Oeffnen des Ausgabeordners nach erfolgreichem Export
 
-Die paginierte Auswahl aus der TUI wurde durch eine filterbare, scrollbare Liste ersetzt.
+## Installation unter Linux
 
-### Vorbereitung
+### Voraussetzungen
+
+- Python 3.14 oder kompatibel
+- `venv`
+- ein grafischer Linux-Desktop, z. B. KDE Plasma
+
+### Lokaler Start aus dem Projekt
 
 ```bash
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/pip install pyinstaller
+.venv/bin/python main.py
 ```
 
-### Build
+### Build des distributierbaren Bundles
 
 ```bash
+.venv/bin/pip install pyinstaller
 ./build-pyinstaller.sh
 ```
 
-Alternativ direkt:
+Das Ergebnis liegt danach in `dist/cebiusdaten/`.
+
+### Installation als Benutzeranwendung inklusive KDE-Menüeintrag
+
+Nach dem Build:
 
 ```bash
-.venv/bin/pyinstaller --noconfirm --clean cebiusdaten.spec
+./install-linux.sh
 ```
 
-Das Build-Ergebnis liegt danach unter `dist/cebiusdaten/`.
+Das Skript erledigt:
 
-### Verhalten im Bundle
+- Kopieren des Bundles nach `~/.local/opt/cebiusdaten`
+- Anlegen eines Starters in `~/.local/bin/cebiusdaten`
+- Anlegen eines `.desktop`-Eintrags in `~/.local/share/applications/cebiusdaten.desktop`
+- Aktualisierung der Desktop-Datenbank, falls verfuegbar
 
-- Die Anwendung arbeitet im Verzeichnis der erzeugten ausführbaren Datei.
-- `gebref.txt`, `gebref.zip` und das Verzeichnis `output/` werden relativ zum Bundle abgelegt.
-- Falls `gebref.txt` fehlt oder älter als 24 Stunden ist, wird die Datei beim Start erneut heruntergeladen.
+Danach sollte die Anwendung im KDE-Anwendungsmenue erscheinen.
+
+### Deinstallation unter Linux
+
+```bash
+./uninstall-linux.sh
+```
+
+## Build unter Windows
+
+Ein Windows-Bundle muss auf Windows selbst erstellt werden.
+Der vorbereitete Aufruf ist:
+
+```bat
+build-windows.bat
+```
+
+Oder manuell:
+
+```bat
+.venv\Scripts\pyinstaller.exe --noconfirm --clean cebiusdaten.spec
+```
+
+Ziel dieser Vorbereitung ist ein `--onedir`-Bundle, das moeglichst ohne
+nachzuinstallierende Python-Bibliotheken laeuft. Verifizieren laesst sich das
+endgueltig nur durch einen echten Build und Test auf Windows.
+
+## Verhalten im Bundle
+
+- Die Anwendung arbeitet relativ zum Verzeichnis der ausfuehrbaren Datei.
+- `gebref.txt`, `gebref.zip` und `output/` liegen neben dem Bundle.
+- Falls `gebref.txt` fehlt oder aelter als 24 Stunden ist, wird die Datei beim Start heruntergeladen.
+- Der GUI-Start kann mit `--smoke-test` kurz automatisiert getestet werden.
+
+## Dokumentierte Änderungen
+
+Stand: 15.03.2026
+
+- Umstellung auf die dateibasierte `geopandas`-Verarbeitung
+- Desktop-GUI auf Basis von `PySide6`
+- Speicherschonender Landkreis-Ladevorgang fuer die GUI
+- Vorbereitung fuer `PyInstaller --onedir` unter Linux und Windows
+- Linux-Installationsskripte inklusive KDE-Menüeintrag
