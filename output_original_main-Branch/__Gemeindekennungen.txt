@@ -1,0 +1,13 @@
+05;3;74;004;-;Bergneustadt
+05;3;74;008;-;Engelskirchen
+05;3;74;012;-;Gummersbach
+05;3;74;016;-;Hückeswagen
+05;3;74;020;-;Lindlar
+05;3;74;024;-;Marienheide
+05;3;74;028;-;Morsbach
+05;3;74;032;-;Nümbrecht
+05;3;74;036;-;Radevormwald
+05;3;74;040;-;Reichshof
+05;3;74;044;-;Waldbröl
+05;3;74;048;-;Wiehl
+05;3;74;052;-;Wipperfürth
