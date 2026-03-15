@@ -1,288 +1,485 @@
-"""Importe
-"""
-import re
+"""Importe"""
+
 import os
-import glob
-import requests
-import slugify
-import psycopg2
-import sqlite3
-import unicodedata
 import shutil
-import psycopg2.extras
-from PySide6 import QtWidgets
-from DatenDialog_ui import Ui_datenDialog
+import sys
+from pathlib import Path
+from datetime import datetime, timedelta
 
-"""Initialer Aufbau des Datenbank-Verbindung
-Der Cursor wird anschließend im weiteren Programm verwendet.
-"""
-print("Programm gestartet")
-
- # Verbindungsparameter
-dbname = "cebisdaten"
-user = "cebisdaten"
-password = "cebisdaten"
-host = "Localhost"
-port = "5432"
-conn = psycopg2.connect(
-    dbname=dbname,
-    user=user,
-    password=password,
-    host=host,
-    port=port,
-    options='-c client_encoding=WIN1252'
-)
-
-cur = conn.cursor()
-print("Verbindung hergestellt")
+import geopandas as gpd
+import pandas as pd
+import requests
+from rich.console import Console
+from rich.panel import Panel
+from rich.table import Table
+from slugify import slugify
+from tqdm import tqdm
 
 
+url = "https://www.opengeodata.nrw.de/produkte/geobasis/lk/akt/gebref_txt/gebref_EPSG25832_ASCII.zip"
 
 
-
-def GebrefLadenUndEntpacken(url):
-    """falls aktiviert, läd die Funktion die gezippte Gebäudereferenzdatei herunter und entpackt sie
-    Args:
-        url (URL-String): Die zum Download verwendete URL. Kann in der GUI angepasst werden.
+def get_runtime_dir():
     """
-    print("Gebäudereferenzen werden heruntergeladen....")
-    r = requests.get(url, allow_redirects=True)
-    open('gebref.zip', 'wb').write(r.content)
-    print('Gebäudereferenzen werden entpackt...')
-    shutil.unpack_archive("gebref.zip")
-    print("Gebäudereferenzen wurden entpackt!")
-    if not (os.path.exists('output')):
-        os.mkdir('output')
+    Liefert das Verzeichnis, in dem Script oder gebündelte Anwendung liegen.
+    """
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).resolve().parent
+    return Path(__file__).resolve().parent
 
 
-def StrassentabelleAusgeben(Kreis, Gemeindename):
-    curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    SQL = "select * from gebref where gmd='{}'".format(Gemeindename)
-    print(SQL)
-    curgem.execute(SQL)
-    print("Nach Execute:  ")
-    row_count = 0
-    zeile1 = ""
-    for row in curgem:
-        row_count += 1
-        print(row_count)
-        zeile1 = row['landschl'] + ";" + row['regbezschl'] + \
-            ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
+class GeoDataProcessor:
+    """
+    Eine Klasse zur Verarbeitung von Geodaten zum Zwecke des Hausnummernimports in eCebius.
+    Der Ablauf skizziert sich wie folgt:
+        1. Ist eine Gebäudereferenzdatei (gebref.txt) vorhanden und aktuell?
+        2. Herunterladen und Entpacken der Gebäudereferenzen, falls erforderlich.
+        3. Laden der Daten aus der Datei 'gebref.txt' und Verarbeitung in einem GeoDataFrame.
+        4. Gruppieren und Sortieren der Daten nach Land, Regierungsbezirk und Landkreis.
+        5. Anzeigen der gruppierten und sortierten Werte und Auswahl eines Landkreises.
+        6. Speichern der Gemeindeliste des ausgewählten Landkreises in der Datei __Gemeindeliste.txt.
+        7. Speichern aller Straßen und Hausnummern des ausgewählten Landkreises in separaten Dateien.
 
-    F2 = open("./output/" + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) +
-              "_Strassen.txt", "w", encoding="windows-1252", newline='\r\n')
-    # F2 = open("./output/" + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) + "_Strassen.txt", "w")
-    curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    SQL2 = "select distinct strschl, str from gebref where gmd='" + \
-        Gemeindename + "' order by str"
-    curstrasse.execute(SQL2)
-    # print(SQL2)
-    records = curstrasse.fetchall()
-    for strasse in records:
-        zeile = strasse["strschl"] + ";0;" + strasse["str"] + "\n"
-        zeile2 = str(zeile1) + str(zeile)
-        F2.write(zeile2)
-    F2.close()
+    Attribute:
+        gdf (GeoDataFrame): Das GeoDataFrame, das die geladenen und verarbeiteten Daten enthält.
+        url (str): Die URL zum Herunterladen der Gebäudereferenzen.
+    """
 
+    def __init__(self, url):
+        """
+        Initialisiert die GeoDataProcessor-Klasse mit der angegebenen URL.
 
-def HausnummerntabelleAusgeben(Kreis, Gemeindename):
-    curgem = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    SQL = "select * from gebref where gmd='{}'".format(Gemeindename)
-    print(SQL)
-    curgem.execute(SQL)
-    print("Nach Execute")
-    row_count = 0
-    zeile1 = ""
-    for row in curgem:
-        row_count += 1
-        print(row_count)
-        zeile1 = row['landschl'] + ";" + row['regbezschl'] + \
-            ";" + row['kreisschl'] + ";" + row['gmdschl'] + ";"
+        Args:
+            url (str): Die URL zum Herunterladen der Daten.
+        """
+        self.url = url
+        self.gdf = None
+        self.runtime_dir = get_runtime_dir()
+        self.gebref_path = self.runtime_dir / "gebref.txt"
+        self.gebref_zip_path = self.runtime_dir / "gebref.zip"
+        self.output_dir = self.runtime_dir / "output"
 
-    F2 = open("./output/" + slugify.slugify(Kreis) + "_" + slugify.slugify(Gemeindename) +
-              "_Hausnummern.txt", "w", encoding="windows-1252", newline='\r\n')
-    curstrasse = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
-    SQL2 = "select strschl, hnr, adz, st_x(geom31466)::text as x, st_y(geom31466)::text as y  from " \
-           "gebref where gmd='" + Gemeindename + "' order by str,hnr"
-    curstrasse.execute(SQL2)
-    print(SQL2)
-    records = curstrasse.fetchall()
-    for strasse in records:
-        zeile = strasse["strschl"] + ";" + strasse["hnr"] + ";" + strasse["adz"] \
-            + ";001;" + strasse["x"] + ";" + strasse["y"] + ";A;00\n"
-        zeile2 = str(zeile1) + str(zeile)
-        print(zeile2)
-        F2.write(zeile2)
-    F2.close()
+    def ensure_output_dir(self):
+        """
+        Erstellt das Ausgabeverzeichnis bei Bedarf.
+        """
+        self.output_dir.mkdir(exist_ok=True)
 
+    def download_and_extract(self):
+        """
+        Lädt die Gebäudereferenzdaten herunter und extrahiert sie, wenn die Datei 'gebref.txt' nicht vorhanden ist
+        oder älter als 24 Stunden ist.
 
-
-
-""" def gemeindeschluessel_einlesen():
-    # Aktuelle Daten des Gemeindeschlüssels einlesen
-    cur.execute("truncate gebref_schluessel")
-    F = open("gebref_schluessel.txt", "r", encoding="utf-8")
-    for line in F:
-        line = line.strip()
-        while line.count(";") < 5:
-            line = line + ";"
-        print(line + "     " + str(line.count(";")))
-        m = re.split(';', line)
-        print(m[0] + "  " + str(m[5]))
-        SQL = "insert into gebref_schluessel (field_1,field_2,field_3,field_4,field_5,field_6) values (%s,%s,%s,%s,%s,%s);"
-        data = (m[0], m[1], m[2], m[3], m[4], m[5])
-        cur.execute(SQL, data)
-    conn.commit() """
-
-
-def gebaeudereferenzen_einlesen(nurOberbergLaden):
-    print("Lese Gebäudereferenzen ein. Dies kann etwas dauern ......")
-    # Aktuelle Gebäudereferenzen des Landes einlesen
-    F = open("gebref.txt", "r", encoding="utf-8")
-    i = -1
-    cur.execute("truncate gebref")
-    for line in F:
-        line = line.strip()
-        m = re.split(';', line)
-        # print ('Spalten:' + str(len(m)))
-        punkt = "POINT(" + m[18].replace(",", ".") + \
-            " " + m[19].replace(",", ".") + ")"
-        SQL = """INSERT INTO public.gebref(nba, oid, qua, landschl, land, regbezschl, regbez, kreisschl, kreis, gmdschl, gmd, ottschl, ott, strschl, str, hnr, adz, zone, ostwert, nordwert, datum, geom25832)
-                VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s, %s, %s, %s, %s, %s, %s)"""
-        data = (m[0], m[1], m[2], m[3], m[4], m[5], m[6], m[7], m[8], m[9], m[10],
-                m[11], m[12], m[13], m[14], m[15], m[16], m[17], m[18], m[19], m[20], punkt)
-        if (nurOberbergLaden):
-            if m[3] == "05" and m[5] == '3' and m[7] == '74':
-                if i >= 0:
-                    cur.execute(SQL, data)
-                if i == 1000:
-                    conn.commit()
-                    i = 0
-                    print("\r" + m[1])
-                i += 1
+        Returns:
+            bool: True, wenn die Daten lokal verfügbar sind, sonst False.
+        """
+        download = False
+        self.ensure_output_dir()
+        if not self.gebref_path.exists():  # Prüfen, ob die Datei 'gebref.txt' vorhanden ist
+            download = True
         else:
-            if i >= 0:
-                cur.execute(SQL, data)
-            if i == 1000:
-                conn.commit()
-                i = 0
-                print("\r" + m[1])
-            i += 1
+            file_mod_time = datetime.fromtimestamp(self.gebref_path.stat().st_mtime)
+            if datetime.now() - file_mod_time > timedelta(
+                hours=24
+            ):  # Prüfen, ob die Datei älter als 24 Stunden ist
+                download = True
 
-    print('Geom31466 erstellen')
-    SQL = 'update gebref set geom31466=st_transform(geom25832,31466)'
-    cur.execute(SQL)
-    conn.commit()
-    print("\rFertig!")
+        if download:
+            print("Gebäudereferenzen werden heruntergeladen....")
+            try:
+                r = requests.get(self.url, allow_redirects=True, timeout=120)
+                r.raise_for_status()
+                with self.gebref_zip_path.open("wb") as f:
+                    f.write(r.content)
+                print("Gebäudereferenzen werden entpackt...")
+                shutil.unpack_archive(
+                    str(self.gebref_zip_path), extract_dir=str(self.runtime_dir)
+                )
+                print("Gebäudereferenzen wurden entpackt!")
+            except requests.RequestException as exc:
+                print(
+                    "Fehler beim Herunterladen der Gebäudereferenzen. "
+                    "Bitte Netzwerkverbindung prüfen oder gebref.txt neben dem Programm ablegen."
+                )
+                print(f"Details: {exc}")
+                return False
+        else:
+            print(
+                "Die Datei 'gebref.txt' ist bereits vorhanden und aktuell. Es wird keine neue Datei heruntergeladen."
+            )
+        return self.gebref_path.exists()
 
+    def load_data(self):
+        """
+        Lädt die Daten aus der Datei 'gebref.txt' und verarbeitet sie.
+        """
+        chunks = []
+        expected_columns = [  # Entspricht den Spaltennamen in der Datei 'gebref.txt'
+            "nba",
+            "oid",
+            "qua",
+            "landschl",
+            "land",
+            "regbezschl",
+            "regbez",
+            "kreisschl",
+            "kreis",
+            "gmdschl",
+            "gmd",
+            "ottschl",
+            "ott",
+            "strschl",
+            "str",
+            "hnr",
+            "adz",
+            "zone",
+            "ostwert",
+            "nordwert",
+            "datum",
+        ]
+        """Verarbeitung in Chunks
 
-class DatenDialog(QtWidgets.QMainWindow):
-    def __init__(self):
-        super(DatenDialog, self).__init__()
-        self.ui = Ui_datenDialog()
-        self.ui.setupUi(self)
-        self.ui.abbrechen.clicked.connect(self.abbrechen)
-        self.ui.starten.clicked.connect(self.weiter)
-
-    def abbrechen(self):
-        print("abbrechen")
-        exit(1)
-
-    def weiter(self):
-        if (self.ui.checkBoxCleanOutput.isChecked()):
-            # Getting All Files List
-            fileList = glob.glob('output/*.txt', recursive=True)
-            # Remove all files one by one
-            for file in fileList:
-                try:
-                    os.remove(file)
-                except OSError:
-                    print("Error while deleting file")
-
-        ausfuehren(self.ui.importGebref.isChecked(
-        ), self.ui.exportCebius.isChecked(), self.ui.CheckboxGebrefHolen.isChecked(), self.ui.UrlGebrefHolen.text(), self.ui.checkBoxNurOberbergLaden.isChecked())
-
-        exit(0)
-
-
-def AktualitätenAusgeben():
-    SQL="select distinct landschl,regbezschl,kreisschl,gmdschl,gmd, kreis from gebref order by landschl, regbezschl, kreisschl,gmdschl"  
-    curgemeinde=conn.cursor()
-    curgemeinde.execute(SQL)
-    gemeinden=curgemeinde.fetchall()
-    for gemeinde in gemeinden:
-        print (gemeinde[0] + ";" + gemeinde[1] + ";"  + gemeinde[2] + ";"  + gemeinde[3] + ";" + gemeinde[5] + ";"  + gemeinde[4],end=" ")
-        print (" - ", end= " ")
-        curmin=conn.cursor()
-        minsql="select min(datum), max(datum) from gebref where landschl=%s and regbezschl=%s and kreisschl=%s and gmdschl=%s"   
-        mindata=(gemeinde[0],gemeinde[1],gemeinde[2],gemeinde[3])
-        curmin.execute(minsql,mindata)
-        min=curmin.fetchall()
-        for amin in min:
-            print(amin[0] + " - " + amin[1])
+            Der folgende Abschnitt liest die große Datenmenge in Chunks von 10000 Zeilen ein und überprüft die Anzahl der Spalten.
+            Fehlerhafte Spalten werden auf dem Bildschirm ausgegeben.
+            Die Verwendung von Chunks erfolgt wegen der deutlich besseren Performance gegenüber zeilenweiem Einlesen 
+            oder der Verwendung einer zusätzlichen Datenbank.
             
+        """
+        with self.gebref_path.open("r", encoding="utf-8") as file:
+            total_lines = sum(1 for line in file)
+            file.seek(0)
+            for chunk in tqdm(
+                pd.read_csv(
+                    file,
+                    header=None,
+                    sep=";",
+                    chunksize=10000,
+                    na_filter=False,
+                    on_bad_lines="skip",
+                    encoding="utf-8",
+                ),
+                total=total_lines // 10000,
+                desc="Einlesen der Datei ",
+            ):
+                if len(chunk.columns) != len(expected_columns):
+                    print(f"Fehlerhafte Zeile: {chunk}")
+                    raise ValueError(
+                        "Fehlerhafte Zeile gefunden. Die Zeile wird übersprungen."
+                    )
+                chunks.append(chunk)
 
-def GemeindekennungenAusgeben():
-    SQL="select distinct landschl,regbezschl,kreisschl,gmdschl,gmd kreis from gebref order by landschl, regbezschl, kreisschl,gmdschl"  
-    curgemeinde=conn.cursor()
-    curgemeinde.execute(SQL)
-    F2 = open("./output/__Gemeindekennungen.txt", "w", encoding="windows-1252", newline='\r\n')
-    gemeinden=curgemeinde.fetchall()
-    for gemeinde in gemeinden:
-        zeile = gemeinde[0] + ";" + gemeinde[1] + ";" + gemeinde[2]+ ";" + gemeinde[3] + ";-;" + gemeinde[4] +"\n"
-        F2.write(zeile)
-    F2.close()
-        
+        df = pd.concat(chunks, ignore_index=True)
+        if len(df.columns) != len(expected_columns):
+            raise ValueError(
+                f"Anzahl der Spalten stimmt nicht überein. Erwartet: {len(expected_columns)}, Gefunden: {len(df.columns)}"
+            )
+        df.columns = expected_columns
+        print("Spaltennamen:", df.columns)  # Ausgabe der Spaltennamen
+        self.gdf = gpd.GeoDataFrame(  # Ost- und Nordwert werden in einen Geopandas-GeoDataFrame umgewandelt
+            df, geometry=gpd.points_from_xy(df["ostwert"], df["nordwert"])
+        )
+        self.gdf = self.gdf.set_crs(
+            "EPSG:25832"  # Im Original werden die Geodaten im Koordinatensystem EPSG:25832 ("UTM 32N") geliefert
+        )
+        self.gdf = self.gdf.to_crs(
+            "EPSG:31466"  # Transformieren in das von Cebius verwendete Koordinatensystem EPSG:31466 ("Gauss-Krüger 2")
+        )
+        print(self.gdf)
 
-def ausfuehren(importGebref,  exportCebius, gebrefHolen, gebrefUrl, checkBoxNurOberbergLaden):
-    print("ausführen wurde aufgerufen!")
+    def group_and_sort(self, group_column):
+        """
+        Gruppiert und sortiert die Daten nach der angegebenen Spalte.
 
-    if (gebrefHolen):
-        GebrefLadenUndEntpacken(gebrefUrl)
+        Args:
+            group_column (str): Die Spalte, nach der gruppiert und sortiert werden soll.
 
-    if (importGebref):
-        # gemeindeschluessel_einlesen()
-        gebaeudereferenzen_einlesen(checkBoxNurOberbergLaden)
+        Returns:
+            list: Eine Liste der gruppierten und sortierten Werte.
+        """
+        grouped = self.gdf[group_column].value_counts().sort_index()
+        return grouped.index.tolist()
 
-    try:
-      #  os.remove("gebref.txt")
-        os.remove("gebref.zip")
-    except OSError:
-        print("Error while deleting file")
+    def filter_and_sort_data(self, filter_column, filter_value, sort_columns):
+        """
+        Filtert und sortiert die Daten nach den angegebenen Spalten.
 
-    # Gemeinden aus Datenbank auslesen
-    SQL = "select distinct kreis, gmd from gebref order by kreis, gmd"
-    curgemeinde = conn.cursor()
-    curgemeinde.execute(SQL)
-    # print(SQL2)
-    gemeinden = curgemeinde.fetchall()
-    print(gemeinden)
-    for gemeinde in gemeinden:
-        print(gemeinde[0], gemeinde[1])
-    if (exportCebius):
-        #        GemeindenamenUndKennungenAusgeben()
-        for gemeinde in gemeinden:
-            print("Tabellen ausgeben für: " + str(gemeinde))
-            StrassentabelleAusgeben(gemeinde[0], gemeinde[1])
-            HausnummerntabelleAusgeben(gemeinde[0], gemeinde[1])
+        Args:
+            filter_column (str): Die Spalte, nach der gefiltert werden soll.
+            filter_value (str): Der Wert, nach dem gefiltert werden soll.
+            sort_columns (list): Die Spalten, nach denen sortiert werden soll.
+        """
+        self.gdf = self.gdf[self.gdf[filter_column] == filter_value].sort_values(
+            by=sort_columns
+        )
 
-    AktualitätenAusgeben()
-    GemeindekennungenAusgeben()
-    cur.close()
-    conn.close()
+    def clean_up(self):
+        """
+        Entfernt die heruntergeladene ZIP-Datei.
+        """
+        if self.gebref_zip_path.exists():
+            self.gebref_zip_path.unlink()
 
-    exit()
+    def output_leeren(self):
+        """
+        Löscht alle Dateien im Unterverzeichnis 'output'.
+        """
+        self.ensure_output_dir()
+        for filename in os.listdir(self.output_dir):
+            file_path = self.output_dir / filename
+            try:
+                if file_path.is_file():
+                    file_path.unlink()
+                    print(f"Datei '{file_path}' wurde gelöscht.")
+            except Exception as e:
+                print(f"Fehler beim Löschen der Datei '{file_path}': {e}")
 
+    def GemeindelisteAusgeben(self, gdf, landkreis):
+        """
+        Gruppiert und sortiert die Daten nach 'landschl', 'regbezschl', 'kreisschl', 'gmdschl' und 'gmd' und speichert sie in einer Textdatei.
+        Die Textdatei wird von Cebius als Referenz zwischen Gemeindename und verschiedener Schlüsselnummern benötigt.
 
+        Args:
+            gdf (GeoDataFrame): Das GeoDataFrame, das die Daten enthält.
+            filename (str): Der Name der Datei, in die die gruppierten und sortierten Daten gespeichert werden sollen.
+        """
+        filename = self.output_dir / "__Gemeindeliste.txt"
+        filtered_gdf = gdf[gdf["kreis"] == landkreis]
+        grouped_sorted_df = (
+            filtered_gdf.groupby(
+                ["landschl", "regbezschl", "kreisschl", "gmdschl", "gmd"]
+            )
+            .size()
+            .reset_index(name="count")
+        )
+        grouped_sorted_df = grouped_sorted_df.sort_values(
+            by=["landschl", "regbezschl", "kreisschl", "gmdschl", "gmd"]
+        )
+        with filename.open("w", encoding="utf-8") as file:
+            for _, zeile in grouped_sorted_df.iterrows():
+                file.write(
+                    f"{int(zeile['landschl']):02d};{zeile['regbezschl']};{zeile['kreisschl']};{int(zeile['gmdschl']):03d};-;{zeile['gmd']}\n"
+                )
+
+        print(f"Gemeindeliste mit Schlüsselwerten wurden in '{filename}' gespeichert.")
+
+    def save_gmd_str_values(self, kreis_value, gdf):
+        """
+        Speichert alle Straßen einer Gemeinde in einer Textdatei und alle Hausnummern mit Geokoordinaten in einer zweiten Textdatei.
+
+        Args:
+            kreis_value (str): Der Wert aus der Spalte 'kreis', nach dem gefiltert werden soll.
+        """
+        # Filtere die Daten nach dem angegebenen 'kreis'-Wert
+        filtered_gdf = gdf[gdf["kreis"] == kreis_value]
+
+        # Ermittle alle eindeutigen Werte aus 'gmd', die zu 'kreis' gehören
+        unique_gmd_values = filtered_gdf["gmd"].unique()
+
+        for gmd_value in unique_gmd_values:
+            # Filtere die Daten nach dem aktuellen 'gmd'-Wert
+            gmd_filtered_gdf = filtered_gdf[filtered_gdf["gmd"] == gmd_value]
+            gmd_filtered_gdf = (
+                gmd_filtered_gdf.groupby(
+                    [
+                        "landschl",
+                        "regbezschl",
+                        "kreisschl",
+                        "gmdschl",
+                        "gmd",
+                        "strschl",
+                        "str",
+                    ]
+                )
+                .size()
+                .reset_index(name="count")
+            )
+            gmd_filtered_gdf = gmd_filtered_gdf.sort_values(
+                by=[
+                    "landschl",
+                    "regbezschl",
+                    "kreisschl",
+                    "gmdschl",
+                    "gmd",
+                    "strschl",
+                    "str",
+                ]
+            )
+
+            # Bewahrt das bisherige Dateinamenschema mit Umlauten und Trenner-Unterstrich.
+            base_filename = (
+                f"{slugify(kreis_value, allow_unicode=True)}_"
+                f"{slugify(gmd_value, allow_unicode=True)}"
+            )
+
+            # Erstellt eine Textdatei mit allen Straßen einer Gemeinde samt Schlüsselwerten
+            filename = self.output_dir / f"{base_filename}_strassen.txt"
+            with filename.open("w", encoding="utf-8") as file:
+                for _, zeile in gmd_filtered_gdf.iterrows():
+                    file.write(
+                        f"{int(zeile['landschl']):02d};{zeile['regbezschl']};{zeile['kreisschl']};{int(zeile['gmdschl']):03d};{zeile['strschl']};0;{zeile['str']}\n"
+                    )
+            print(f"Alle Straßen aus '{gmd_value}' wurden in '{filename}' gespeichert.")
+
+            # Erstellt eine zweite Textdatei mit den Hausnummernkoordinaten aller Straßen einer Gemeinde
+            filename_hnr = self.output_dir / f"{base_filename}_hausnummern.txt"
+            gmd_filtered_gdf = filtered_gdf[filtered_gdf["gmd"] == gmd_value]
+            gmd_filtered_gdf = (
+                gmd_filtered_gdf.groupby(
+                    [
+                        "landschl",
+                        "regbezschl",
+                        "kreisschl",
+                        "gmdschl",
+                        "gmd",
+                        "strschl",
+                        "str",
+                        "hnr",
+                        "adz",
+                        "geometry",
+                    ]
+                )
+                .size()
+                .reset_index(name="count")
+            )
+            gmd_filtered_gdf = gmd_filtered_gdf.sort_values(
+                by=[
+                    "landschl",
+                    "regbezschl",
+                    "kreisschl",
+                    "gmdschl",
+                    "gmd",
+                    "strschl",
+                    "str",
+                    "hnr",
+                    "adz",
+                    "geometry",
+                ]
+            )
+
+            with filename_hnr.open("w", encoding="utf-8") as file:
+                for _, zeile in gmd_filtered_gdf.iterrows():
+                    file.write(
+                        f"{int(zeile['landschl']):02d};{zeile['regbezschl']};{zeile['kreisschl']};{int(zeile['gmdschl']):03d};{zeile['strschl']};{zeile['hnr']};{zeile['adz']};{zeile['geometry'].x};{zeile['geometry'].y};A;00\n"
+                    )
+            print(
+                f"Alle Hausnummern und Geokoordinaten, die zu '{gmd_value}' gehören, wurden in '{filename_hnr}' gespeichert."
+            )
+
+    def clearScreen(self):
+        if os.name == "nt":  # for windows
+            _ = os.system("cls")
+        # for mac and linux(here, os.name is 'posix')
+        else:
+            _ = os.system("clear")
+
+    def HinweiseAusgeben(self):
+        """Gibt die Hinweise zum Programmstart aus."""
+        self.clearScreen()
+        print("Cebius-Hausnummerntool - Thilo Berger, 2025")
+        print("=================================================")
+        print()
+
+    def display_paginated_list(self, items, page_size=20):
+        """
+        Zeigt eine paginierte Liste von Elementen an und ermöglicht die Auswahl eines Elements.
+
+        Args:
+            items (list): Die Liste der anzuzeigenden Elemente.
+            page_size (int): Die Anzahl der Elemente pro Seite.
+
+        Returns:
+            str: Das ausgewählte Element oder None, wenn keine Auswahl getroffen wurde.
+        """
+        console = Console()
+        total_pages = (len(items) + page_size - 1) // page_size
+        current_page = 0
+
+        while True:
+            start_index = current_page * page_size
+            end_index = start_index + page_size
+            page_items = items[start_index:end_index]
+            self.clearScreen()
+            self.HinweiseAusgeben()
+            table = Table(title=f"Seite {current_page + 1} von {total_pages}")
+            table.add_column("Nummer", justify="right", style="cyan", no_wrap=True)
+            table.add_column("Wert", style="magenta")
+
+            for i, item in enumerate(page_items, start=start_index + 1):
+                table.add_row(str(i), str(item))
+
+            console.print(table)
+
+            if current_page < total_pages - 1:
+                next_page = console.input(
+                    "Drücken Sie Enter für die nächste Seite, geben Sie die Nummer zum Auswählen ein oder 'q' zum Beenden: "
+                )
+                if next_page.lower() == "q":
+                    return None
+                elif next_page.isdigit() and int(next_page) in range(
+                    start_index + 1, end_index + 1
+                ):
+                    return items[int(next_page) - 1]
+                else:
+                    console.print(
+                        Panel(
+                            "Ungültige Eingabe. Bitte versuchen Sie es erneut.",
+                            style="red",
+                        )
+                    )
+                current_page += 1
+            else:
+                selection = console.input(
+                    "Geben Sie die Nummer zum Auswählen ein oder 'q' zum Beenden: "
+                )
+                if selection.lower() == "q":
+                    return None
+                elif selection.isdigit() and int(selection) in range(
+                    start_index + 1, end_index + 1
+                ):
+                    return items[int(selection) - 1]
+                else:
+                    console.print(
+                        Panel(
+                            "Ungültige Eingabe. Bitte versuchen Sie es erneut.",
+                            style="red",
+                        )
+                    )
+                break
 
 
 def main():
-    
+    """
+    Hauptfunktion des Programms. Führt den gesamten Prozess der Datenverarbeitung durch.
+    """
+    processor = GeoDataProcessor(url)
+    processor.HinweiseAusgeben()
+    if not processor.download_and_extract():
+        print("Programm wird beendet, da keine Gebäudereferenzdaten verfügbar sind.")
+        return
+    processor.load_data()
+    processor.output_leeren()
+    # Gruppieren und sortieren
+    group_column = "kreis"  # Gruppieren nach der Spalte 'kreis'
+    grouped_values = processor.group_and_sort(group_column)
 
-    app = QtWidgets.QApplication([])
-    application = DatenDialog()
-    application.show()
-    app.exec()
+    # Gruppierte und sortierte Werte seitenweise anzeigen und Auswahl treffen
+    filter_value = processor.display_paginated_list(grouped_values)
+    if filter_value is None:
+        print("Keine Auswahl getroffen. Programm wird beendet.")
+        return
+    else:
+        processor.GemeindelisteAusgeben(processor.gdf, filter_value)
+        processor.save_gmd_str_values(filter_value, processor.gdf)
+
+    # Filtern und sortieren
+    sort_columns = ["land", "gmdschl", "strschl"]  # Beispielspalten zum Sortieren
+    processor.filter_and_sort_data(group_column, filter_value, sort_columns)
+
+    # processor.save_data()
+    processor.clean_up()
+
+    """_summary_
+    """
 
 
 if __name__ == "__main__":
