@@ -8,7 +8,7 @@ cd "$ROOT_DIR"
 
 if [[ ! -d ".venv" ]]; then
     echo "Fehler: .venv wurde nicht gefunden."
-    echo "Bitte zuerst eine virtuelle Umgebung anlegen und die Abhaengigkeiten installieren."
+    echo "Bitte zuerst eine virtuelle Umgebung anlegen und die Abhängigkeiten installieren."
     exit 1
 fi
 

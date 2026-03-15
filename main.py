@@ -1,4 +1,4 @@
-"""Desktop-GUI fuer das Cebius-Hausnummerntool."""
+"""Desktop-GUI für das Cebius-Hausnummerntool."""
 
 import argparse
 import os
@@ -25,7 +25,7 @@ def get_runtime_dir():
 
 
 class GeoDataProcessor:
-    """Dateibasierte Verarbeitung der Gebaeudereferenzdaten."""
+    """Dateibasierte Verarbeitung der Gebäudereferenzdaten."""
 
     def __init__(self, url, log_callback=None, progress_callback=None):
         self.url = url
@@ -84,7 +84,7 @@ class GeoDataProcessor:
             self.log("gebref.txt ist bereits vorhanden und aktuell.")
             return True
 
-        self.log("Gebaeudereferenzen werden heruntergeladen...")
+        self.log("Gebäudereferenzen werden heruntergeladen...")
         self.set_progress(5, "Download gestartet")
         try:
             response = requests.get(self.url, allow_redirects=True, timeout=120)
@@ -96,7 +96,7 @@ class GeoDataProcessor:
                 str(self.gebref_zip_path),
                 extract_dir=str(self.runtime_dir),
             )
-            self.log("Gebaeudereferenzen wurden entpackt.")
+            self.log("Gebäudereferenzen wurden entpackt.")
             self.set_progress(15, "Download abgeschlossen")
             return True
         except requests.RequestException as exc:
@@ -310,7 +310,7 @@ class ProcessorWorker(QtCore.QRunnable):
         try:
             if not processor.download_and_extract():
                 self.signals.failed.emit(
-                    "Keine Gebaeudereferenzdaten verfuegbar. Download oder lokale Datei fehlen."
+                    "Keine Gebäudereferenzdaten verfügbar. Download oder lokale Datei fehlen."
                 )
                 return
 
@@ -322,7 +322,7 @@ class ProcessorWorker(QtCore.QRunnable):
                 return
 
             if not self.selected_kreis:
-                raise ValueError("Es wurde kein Landkreis ausgewaehlt.")
+                raise ValueError("Es wurde kein Landkreis ausgewählt.")
 
             processor.export_kreis(self.selected_kreis)
             self.signals.progress.emit(100, "Export abgeschlossen")
@@ -342,7 +342,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.resize(1180, 760)
         self._build_ui()
         self._apply_style()
-        self.append_log("Bereit. Daten koennen geladen werden.")
+        self.append_log("Bereit. Daten können geladen werden.")
 
     def _build_ui(self):
         central = QtWidgets.QWidget()
@@ -357,7 +357,7 @@ class MainWindow(QtWidgets.QMainWindow):
         title = QtWidgets.QLabel("Cebius-Hausnummerntool")
         title.setObjectName("title")
         subtitle = QtWidgets.QLabel(
-            "Dateibasierte Verarbeitung der NRW-Gebaeudereferenzen mit scrollbarer Auswahl statt TUI-Blaettern."
+            "Dateibasierte Verarbeitung der NRW-Gebäudereferenzen mit scrollbarer Auswahl statt TUI-Blättern."
         )
         subtitle.setWordWrap(True)
         subtitle.setObjectName("subtitle")
@@ -407,7 +407,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.kreis_list.setAlternatingRowColors(True)
         left_layout.addWidget(self.kreis_list, 1)
 
-        self.selection_label = QtWidgets.QLabel("Kein Landkreis ausgewaehlt.")
+        self.selection_label = QtWidgets.QLabel("Kein Landkreis ausgewählt.")
         self.selection_label.setObjectName("hint")
         self.selection_label.setWordWrap(True)
         left_layout.addWidget(self.selection_label)
@@ -423,10 +423,10 @@ class MainWindow(QtWidgets.QMainWindow):
         right_layout.addWidget(info_title)
 
         steps = QtWidgets.QLabel(
-            "1. Gebaeudereferenzen pruefen oder herunterladen.\n"
+            "1. Gebäudereferenzen prüfen oder herunterladen.\n"
             "2. Datei komplett einlesen und Landkreise bereitstellen.\n"
-            "3. Landkreis in der scrollbaren Liste waehlen.\n"
-            "4. Gemeindeliste sowie Strassen- und Hausnummern-Dateien erzeugen."
+            "3. Landkreis in der scrollbaren Liste wählen.\n"
+            "4. Gemeindeliste sowie Straßen- und Hausnummern-Dateien erzeugen."
         )
         steps.setWordWrap(True)
         steps.setObjectName("hint")
@@ -563,18 +563,18 @@ class MainWindow(QtWidgets.QMainWindow):
         self.kreis_list.clear()
         self.kreise = []
         self.selected_kreis = None
-        self.selection_label.setText("Kein Landkreis ausgewaehlt.")
+        self.selection_label.setText("Kein Landkreis ausgewählt.")
         self.set_busy(True, "Daten werden vorbereitet...")
         self.append_log("Datenvorbereitung gestartet.")
         self.run_worker("prepare")
 
     def export_selected(self):
         if not self.selected_kreis:
-            QtWidgets.QMessageBox.information(self, "Landkreis waehlen", "Bitte zuerst einen Landkreis auswaehlen.")
+            QtWidgets.QMessageBox.information(self, "Landkreis wählen", "Bitte zuerst einen Landkreis auswählen.")
             return
         self.progress_bar.setValue(0)
-        self.set_busy(True, f"Export fuer {self.selected_kreis} gestartet...")
-        self.append_log(f"Export gestartet fuer {self.selected_kreis}.")
+        self.set_busy(True, f"Export für {self.selected_kreis} gestartet...")
+        self.append_log(f"Export für {self.selected_kreis} gestartet.")
         self.run_worker("export", self.selected_kreis)
 
     def run_worker(self, mode, selected_kreis=None):
@@ -605,7 +605,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.set_busy(False, "Export abgeschlossen.")
         self.append_log(f"Export abgeschlossen. Dateien liegen in {output_dir}.")
         if not self.open_output_dir(output_dir):
-            self.append_log("Hinweis: Der Ausgabeordner konnte nicht automatisch geoeffnet werden.")
+            self.append_log("Hinweis: Der Ausgabeordner konnte nicht automatisch geöffnet werden.")
         QtWidgets.QMessageBox.information(
             self,
             "Export abgeschlossen",
@@ -642,9 +642,9 @@ class MainWindow(QtWidgets.QMainWindow):
     def update_selection(self, text):
         self.selected_kreis = text or None
         if self.selected_kreis:
-            self.selection_label.setText(f"Ausgewaehlter Landkreis: {self.selected_kreis}")
+            self.selection_label.setText(f"Ausgewählter Landkreis: {self.selected_kreis}")
         else:
-            self.selection_label.setText("Kein Landkreis ausgewaehlt.")
+            self.selection_label.setText("Kein Landkreis ausgewählt.")
         self.export_button.setEnabled(bool(self.selected_kreis))
 
 

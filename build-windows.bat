@@ -5,7 +5,7 @@ cd /d %~dp0
 
 if not exist .venv (
     echo Fehler: .venv wurde nicht gefunden.
-    echo Bitte zuerst eine virtuelle Umgebung anlegen und die Abhaengigkeiten installieren.
+    echo Bitte zuerst eine virtuelle Umgebung anlegen und die Abhängigkeiten installieren.
     exit /b 1
 )
 

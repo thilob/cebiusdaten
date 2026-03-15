@@ -39,4 +39,4 @@ fi
 echo "Installation abgeschlossen."
 echo "Programmdateien: ${INSTALL_BASE}"
 echo "Starter: ${WRAPPER_FILE}"
-echo "Menueeintrag: ${DESKTOP_FILE}"
+echo "Menüeintrag: ${DESKTOP_FILE}"

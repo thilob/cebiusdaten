@@ -12,24 +12,24 @@ Dieses Projekt steht unter der **GNU General Public License v3.0 oder spaeter**
 
 Das passt zur gewuenschten Vorgabe:
 
-- Der Quellcode darf genutzt, veraendert und weitergegeben werden.
-- Bei Weitergabe veraenderter oder unveraenderter Fassungen muss der Quellcode
-  ebenfalls wieder unter derselben freien Copyleft-Lizenz verfuegbar bleiben.
+- Der Quellcode darf genutzt, verändert und weitergegeben werden.
+- Bei Weitergabe veränderter oder unveränderter Fassungen muss der Quellcode
+  ebenfalls wieder unter derselben freien Copyleft-Lizenz verfügbar bleiben.
 
 Der vollstaendige Lizenztext liegt in [COPYING](/home/thilo/p/cebiusdaten/COPYING).
 
 ## Überblick
 
-Die Anwendung laeuft als Desktop-GUI auf Basis von `PySide6` und verarbeitet die
-NRW-Gebaeudereferenzen dateibasiert ohne Datenbank.
+Die Anwendung läuft als Desktop-GUI auf Basis von `PySide6` und verarbeitet die
+NRW-Gebäudereferenzen dateibasiert ohne Datenbank.
 
 Die bisherigen Kernfunktionen der TUI bleiben erhalten:
 
-- Gebaeudereferenzen pruefen oder herunterladen
+- Gebäudereferenzen prüfen oder herunterladen
 - Landkreise aus der Quelldatei einlesen
 - Auswahl eines Landkreises in einer filterbaren, scrollbaren Liste
-- Export von `__Gemeindeliste.txt` sowie Strassen- und Hausnummerndateien
-- Automatisches Oeffnen des Ausgabeordners nach erfolgreichem Export
+- Export von `__Gemeindeliste.txt` sowie Straßen- und Hausnummerndateien
+- Automatisches Öffnen des Ausgabeordners nach erfolgreichem Export
 
 ## Installation unter Linux
 
@@ -69,9 +69,9 @@ Das Skript erledigt:
 - Kopieren des Bundles nach `~/.local/opt/cebiusdaten`
 - Anlegen eines Starters in `~/.local/bin/cebiusdaten`
 - Anlegen eines `.desktop`-Eintrags in `~/.local/share/applications/cebiusdaten.desktop`
-- Aktualisierung der Desktop-Datenbank, falls verfuegbar
+- Aktualisierung der Desktop-Datenbank, falls verfügbar
 
-Danach sollte die Anwendung im KDE-Anwendungsmenue erscheinen.
+Danach sollte die Anwendung im KDE-Anwendungsmenü erscheinen.
 
 ### Deinstallation unter Linux
 
@@ -94,15 +94,15 @@ Oder manuell:
 .venv\Scripts\pyinstaller.exe --noconfirm --clean cebiusdaten.spec
 ```
 
-Ziel dieser Vorbereitung ist ein `--onedir`-Bundle, das moeglichst ohne
-nachzuinstallierende Python-Bibliotheken laeuft. Verifizieren laesst sich das
-endgueltig nur durch einen echten Build und Test auf Windows.
+Ziel dieser Vorbereitung ist ein `--onedir`-Bundle, das möglichst ohne
+nachzuinstallierende Python-Bibliotheken läuft. Verifizieren lässt sich das
+endgültig nur durch einen echten Build und Test auf Windows.
 
 ## Verhalten im Bundle
 
 - Die Anwendung arbeitet relativ zum Verzeichnis der ausfuehrbaren Datei.
 - `gebref.txt`, `gebref.zip` und `output/` liegen neben dem Bundle.
-- Falls `gebref.txt` fehlt oder aelter als 24 Stunden ist, wird die Datei beim Start heruntergeladen.
+- Falls `gebref.txt` fehlt oder älter als 24 Stunden ist, wird die Datei beim Start heruntergeladen.
 - Der GUI-Start kann mit `--smoke-test` kurz automatisiert getestet werden.
 
 ## Dokumentierte Änderungen
@@ -111,6 +111,6 @@ Stand: 15.03.2026
 
 - Umstellung auf die dateibasierte `geopandas`-Verarbeitung
 - Desktop-GUI auf Basis von `PySide6`
-- Speicherschonender Landkreis-Ladevorgang fuer die GUI
-- Vorbereitung fuer `PyInstaller --onedir` unter Linux und Windows
+- Speicherschonender Landkreis-Ladevorgang für die GUI
+- Vorbereitung für `PyInstaller --onedir` unter Linux und Windows
 - Linux-Installationsskripte inklusive KDE-Menüeintrag

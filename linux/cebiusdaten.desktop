@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Cebius-Hausnummerntool
-Comment=Dateibasierte Aufbereitung von Gebaeudereferenzen fuer Cebius
+Comment=Dateibasierte Aufbereitung von Gebäudereferenzen für Cebius
 Exec=${INSTALL_DIR}/cebiusdaten
 Icon=${INSTALL_DIR}/cebiusdaten.svg
 Terminal=false
