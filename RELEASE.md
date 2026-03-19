@@ -28,6 +28,9 @@ QT_QPA_PLATFORM=offscreen ./dist/adressdatentool/adressdatentool --smoke-test
 ./uninstall-linux.sh
 ```
 
+Bei der Linux-Benutzerinstallation liegt `output/` danach neben der
+Binärdatei in `~/.local/bin/adressdatentool/`.
+
 5. Auf Windows separat prüfen:
 
 ```bat

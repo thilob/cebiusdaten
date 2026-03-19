@@ -93,12 +93,13 @@ Nach dem Build:
 
 Das Skript erledigt:
 
-- Kopieren des Bundles nach `~/.local/opt/adressdatentool`
-- Anlegen eines Starters in `~/.local/bin/adressdatentool`
+- Kopieren des Bundles nach `~/.local/bin/adressdatentool`
 - Anlegen eines `.desktop`-Eintrags in `~/.local/share/applications/adressdatentool.desktop`
 - Aktualisierung der Desktop-Datenbank, falls verfügbar
 
 Danach sollte die Anwendung im KDE-Anwendungsmenü erscheinen.
+Bei der installierten Linux-Variante liegt `output/` damit direkt neben der
+Binärdatei `~/.local/bin/adressdatentool/adressdatentool`.
 
 ### Deinstallation unter Linux
 

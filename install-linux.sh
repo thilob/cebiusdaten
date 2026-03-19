@@ -7,11 +7,10 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 APP_NAME="adressdatentool"
-INSTALL_BASE="${HOME}/.local/opt/${APP_NAME}"
 BIN_DIR="${HOME}/.local/bin"
+INSTALL_BASE="${BIN_DIR}/${APP_NAME}"
 DESKTOP_DIR="${HOME}/.local/share/applications"
 DESKTOP_FILE="${DESKTOP_DIR}/${APP_NAME}.desktop"
-WRAPPER_FILE="${BIN_DIR}/${APP_NAME}"
 
 mkdir -p "${INSTALL_BASE}" "${BIN_DIR}" "${DESKTOP_DIR}"
 
@@ -25,14 +24,6 @@ mkdir -p "${INSTALL_BASE}"
 cp -a "${ROOT_DIR}/dist/adressdatentool/." "${INSTALL_BASE}/"
 cp "${ROOT_DIR}/assets/adressdatentool.svg" "${INSTALL_BASE}/adressdatentool.svg"
 
-cat > "${WRAPPER_FILE}" <<EOF
-#!/usr/bin/env bash
-set -euo pipefail
-cd "${INSTALL_BASE}"
-exec "${INSTALL_BASE}/adressdatentool" "\$@"
-EOF
-chmod +x "${WRAPPER_FILE}"
-
 sed "s|\${INSTALL_DIR}|${INSTALL_BASE}|g" "${ROOT_DIR}/linux/adressdatentool.desktop" > "${DESKTOP_FILE}"
 
 if command -v update-desktop-database >/dev/null 2>&1; then
@@ -41,5 +32,5 @@ fi
 
 echo "Installation abgeschlossen."
 echo "Programmdateien: ${INSTALL_BASE}"
-echo "Starter: ${WRAPPER_FILE}"
+echo "Startdatei: ${INSTALL_BASE}/adressdatentool"
 echo "Menüeintrag: ${DESKTOP_FILE}"
