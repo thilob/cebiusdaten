@@ -28,6 +28,9 @@ QT_QPA_PLATFORM=offscreen ./dist/cebiusdaten/cebiusdaten --smoke-test
 5. Auf Windows separat prüfen:
 
 ```bat
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\pip install pyinstaller
 build-windows.bat
 dist\cebiusdaten\cebiusdaten.exe
 ```

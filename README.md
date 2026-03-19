@@ -104,7 +104,28 @@ Danach sollte die Anwendung im KDE-Anwendungsmenü erscheinen.
 ./uninstall-linux.sh
 ```
 
-## Build unter Windows
+## Installation unter Windows
+
+Aktuell gibt es kein vorgefertigtes Windows-Release-Archiv. Die Anwendung muss
+deshalb derzeit auf einem Windows-System selbst gebaut werden.
+
+### Voraussetzungen
+
+- Windows 10 oder neuer
+- Python 3.14 oder kompatibel
+- `pip`
+
+### Lokaler Start aus dem Projekt
+
+In einer Eingabeaufforderung oder PowerShell im Projektverzeichnis:
+
+```bat
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\python main.py
+```
+
+### Build des distributierbaren Bundles
 
 Ein Windows-Bundle muss auf Windows selbst erstellt werden.
 Der vorbereitete Aufruf ist:
@@ -129,6 +150,17 @@ Die erwartete startbare Datei liegt auf Windows in:
 ```text
 dist\cebiusdaten\cebiusdaten.exe
 ```
+
+### Start und Nutzung unter Windows
+
+Nach einem erfolgreichen Windows-Build kann die Anwendung direkt über
+`dist\cebiusdaten\cebiusdaten.exe` gestartet werden.
+
+Ein separater Windows-Installer wird derzeit nicht erzeugt. Das `dist`-
+Verzeichnis muss daher als Ganzes zusammenbleiben.
+
+Die erzeugten Exportdateien landen zur Laufzeit im Unterverzeichnis `output`
+neben der ausfuehrbaren Datei.
 
 Ohne native Windows-Laufzeitumgebung lässt sich das endgültig nicht
 verifizieren; der Buildpfad und die Spec wurden aber plattformneutral dafür
@@ -156,6 +188,7 @@ Stand: 19.03.2026
 - Speicherschonender Landkreis-Ladevorgang für die GUI
 - Vorbereitung für `PyInstaller --onedir` unter Linux und Windows
 - Linux-Installationsskripte inklusive KDE-Menüeintrag
+- Windows-Installation und Windows-Build in der README dokumentiert
 - PyInstaller-Spec für `geopandas`-, `pyproj`- und `shapely`-Runtime gehärtet
 - Linux-Build erneut verifiziert, inklusive Smoke-Test des Dist-Artefakts
 - Mitgelieferte Output-Verzeichnisse aus dem Repository entfernt
