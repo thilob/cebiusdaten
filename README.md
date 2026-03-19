@@ -106,8 +106,9 @@ Danach sollte die Anwendung im KDE-Anwendungsmenü erscheinen.
 
 ## Installation unter Windows
 
-Aktuell gibt es kein vorgefertigtes Windows-Release-Archiv. Die Anwendung muss
-deshalb derzeit auf einem Windows-System selbst gebaut werden.
+Plattformneutrale GitHub-Releases koennen neben dem Linux-Archiv auch ein
+Windows-Archiv enthalten. Falls kein passendes Windows-Asset verfuegbar ist,
+kann die Anwendung auf einem Windows-System lokal gebaut werden.
 
 ### Voraussetzungen
 
@@ -179,6 +180,9 @@ vorbereitet.
 Eine kompakte Checkliste fuer Build, Verifikation und GitHub-Push liegt in
 [RELEASE.md](/home/thilo/p/cebiusdaten/RELEASE.md).
 
+Fuer veroeffentlichte Versionen ist kuenftig ein gemeinsames Tag-Schema wie
+`v0.1.1` vorgesehen, unter dem getrennte Linux- und Windows-Assets liegen.
+
 ## Dokumentierte Änderungen
 
 Stand: 19.03.2026
@@ -189,6 +193,7 @@ Stand: 19.03.2026
 - Vorbereitung für `PyInstaller --onedir` unter Linux und Windows
 - Linux-Installationsskripte inklusive KDE-Menüeintrag
 - Windows-Installation und Windows-Build in der README dokumentiert
+- GitHub-Actions-Workflow fuer Linux- und Windows-Release-Assets vorbereitet
 - PyInstaller-Spec für `geopandas`-, `pyproj`- und `shapely`-Runtime gehärtet
 - Linux-Build erneut verifiziert, inklusive Smoke-Test des Dist-Artefakts
 - Mitgelieferte Output-Verzeichnisse aus dem Repository entfernt

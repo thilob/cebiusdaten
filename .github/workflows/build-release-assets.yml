@@ -1,0 +1,99 @@
+name: Build Release Assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version without leading v, e.g. 0.1.1"
+        required: true
+        default: "0.1.1"
+
+jobs:
+  build-linux:
+    name: Build Linux Asset
+    runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ inputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Create virtual environment
+        run: python -m venv .venv
+
+      - name: Install dependencies
+        run: |
+          .venv/bin/pip install --upgrade pip
+          .venv/bin/pip install -r requirements.txt pyinstaller
+
+      - name: Build Linux bundle
+        run: ./build-pyinstaller.sh
+
+      - name: Package Linux release
+        run: |
+          set -euo pipefail
+          PKG_DIR="/tmp/cebiusdaten-linux-v${VERSION}"
+          mkdir -p "${PKG_DIR}"
+          cp -a dist install-linux.sh uninstall-linux.sh linux assets README.md COPYING RELEASE.md "${PKG_DIR}/"
+          tar -C /tmp -czf "cebiusdaten-linux-v${VERSION}.tar.gz" "cebiusdaten-linux-v${VERSION}"
+          sha256sum "cebiusdaten-linux-v${VERSION}.tar.gz" > "cebiusdaten-linux-v${VERSION}.tar.gz.sha256"
+
+      - name: Upload Linux artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-release-assets
+          path: |
+            cebiusdaten-linux-v${{ inputs.version }}.tar.gz
+            cebiusdaten-linux-v${{ inputs.version }}.tar.gz.sha256
+
+  build-windows:
+    name: Build Windows Asset
+    runs-on: windows-latest
+    env:
+      VERSION: ${{ inputs.version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Create virtual environment
+        run: python -m venv .venv
+
+      - name: Install dependencies
+        shell: pwsh
+        run: |
+          .\.venv\Scripts\pip install --upgrade pip
+          .\.venv\Scripts\pip install -r requirements.txt pyinstaller
+
+      - name: Build Windows bundle
+        run: .\build-windows.bat
+
+      - name: Package Windows release
+        shell: pwsh
+        run: |
+          $pkgDir = Join-Path $env:RUNNER_TEMP "cebiusdaten-windows-v$env:VERSION"
+          New-Item -ItemType Directory -Force -Path $pkgDir | Out-Null
+          Copy-Item dist -Destination $pkgDir -Recurse
+          Copy-Item README.md,COPYING,RELEASE.md -Destination $pkgDir
+          $zipPath = Join-Path $PWD "cebiusdaten-windows-v$env:VERSION.zip"
+          if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
+          Compress-Archive -Path "$pkgDir\*" -DestinationPath $zipPath
+          $hash = (Get-FileHash -Algorithm SHA256 $zipPath).Hash.ToLower()
+          "$hash  $(Split-Path $zipPath -Leaf)" | Set-Content "$zipPath.sha256"
+
+      - name: Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-release-assets
+          path: |
+            cebiusdaten-windows-v${{ inputs.version }}.zip
+            cebiusdaten-windows-v${{ inputs.version }}.zip.sha256

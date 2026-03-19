@@ -61,3 +61,7 @@ git commit -m "Harden PyInstaller release build"
 ```bash
 git push origin neueGUI
 ```
+
+5. Release-Assets optional ueber GitHub Actions bauen:
+
+Workflow: `.github/workflows/build-release-assets.yml`
