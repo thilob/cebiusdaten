@@ -28,7 +28,7 @@ NRW-Gebäudereferenzen dateibasiert ohne Datenbank.
 Der Repository-Zustand ist dabei bewusst schlank gehalten:
 
 - Beispiel- und Exportverzeichnisse werden nicht mehr mit ausgeliefert.
-- `output/` entsteht erst zur Laufzeit beim ersten Export.
+- `output/` entsteht erst zur Laufzeit auf dem Zielsystem und wird nicht mit ausgeliefert.
 - Das distributierbare Artefakt ist ein PyInstaller-`--onedir`-Bundle.
 
 Die bisherigen Kernfunktionen der TUI bleiben erhalten:
@@ -175,6 +175,7 @@ vorbereitet.
 - Die Anwendung arbeitet relativ zum Verzeichnis der ausfuehrbaren Datei.
 - `gebref.txt` und `gebref.zip` liegen neben dem Bundle.
 - `output/` wird erst zur Laufzeit bei Bedarf erzeugt und nicht mit ausgeliefert.
+- Schon der Download-Vorgang kann `output/` vorbereiten, auch wenn noch kein Export erfolgt ist.
 - Falls `gebref.txt` fehlt oder älter als 24 Stunden ist, wird die Datei beim Start heruntergeladen.
 - Der GUI-Start kann mit `--smoke-test` kurz automatisiert getestet werden.
 
@@ -200,3 +201,4 @@ Stand: 19.03.2026
 - PyInstaller-Spec für `geopandas`-, `pyproj`- und `shapely`-Runtime gehärtet
 - Linux-Build erneut verifiziert, inklusive Smoke-Test des Dist-Artefakts
 - Mitgelieferte Output-Verzeichnisse aus dem Repository entfernt
+- Release-Build durch Schutzpruefung gegen versehentlich mitverpackte Laufzeitdaten abgesichert

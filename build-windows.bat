@@ -19,3 +19,18 @@ if not exist .venv\Scripts\pyinstaller.exe (
 )
 
 .venv\Scripts\pyinstaller.exe --noconfirm --clean adressdatentool.spec
+
+if exist dist\adressdatentool\gebref.txt (
+    echo Fehler: dist\adressdatentool\gebref.txt darf nicht im Release-Bundle enthalten sein.
+    exit /b 1
+)
+
+if exist dist\adressdatentool\gebref.zip (
+    echo Fehler: dist\adressdatentool\gebref.zip darf nicht im Release-Bundle enthalten sein.
+    exit /b 1
+)
+
+if exist dist\adressdatentool\output (
+    echo Fehler: dist\adressdatentool\output darf nicht im Release-Bundle enthalten sein.
+    exit /b 1
+)

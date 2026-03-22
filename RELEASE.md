@@ -14,6 +14,9 @@ Stand: 19.03.2026
 ./build-pyinstaller.sh
 ```
 
+Das Build-Skript bricht jetzt ab, falls `dist/adressdatentool/` versehentlich
+`gebref.txt`, `gebref.zip` oder `output/` enthält.
+
 3. Build prüfen:
 
 ```bash
@@ -53,7 +56,7 @@ git diff
 2. Relevante Dateien stagen:
 
 ```bash
-git add adressdatentool.spec run.sh README.md RELEASE.md
+git add build-pyinstaller.sh build-windows.bat adressdatentool.spec run.sh README.md RELEASE.md
 ```
 
 3. Commit erstellen:
@@ -62,10 +65,10 @@ git add adressdatentool.spec run.sh README.md RELEASE.md
 git commit -m "Harden PyInstaller release build"
 ```
 
-4. Branch `neueGUI` nach GitHub pushen:
+4. Branch `main` nach GitHub pushen:
 
 ```bash
-git push origin neueGUI
+git push origin main
 ```
 
 5. Release-Assets optional ueber GitHub Actions bauen:
