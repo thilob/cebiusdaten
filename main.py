@@ -30,13 +30,13 @@ def get_runtime_dir():
 class GeoDataProcessor:
     """Dateibasierte Verarbeitung der Gebäudereferenzdaten."""
 
-    def __init__(self, url, log_callback=None, progress_callback=None):
+    def __init__(self, url, output_dir=None, log_callback=None, progress_callback=None):
         self.url = url
         self.gdf = None
         self.runtime_dir = get_runtime_dir()
         self.gebref_path = self.runtime_dir / "gebref.txt"
         self.gebref_zip_path = self.runtime_dir / "gebref.zip"
-        self.output_dir = self.runtime_dir / "output"
+        self.output_dir = Path(output_dir) if output_dir else self.runtime_dir / "output"
         self.log_callback = log_callback or (lambda _message: None)
         self.progress_callback = progress_callback or (lambda _value, _text=None: None)
         self.expected_columns = [
@@ -70,7 +70,7 @@ class GeoDataProcessor:
         self.progress_callback(value, text)
 
     def ensure_output_dir(self):
-        self.output_dir.mkdir(exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def download_and_extract(self):
         """Laedt die Datendatei bei Bedarf herunter."""
@@ -297,16 +297,18 @@ class ProcessorSignals(QtCore.QObject):
 
 
 class ProcessorWorker(QtCore.QRunnable):
-    def __init__(self, mode, selected_kreis=None):
+    def __init__(self, mode, selected_kreis=None, output_dir=None):
         super().__init__()
         self.mode = mode
         self.selected_kreis = selected_kreis
+        self.output_dir = output_dir
         self.signals = ProcessorSignals()
 
     @QtCore.Slot()
     def run(self):
         processor = GeoDataProcessor(
             URL,
+            output_dir=self.output_dir,
             log_callback=self.signals.log.emit,
             progress_callback=self.signals.progress.emit,
         )
@@ -338,9 +340,10 @@ class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         self.thread_pool = QtCore.QThreadPool.globalInstance()
+        self.default_output_dir = str(get_runtime_dir() / "output")
         self.kreise = []
         self.selected_kreis = None
-        self.output_dir = str(get_runtime_dir() / "output")
+        self.output_dir = self.default_output_dir
         self.setWindowTitle("Adressdatentool")
         self.resize(1180, 760)
         self._build_ui()
@@ -396,10 +399,11 @@ class MainWindow(QtWidgets.QMainWindow):
         left_layout.addWidget(self.progress_label)
         left_layout.addWidget(self.progress_bar)
 
-        output_card = QtWidgets.QLabel(f"Ausgabeordner: {self.output_dir}")
-        output_card.setObjectName("hint")
-        output_card.setWordWrap(True)
-        left_layout.addWidget(output_card)
+        self.output_label = QtWidgets.QLabel()
+        self.output_label.setObjectName("hint")
+        self.output_label.setWordWrap(True)
+        left_layout.addWidget(self.output_label)
+        self.refresh_output_label()
 
         self.search_edit = QtWidgets.QLineEdit()
         self.search_edit.setPlaceholderText("Landkreis filtern...")
@@ -575,13 +579,27 @@ class MainWindow(QtWidgets.QMainWindow):
         if not self.selected_kreis:
             QtWidgets.QMessageBox.information(self, "Landkreis wählen", "Bitte zuerst einen Landkreis auswählen.")
             return
+        output_dir = QtWidgets.QFileDialog.getExistingDirectory(
+            self,
+            "Ausgabeordner auswählen",
+            self.output_dir or self.default_output_dir,
+            QtWidgets.QFileDialog.ShowDirsOnly | QtWidgets.QFileDialog.DontResolveSymlinks,
+        )
+        if not output_dir:
+            self.append_log("Export abgebrochen: Es wurde kein Ausgabeordner ausgewählt.")
+            return
+
+        self.output_dir = output_dir
+        self.refresh_output_label()
         self.progress_bar.setValue(0)
         self.set_busy(True, f"Export für {self.selected_kreis} gestartet...")
-        self.append_log(f"Export für {self.selected_kreis} gestartet.")
-        self.run_worker("export", self.selected_kreis)
+        self.append_log(
+            f"Export für {self.selected_kreis} gestartet. Zielordner: {self.output_dir}"
+        )
+        self.run_worker("export", self.selected_kreis, self.output_dir)
 
-    def run_worker(self, mode, selected_kreis=None):
-        worker = ProcessorWorker(mode, selected_kreis)
+    def run_worker(self, mode, selected_kreis=None, output_dir=None):
+        worker = ProcessorWorker(mode, selected_kreis, output_dir)
         worker.signals.log.connect(self.append_log)
         worker.signals.progress.connect(self.update_progress)
         worker.signals.prepared.connect(self.on_prepared)
@@ -595,16 +613,17 @@ class MainWindow(QtWidgets.QMainWindow):
         self.progress_label.setText(text)
 
     @QtCore.Slot(list, str)
-    def on_prepared(self, kreise, output_dir):
+    def on_prepared(self, kreise, _output_dir):
         self.kreise = kreise
-        self.output_dir = output_dir
         self.filter_kreise(self.search_edit.text())
         self.set_busy(False, "Landkreise geladen.")
+        self.refresh_output_label()
         self.append_log(f"{len(kreise)} Landkreise stehen zur Auswahl.")
 
     @QtCore.Slot(str)
     def on_exported(self, output_dir):
         self.output_dir = output_dir
+        self.refresh_output_label()
         self.set_busy(False, "Export abgeschlossen.")
         self.append_log(f"Export abgeschlossen. Dateien liegen in {output_dir}.")
         if not self.open_output_dir(output_dir):
@@ -649,6 +668,13 @@ class MainWindow(QtWidgets.QMainWindow):
         else:
             self.selection_label.setText("Kein Landkreis ausgewählt.")
         self.export_button.setEnabled(bool(self.selected_kreis))
+
+    def refresh_output_label(self):
+        self.output_label.setText(
+            "Ausgabeordner: "
+            f"{self.output_dir}\n"
+            "Der Zielordner wird beim Start des Exports ausgewählt."
+        )
 
 
 def main():

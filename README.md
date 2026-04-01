@@ -37,7 +37,8 @@ Die bisherigen Kernfunktionen der TUI bleiben erhalten:
 - Landkreise aus der Quelldatei einlesen
 - Auswahl eines Landkreises in einer filterbaren, scrollbaren Liste
 - Export von `__Gemeindeliste.txt` sowie Straßen- und Hausnummerndateien
-- Automatisches Öffnen des Ausgabeordners nach erfolgreichem Export
+- Auswahl eines Ausgabeordners direkt beim Start des Exports
+- Automatisches Öffnen des gewählten Ausgabeordners nach erfolgreichem Export
 
 ## Installation unter Linux
 
@@ -163,8 +164,8 @@ Nach einem erfolgreichen Windows-Build kann die Anwendung direkt über
 Ein separater Windows-Installer wird derzeit nicht erzeugt. Das `dist`-
 Verzeichnis muss daher als Ganzes zusammenbleiben.
 
-Die erzeugten Exportdateien landen zur Laufzeit im Unterverzeichnis `output`
-neben der ausfuehrbaren Datei.
+Die erzeugten Exportdateien landen zur Laufzeit in dem Verzeichnis, das beim
+Start des Exports ausgewählt wird.
 
 Ohne native Windows-Laufzeitumgebung lässt sich das endgültig nicht
 verifizieren; der Buildpfad und die Spec wurden aber plattformneutral dafür
