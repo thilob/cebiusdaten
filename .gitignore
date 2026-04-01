@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 /gebref.txt
 /.vscode
+.codex
 .venv/
 build/
 dist/
